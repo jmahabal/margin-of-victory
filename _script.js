@@ -7,9 +7,9 @@ d3.csv("all_mov.csv", function(dataset) {
 
   // // // 
 
-  var totalWidth = d3.select("#chart").node().getBoundingClientRect().width/2;
+  var totalWidth = d3.select("#chart").node().getBoundingClientRect().width;
   var height = 200;
-  var margin = {left: 50, right: 50, top: 20, bottom: 20}; 
+  var margin = {left: 50, right: 50, top: 40, bottom: 40}; 
   var width = totalWidth - margin.left - margin.right;
 
   var grouped = [];
@@ -38,10 +38,23 @@ d3.csv("all_mov.csv", function(dataset) {
     var xScale = d3.scaleBand().range([0, width]).paddingInner(0.2)
     var yScale = d3.scaleLinear().domain([0, largest_mov]).range([0, height/2])
 
+	var gradient = svg.append("defs")
+	  .append("linearGradient")
+	    .attr("id", "gradient")
+	    .attr("x", "0%")
+	    .attr("y", "0%")
+	    .attr("spreadMethod", "pad");
+
+	gradient.append("stop")
+	    .attr("offset", "0%")
+	    .attr("stop-color", "#0c0")
+	    .attr("stop-opacity", 1);
+
 	svg.selectAll(".team")
 	    .data(function(d) { xScale.domain(_.pluck(d.data, "order")); return d.data; })
 	    .enter().append("rect") 
-	    .attr("fill", function(d) { return "goldenrod"; })
+	    // .attr("fill", function(d) { return "goldenrod"; })
+	    .style("fill", "url(#gradient)")
 	    .attr("x", function(d) { return xScale(d.order); })
 	    .attr("y", function(d) { 
 	    	if (d.MOV > 0) {
@@ -54,13 +67,27 @@ d3.csv("all_mov.csv", function(dataset) {
 	    .attr("height", function(d) { return yScale(Math.abs(d.MOV)); })
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+
+
 	svg.selectAll(".teamname")
 	    .data(function(d) { return d.data; })
 	    .enter().append("text") 
 	    .attr("x", function(d) { return 0; })
-	    .attr("y", function(d) { return height/2; })
+	    .attr("y", function(d) { return 0; })
 	    .text(function(d) { if (d.order == 1) { return d.Team1; } })
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        .attr("transform", "translate(" + (margin.left + width/2) + "," + margin.top + ")")
+        .attr("text-anchor", "middle");
+
+    var yAxis = d3.axisLeft(yScale).ticks(5)
+    svg.append("g")
+	    .call(yAxis) 
+	    .attr("transform", "translate(" + (margin.left - 5) + "," + (height/2 + margin.top) + ")");
+
+	var yAxis = d3.axisLeft(yScale.range([height/2, 0])).ticks(5)
+    svg.append("g")
+	    .call(yAxis) 
+	    .attr("transform", "translate(" + (margin.left - 5) + "," + margin.top + ")");
+
 
 
 })
