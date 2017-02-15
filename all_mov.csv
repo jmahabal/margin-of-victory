@@ -1,0 +1,1597 @@
+,index,Date,Team1,PTS1,Team2,PTS2,MOV
+0,0,Tue Oct 25 2016,New York Knicks,88,Cleveland Cavaliers,117,-29
+798,0,Tue Oct 25 2016,Cleveland Cavaliers,117,New York Knicks,88,29
+1,1,Tue Oct 25 2016,San Antonio Spurs,129,Golden State Warriors,100,29
+799,1,Tue Oct 25 2016,Golden State Warriors,100,San Antonio Spurs,129,-29
+2,2,Tue Oct 25 2016,Utah Jazz,104,Portland Trail Blazers,113,-9
+800,2,Tue Oct 25 2016,Portland Trail Blazers,113,Utah Jazz,104,9
+3,3,Wed Oct 26 2016,Brooklyn Nets,117,Boston Celtics,122,-5
+801,3,Wed Oct 26 2016,Boston Celtics,122,Brooklyn Nets,117,5
+4,4,Wed Oct 26 2016,Dallas Mavericks,121,Indiana Pacers,130,-9
+802,4,Wed Oct 26 2016,Indiana Pacers,130,Dallas Mavericks,121,9
+5,5,Wed Oct 26 2016,Houston Rockets,114,Los Angeles Lakers,120,-6
+803,5,Wed Oct 26 2016,Los Angeles Lakers,120,Houston Rockets,114,6
+6,6,Wed Oct 26 2016,Minnesota Timberwolves,98,Memphis Grizzlies,102,-4
+804,6,Wed Oct 26 2016,Memphis Grizzlies,102,Minnesota Timberwolves,98,4
+805,7,Wed Oct 26 2016,Milwaukee Bucks,96,Charlotte Hornets,107,-11
+7,7,Wed Oct 26 2016,Charlotte Hornets,107,Milwaukee Bucks,96,11
+806,8,Wed Oct 26 2016,New Orleans Pelicans,102,Denver Nuggets,107,-5
+8,8,Wed Oct 26 2016,Denver Nuggets,107,New Orleans Pelicans,102,5
+807,9,Wed Oct 26 2016,Orlando Magic,96,Miami Heat,108,-12
+9,9,Wed Oct 26 2016,Miami Heat,108,Orlando Magic,96,12
+808,10,Wed Oct 26 2016,Philadelphia 76ers,97,Oklahoma City Thunder,103,-6
+10,10,Wed Oct 26 2016,Oklahoma City Thunder,103,Philadelphia 76ers,97,6
+11,11,Wed Oct 26 2016,Sacramento Kings,113,Phoenix Suns,94,19
+809,11,Wed Oct 26 2016,Phoenix Suns,94,Sacramento Kings,113,-19
+12,12,Wed Oct 26 2016,Detroit Pistons,91,Toronto Raptors,109,-18
+810,12,Wed Oct 26 2016,Toronto Raptors,109,Detroit Pistons,91,18
+13,13,Thu Oct 27 2016,Washington Wizards,99,Atlanta Hawks,114,-15
+811,13,Thu Oct 27 2016,Atlanta Hawks,114,Washington Wizards,99,15
+14,14,Thu Oct 27 2016,Boston Celtics,99,Chicago Bulls,105,-6
+812,14,Thu Oct 27 2016,Chicago Bulls,105,Boston Celtics,99,6
+813,15,Thu Oct 27 2016,Portland Trail Blazers,106,Los Angeles Clippers,114,-8
+15,15,Thu Oct 27 2016,Los Angeles Clippers,114,Portland Trail Blazers,106,8
+16,16,Thu Oct 27 2016,San Antonio Spurs,102,Sacramento Kings,94,8
+814,16,Thu Oct 27 2016,Sacramento Kings,94,San Antonio Spurs,102,-8
+815,17,Fri Oct 28 2016,Brooklyn Nets,103,Indiana Pacers,94,9
+17,17,Fri Oct 28 2016,Indiana Pacers,94,Brooklyn Nets,103,-9
+18,18,Fri Oct 28 2016,Houston Rockets,106,Dallas Mavericks,98,8
+816,18,Fri Oct 28 2016,Dallas Mavericks,98,Houston Rockets,106,-8
+817,19,Fri Oct 28 2016,Detroit Pistons,108,Orlando Magic,82,26
+19,19,Fri Oct 28 2016,Orlando Magic,82,Detroit Pistons,108,-26
+20,20,Fri Oct 28 2016,Charlotte Hornets,97,Miami Heat,91,6
+818,20,Fri Oct 28 2016,Miami Heat,91,Charlotte Hornets,97,-6
+21,21,Fri Oct 28 2016,Golden State Warriors,122,New Orleans Pelicans,114,8
+819,21,Fri Oct 28 2016,New Orleans Pelicans,114,Golden State Warriors,122,-8
+22,22,Fri Oct 28 2016,Phoenix Suns,110,Oklahoma City Thunder,113,-3
+820,22,Fri Oct 28 2016,Oklahoma City Thunder,113,Phoenix Suns,110,3
+821,23,Fri Oct 28 2016,Toronto Raptors,91,Cleveland Cavaliers,94,-3
+23,23,Fri Oct 28 2016,Cleveland Cavaliers,94,Toronto Raptors,91,3
+822,24,Fri Oct 28 2016,Utah Jazz,96,Los Angeles Lakers,89,7
+24,24,Fri Oct 28 2016,Los Angeles Lakers,89,Utah Jazz,96,-7
+823,25,Sat Oct 29 2016,Chicago Bulls,118,Indiana Pacers,101,17
+25,25,Sat Oct 29 2016,Indiana Pacers,101,Chicago Bulls,118,-17
+26,26,Sat Oct 29 2016,Boston Celtics,104,Charlotte Hornets,98,6
+824,26,Sat Oct 29 2016,Charlotte Hornets,98,Boston Celtics,104,-6
+825,27,Sat Oct 29 2016,Cleveland Cavaliers,105,Orlando Magic,99,6
+27,27,Sat Oct 29 2016,Orlando Magic,99,Cleveland Cavaliers,105,-6
+826,28,Sat Oct 29 2016,Denver Nuggets,113,Portland Trail Blazers,115,-2
+28,28,Sat Oct 29 2016,Portland Trail Blazers,115,Denver Nuggets,113,2
+827,29,Sat Oct 29 2016,Milwaukee Bucks,110,Brooklyn Nets,108,2
+29,29,Sat Oct 29 2016,Brooklyn Nets,108,Milwaukee Bucks,110,-2
+30,30,Sat Oct 29 2016,Memphis Grizzlies,104,New York Knicks,111,-7
+828,30,Sat Oct 29 2016,New York Knicks,111,Memphis Grizzlies,104,7
+829,31,Sat Oct 29 2016,Philadelphia 76ers,72,Atlanta Hawks,104,-32
+31,31,Sat Oct 29 2016,Atlanta Hawks,104,Philadelphia 76ers,72,32
+32,32,Sat Oct 29 2016,Minnesota Timberwolves,103,Sacramento Kings,106,-3
+830,32,Sat Oct 29 2016,Sacramento Kings,106,Minnesota Timberwolves,103,3
+33,33,Sat Oct 29 2016,New Orleans Pelicans,79,San Antonio Spurs,98,-19
+831,33,Sat Oct 29 2016,San Antonio Spurs,98,New Orleans Pelicans,79,19
+832,34,Sun Oct 30 2016,Detroit Pistons,98,Milwaukee Bucks,83,15
+34,34,Sun Oct 30 2016,Milwaukee Bucks,83,Detroit Pistons,98,-15
+35,35,Sun Oct 30 2016,Dallas Mavericks,92,Houston Rockets,93,-1
+833,35,Sun Oct 30 2016,Houston Rockets,93,Dallas Mavericks,92,1
+834,36,Sun Oct 30 2016,Los Angeles Clippers,88,Utah Jazz,75,13
+36,36,Sun Oct 30 2016,Utah Jazz,75,Los Angeles Clippers,88,-13
+37,37,Sun Oct 30 2016,Washington Wizards,103,Memphis Grizzlies,112,-9
+835,37,Sun Oct 30 2016,Memphis Grizzlies,112,Washington Wizards,103,9
+38,38,Sun Oct 30 2016,San Antonio Spurs,106,Miami Heat,99,7
+836,38,Sun Oct 30 2016,Miami Heat,99,San Antonio Spurs,106,-7
+39,39,Sun Oct 30 2016,Los Angeles Lakers,96,Oklahoma City Thunder,113,-17
+837,39,Sun Oct 30 2016,Oklahoma City Thunder,113,Los Angeles Lakers,96,17
+40,40,Sun Oct 30 2016,Golden State Warriors,106,Phoenix Suns,100,6
+838,40,Sun Oct 30 2016,Phoenix Suns,100,Golden State Warriors,106,-6
+41,41,Mon Oct 31 2016,Sacramento Kings,95,Atlanta Hawks,106,-11
+839,41,Mon Oct 31 2016,Atlanta Hawks,106,Sacramento Kings,95,11
+840,42,Mon Oct 31 2016,Brooklyn Nets,88,Chicago Bulls,118,-30
+42,42,Mon Oct 31 2016,Chicago Bulls,118,Brooklyn Nets,88,30
+43,43,Mon Oct 31 2016,Phoenix Suns,98,Los Angeles Clippers,116,-18
+841,43,Mon Oct 31 2016,Los Angeles Clippers,116,Phoenix Suns,98,18
+842,44,Mon Oct 31 2016,Toronto Raptors,105,Denver Nuggets,102,3
+44,44,Mon Oct 31 2016,Denver Nuggets,102,Toronto Raptors,105,-3
+45,45,Tue Nov 1 2016,Houston Rockets,120,Cleveland Cavaliers,128,-8
+843,45,Tue Nov 1 2016,Cleveland Cavaliers,128,Houston Rockets,120,8
+844,46,Tue Nov 1 2016,Detroit Pistons,102,New York Knicks,89,13
+46,46,Tue Nov 1 2016,New York Knicks,89,Detroit Pistons,102,-13
+47,47,Tue Nov 1 2016,Los Angeles Lakers,108,Indiana Pacers,115,-7
+845,47,Tue Nov 1 2016,Indiana Pacers,115,Los Angeles Lakers,108,7
+48,48,Tue Nov 1 2016,Sacramento Kings,96,Miami Heat,108,-12
+846,48,Tue Nov 1 2016,Miami Heat,108,Sacramento Kings,96,12
+847,49,Tue Nov 1 2016,Minnesota Timberwolves,116,Memphis Grizzlies,80,36
+49,49,Tue Nov 1 2016,Memphis Grizzlies,80,Minnesota Timberwolves,116,-36
+50,50,Tue Nov 1 2016,Milwaukee Bucks,117,New Orleans Pelicans,113,4
+848,50,Tue Nov 1 2016,New Orleans Pelicans,113,Milwaukee Bucks,117,-4
+849,51,Tue Nov 1 2016,Philadelphia 76ers,101,Orlando Magic,103,-2
+51,51,Tue Nov 1 2016,Orlando Magic,103,Philadelphia 76ers,101,2
+850,52,Tue Nov 1 2016,Portland Trail Blazers,104,Golden State Warriors,127,-23
+52,52,Tue Nov 1 2016,Golden State Warriors,127,Portland Trail Blazers,104,23
+851,53,Tue Nov 1 2016,San Antonio Spurs,91,Utah Jazz,106,-15
+53,53,Tue Nov 1 2016,Utah Jazz,106,San Antonio Spurs,91,15
+852,54,Wed Nov 2 2016,Atlanta Hawks,116,Los Angeles Lakers,123,-7
+54,54,Wed Nov 2 2016,Los Angeles Lakers,123,Atlanta Hawks,116,7
+55,55,Wed Nov 2 2016,Chicago Bulls,100,Boston Celtics,107,-7
+853,55,Wed Nov 2 2016,Boston Celtics,107,Chicago Bulls,100,7
+854,56,Wed Nov 2 2016,Brooklyn Nets,109,Detroit Pistons,101,8
+56,56,Wed Nov 2 2016,Detroit Pistons,101,Brooklyn Nets,109,-8
+855,57,Wed Nov 2 2016,Charlotte Hornets,109,Philadelphia 76ers,93,16
+57,57,Wed Nov 2 2016,Philadelphia 76ers,93,Charlotte Hornets,109,-16
+856,58,Wed Nov 2 2016,Los Angeles Clippers,83,Oklahoma City Thunder,85,-2
+58,58,Wed Nov 2 2016,Oklahoma City Thunder,85,Los Angeles Clippers,83,2
+857,59,Wed Nov 2 2016,Memphis Grizzlies,89,New Orleans Pelicans,83,6
+59,59,Wed Nov 2 2016,New Orleans Pelicans,83,Memphis Grizzlies,89,-6
+60,60,Wed Nov 2 2016,Houston Rockets,118,New York Knicks,99,19
+858,60,Wed Nov 2 2016,New York Knicks,99,Houston Rockets,118,-19
+61,61,Wed Nov 2 2016,Portland Trail Blazers,115,Phoenix Suns,118,-3
+859,61,Wed Nov 2 2016,Phoenix Suns,118,Portland Trail Blazers,115,3
+62,62,Wed Nov 2 2016,Dallas Mavericks,81,Utah Jazz,97,-16
+860,62,Wed Nov 2 2016,Utah Jazz,97,Dallas Mavericks,81,16
+63,63,Wed Nov 2 2016,Toronto Raptors,113,Washington Wizards,103,10
+861,63,Wed Nov 2 2016,Washington Wizards,103,Toronto Raptors,113,-10
+64,64,Thu Nov 3 2016,Boston Celtics,122,Cleveland Cavaliers,128,-6
+862,64,Thu Nov 3 2016,Cleveland Cavaliers,128,Boston Celtics,122,6
+863,65,Thu Nov 3 2016,Golden State Warriors,122,Oklahoma City Thunder,96,26
+65,65,Thu Nov 3 2016,Oklahoma City Thunder,96,Golden State Warriors,122,-26
+66,66,Thu Nov 3 2016,Indiana Pacers,107,Milwaukee Bucks,125,-18
+864,66,Thu Nov 3 2016,Milwaukee Bucks,125,Indiana Pacers,107,18
+67,67,Thu Nov 3 2016,Denver Nuggets,102,Minnesota Timberwolves,99,3
+865,67,Thu Nov 3 2016,Minnesota Timberwolves,99,Denver Nuggets,102,-3
+68,68,Thu Nov 3 2016,Sacramento Kings,94,Orlando Magic,102,-8
+866,68,Thu Nov 3 2016,Orlando Magic,102,Sacramento Kings,94,8
+69,69,Fri Nov 4 2016,Charlotte Hornets,99,Brooklyn Nets,95,4
+867,69,Fri Nov 4 2016,Brooklyn Nets,95,Charlotte Hornets,99,-4
+868,70,Fri Nov 4 2016,Chicago Bulls,104,New York Knicks,117,-13
+70,70,Fri Nov 4 2016,New York Knicks,117,Chicago Bulls,104,13
+869,71,Fri Nov 4 2016,Dallas Mavericks,95,Portland Trail Blazers,105,-10
+71,71,Fri Nov 4 2016,Portland Trail Blazers,105,Dallas Mavericks,95,10
+870,72,Fri Nov 4 2016,Los Angeles Lakers,117,Golden State Warriors,97,20
+72,72,Fri Nov 4 2016,Golden State Warriors,97,Los Angeles Lakers,117,-20
+871,73,Fri Nov 4 2016,Memphis Grizzlies,88,Los Angeles Clippers,99,-11
+73,73,Fri Nov 4 2016,Los Angeles Clippers,99,Memphis Grizzlies,88,11
+872,74,Fri Nov 4 2016,New Orleans Pelicans,111,Phoenix Suns,112,-1
+74,74,Fri Nov 4 2016,Phoenix Suns,112,New Orleans Pelicans,111,1
+873,75,Fri Nov 4 2016,Toronto Raptors,96,Miami Heat,87,9
+75,75,Fri Nov 4 2016,Miami Heat,87,Toronto Raptors,96,-9
+76,76,Fri Nov 4 2016,San Antonio Spurs,100,Utah Jazz,86,14
+874,76,Fri Nov 4 2016,Utah Jazz,86,San Antonio Spurs,100,-14
+875,77,Fri Nov 4 2016,Washington Wizards,95,Atlanta Hawks,92,3
+77,77,Fri Nov 4 2016,Atlanta Hawks,92,Washington Wizards,95,-3
+78,78,Sat Nov 5 2016,Houston Rockets,97,Atlanta Hawks,112,-15
+876,78,Sat Nov 5 2016,Atlanta Hawks,112,Houston Rockets,97,15
+79,79,Sat Nov 5 2016,Denver Nuggets,86,Detroit Pistons,103,-17
+877,79,Sat Nov 5 2016,Detroit Pistons,103,Denver Nuggets,86,17
+80,80,Sat Nov 5 2016,Chicago Bulls,94,Indiana Pacers,111,-17
+878,80,Sat Nov 5 2016,Indiana Pacers,111,Chicago Bulls,94,17
+81,81,Sat Nov 5 2016,Sacramento Kings,91,Milwaukee Bucks,117,-26
+879,81,Sat Nov 5 2016,Milwaukee Bucks,117,Sacramento Kings,91,26
+880,82,Sat Nov 5 2016,Oklahoma City Thunder,112,Minnesota Timberwolves,92,20
+82,82,Sat Nov 5 2016,Minnesota Timberwolves,92,Oklahoma City Thunder,112,-20
+83,83,Sat Nov 5 2016,Washington Wizards,86,Orlando Magic,88,-2
+881,83,Sat Nov 5 2016,Orlando Magic,88,Washington Wizards,86,2
+84,84,Sat Nov 5 2016,Cleveland Cavaliers,102,Philadelphia 76ers,101,1
+882,84,Sat Nov 5 2016,Philadelphia 76ers,101,Cleveland Cavaliers,102,-1
+883,85,Sat Nov 5 2016,San Antonio Spurs,92,Los Angeles Clippers,116,-24
+85,85,Sat Nov 5 2016,Los Angeles Clippers,116,San Antonio Spurs,92,24
+86,86,Sun Nov 6 2016,Denver Nuggets,123,Boston Celtics,107,16
+884,86,Sun Nov 6 2016,Boston Celtics,107,Denver Nuggets,123,-16
+87,87,Sun Nov 6 2016,Milwaukee Bucks,75,Dallas Mavericks,86,-11
+885,87,Sun Nov 6 2016,Dallas Mavericks,86,Milwaukee Bucks,75,11
+886,88,Sun Nov 6 2016,Los Angeles Lakers,119,Phoenix Suns,108,11
+88,88,Sun Nov 6 2016,Phoenix Suns,108,Los Angeles Lakers,119,-11
+89,89,Sun Nov 6 2016,Portland Trail Blazers,100,Memphis Grizzlies,94,6
+887,89,Sun Nov 6 2016,Memphis Grizzlies,94,Portland Trail Blazers,100,-6
+90,90,Sun Nov 6 2016,Utah Jazz,114,New York Knicks,109,5
+888,90,Sun Nov 6 2016,New York Knicks,109,Utah Jazz,114,-5
+91,91,Sun Nov 6 2016,Sacramento Kings,96,Toronto Raptors,91,5
+889,91,Sun Nov 6 2016,Toronto Raptors,91,Sacramento Kings,96,-5
+92,92,Mon Nov 7 2016,Orlando Magic,80,Chicago Bulls,112,-32
+890,92,Mon Nov 7 2016,Chicago Bulls,112,Orlando Magic,80,32
+93,93,Mon Nov 7 2016,Indiana Pacers,100,Charlotte Hornets,122,-22
+891,93,Mon Nov 7 2016,Charlotte Hornets,122,Indiana Pacers,100,22
+892,94,Mon Nov 7 2016,Golden State Warriors,116,New Orleans Pelicans,106,10
+94,94,Mon Nov 7 2016,New Orleans Pelicans,106,Golden State Warriors,116,-10
+95,95,Mon Nov 7 2016,Detroit Pistons,82,Los Angeles Clippers,114,-32
+893,95,Mon Nov 7 2016,Los Angeles Clippers,114,Detroit Pistons,82,32
+96,96,Mon Nov 7 2016,Miami Heat,85,Oklahoma City Thunder,97,-12
+894,96,Mon Nov 7 2016,Oklahoma City Thunder,97,Miami Heat,85,12
+97,97,Mon Nov 7 2016,Utah Jazz,109,Philadelphia 76ers,84,25
+895,97,Mon Nov 7 2016,Philadelphia 76ers,84,Utah Jazz,109,-25
+98,98,Mon Nov 7 2016,Houston Rockets,114,Washington Wizards,106,8
+896,98,Mon Nov 7 2016,Washington Wizards,106,Houston Rockets,114,-8
+897,99,Tue Nov 8 2016,Brooklyn Nets,119,Minnesota Timberwolves,110,9
+99,99,Tue Nov 8 2016,Minnesota Timberwolves,110,Brooklyn Nets,119,-9
+898,100,Tue Nov 8 2016,Cleveland Cavaliers,106,Atlanta Hawks,110,-4
+100,100,Tue Nov 8 2016,Atlanta Hawks,110,Cleveland Cavaliers,106,4
+101,101,Tue Nov 8 2016,Dallas Mavericks,109,Los Angeles Lakers,97,12
+899,101,Tue Nov 8 2016,Los Angeles Lakers,97,Dallas Mavericks,109,-12
+900,102,Tue Nov 8 2016,Memphis Grizzlies,108,Denver Nuggets,107,1
+102,102,Tue Nov 8 2016,Denver Nuggets,107,Memphis Grizzlies,108,-1
+103,103,Tue Nov 8 2016,Phoenix Suns,121,Portland Trail Blazers,124,-3
+901,103,Tue Nov 8 2016,Portland Trail Blazers,124,Phoenix Suns,121,3
+104,104,Tue Nov 8 2016,New Orleans Pelicans,94,Sacramento Kings,102,-8
+902,104,Tue Nov 8 2016,Sacramento Kings,102,New Orleans Pelicans,94,8
+903,105,Wed Nov 9 2016,Atlanta Hawks,115,Chicago Bulls,107,8
+105,105,Wed Nov 9 2016,Chicago Bulls,107,Atlanta Hawks,115,-8
+904,106,Wed Nov 9 2016,Charlotte Hornets,104,Utah Jazz,98,6
+106,106,Wed Nov 9 2016,Utah Jazz,98,Charlotte Hornets,104,-6
+107,107,Wed Nov 9 2016,Dallas Mavericks,95,Golden State Warriors,116,-21
+905,107,Wed Nov 9 2016,Golden State Warriors,116,Dallas Mavericks,95,21
+108,108,Wed Nov 9 2016,Philadelphia 76ers,115,Indiana Pacers,122,-7
+906,108,Wed Nov 9 2016,Indiana Pacers,122,Philadelphia 76ers,115,7
+109,109,Wed Nov 9 2016,Portland Trail Blazers,80,Los Angeles Clippers,111,-31
+907,109,Wed Nov 9 2016,Los Angeles Clippers,111,Portland Trail Blazers,80,31
+908,110,Wed Nov 9 2016,New York Knicks,110,Brooklyn Nets,96,14
+110,110,Wed Nov 9 2016,Brooklyn Nets,96,New York Knicks,110,-14
+111,111,Wed Nov 9 2016,Toronto Raptors,112,Oklahoma City Thunder,102,10
+909,111,Wed Nov 9 2016,Oklahoma City Thunder,102,Toronto Raptors,112,-10
+112,112,Wed Nov 9 2016,Minnesota Timberwolves,123,Orlando Magic,107,16
+910,112,Wed Nov 9 2016,Orlando Magic,107,Minnesota Timberwolves,123,-16
+113,113,Wed Nov 9 2016,Detroit Pistons,100,Phoenix Suns,107,-7
+911,113,Wed Nov 9 2016,Phoenix Suns,107,Detroit Pistons,100,7
+114,114,Wed Nov 9 2016,Houston Rockets,101,San Antonio Spurs,99,2
+912,114,Wed Nov 9 2016,San Antonio Spurs,99,Houston Rockets,101,-2
+115,115,Wed Nov 9 2016,Boston Celtics,93,Washington Wizards,118,-25
+913,115,Wed Nov 9 2016,Washington Wizards,118,Boston Celtics,93,25
+116,116,Thu Nov 10 2016,Golden State Warriors,125,Denver Nuggets,101,24
+914,116,Thu Nov 10 2016,Denver Nuggets,101,Golden State Warriors,125,-24
+915,117,Thu Nov 10 2016,Miami Heat,95,Chicago Bulls,98,-3
+117,117,Thu Nov 10 2016,Chicago Bulls,98,Miami Heat,95,3
+118,118,Thu Nov 10 2016,New Orleans Pelicans,112,Milwaukee Bucks,106,6
+916,118,Thu Nov 10 2016,Milwaukee Bucks,106,New Orleans Pelicans,112,-6
+119,119,Thu Nov 10 2016,Los Angeles Lakers,101,Sacramento Kings,91,10
+917,119,Thu Nov 10 2016,Sacramento Kings,91,Los Angeles Lakers,101,-10
+918,120,Fri Nov 11 2016,Boston Celtics,115,New York Knicks,87,28
+120,120,Fri Nov 11 2016,New York Knicks,87,Boston Celtics,115,-28
+919,121,Fri Nov 11 2016,Charlotte Hornets,111,Toronto Raptors,113,-2
+121,121,Fri Nov 11 2016,Toronto Raptors,113,Charlotte Hornets,111,2
+122,122,Fri Nov 11 2016,Los Angeles Clippers,110,Oklahoma City Thunder,108,2
+920,122,Fri Nov 11 2016,Oklahoma City Thunder,108,Los Angeles Clippers,110,-2
+921,123,Fri Nov 11 2016,Orlando Magic,74,Utah Jazz,87,-13
+123,123,Fri Nov 11 2016,Utah Jazz,87,Orlando Magic,74,13
+922,124,Fri Nov 11 2016,Philadelphia 76ers,109,Indiana Pacers,105,4
+124,124,Fri Nov 11 2016,Indiana Pacers,105,Philadelphia 76ers,109,-4
+125,125,Fri Nov 11 2016,Sacramento Kings,120,Portland Trail Blazers,122,-2
+923,125,Fri Nov 11 2016,Portland Trail Blazers,122,Sacramento Kings,120,2
+924,126,Fri Nov 11 2016,San Antonio Spurs,96,Detroit Pistons,86,10
+126,126,Fri Nov 11 2016,Detroit Pistons,86,San Antonio Spurs,96,-10
+127,127,Fri Nov 11 2016,Cleveland Cavaliers,105,Washington Wizards,94,11
+925,127,Fri Nov 11 2016,Washington Wizards,94,Cleveland Cavaliers,105,-11
+128,128,Sat Nov 12 2016,Philadelphia 76ers,96,Atlanta Hawks,117,-21
+926,128,Sat Nov 12 2016,Atlanta Hawks,117,Philadelphia 76ers,96,21
+927,129,Sat Nov 12 2016,Chicago Bulls,106,Washington Wizards,95,11
+129,129,Sat Nov 12 2016,Washington Wizards,95,Chicago Bulls,106,-11
+130,130,Sat Nov 12 2016,Detroit Pistons,106,Denver Nuggets,95,11
+928,130,Sat Nov 12 2016,Denver Nuggets,95,Detroit Pistons,106,-11
+929,131,Sat Nov 12 2016,Houston Rockets,100,San Antonio Spurs,106,-6
+131,131,Sat Nov 12 2016,San Antonio Spurs,106,Houston Rockets,100,6
+132,132,Sat Nov 12 2016,Boston Celtics,105,Indiana Pacers,99,6
+930,132,Sat Nov 12 2016,Indiana Pacers,99,Boston Celtics,105,-6
+133,133,Sat Nov 12 2016,Utah Jazz,102,Miami Heat,91,11
+931,133,Sat Nov 12 2016,Miami Heat,91,Utah Jazz,102,-11
+134,134,Sat Nov 12 2016,Memphis Grizzlies,96,Milwaukee Bucks,106,-10
+932,134,Sat Nov 12 2016,Milwaukee Bucks,106,Memphis Grizzlies,96,10
+933,135,Sat Nov 12 2016,Minnesota Timberwolves,105,Los Angeles Clippers,119,-14
+135,135,Sat Nov 12 2016,Los Angeles Clippers,119,Minnesota Timberwolves,105,14
+934,136,Sat Nov 12 2016,New Orleans Pelicans,99,Los Angeles Lakers,126,-27
+136,136,Sat Nov 12 2016,Los Angeles Lakers,126,New Orleans Pelicans,99,27
+137,137,Sat Nov 12 2016,Brooklyn Nets,122,Phoenix Suns,104,18
+935,137,Sat Nov 12 2016,Phoenix Suns,104,Brooklyn Nets,122,-18
+138,138,Sat Nov 12 2016,New York Knicks,107,Toronto Raptors,118,-11
+936,138,Sat Nov 12 2016,Toronto Raptors,118,New York Knicks,107,11
+139,139,Sun Nov 13 2016,Charlotte Hornets,93,Cleveland Cavaliers,100,-7
+937,139,Sun Nov 13 2016,Cleveland Cavaliers,100,Charlotte Hornets,93,7
+140,140,Sun Nov 13 2016,Phoenix Suns,120,Golden State Warriors,133,-13
+938,140,Sun Nov 13 2016,Golden State Warriors,133,Phoenix Suns,120,13
+141,141,Sun Nov 13 2016,Los Angeles Lakers,99,Minnesota Timberwolves,125,-26
+939,141,Sun Nov 13 2016,Minnesota Timberwolves,125,Los Angeles Lakers,99,26
+940,142,Sun Nov 13 2016,Oklahoma City Thunder,117,Orlando Magic,119,-2
+142,142,Sun Nov 13 2016,Orlando Magic,119,Oklahoma City Thunder,117,2
+941,143,Sun Nov 13 2016,Portland Trail Blazers,112,Denver Nuggets,105,7
+143,143,Sun Nov 13 2016,Denver Nuggets,105,Portland Trail Blazers,112,-7
+942,144,Mon Nov 14 2016,Detroit Pistons,104,Oklahoma City Thunder,88,16
+144,144,Mon Nov 14 2016,Oklahoma City Thunder,88,Detroit Pistons,104,-16
+943,145,Mon Nov 14 2016,Houston Rockets,115,Philadelphia 76ers,88,27
+145,145,Mon Nov 14 2016,Philadelphia 76ers,88,Houston Rockets,115,-27
+944,146,Mon Nov 14 2016,Indiana Pacers,88,Orlando Magic,69,19
+146,146,Mon Nov 14 2016,Orlando Magic,69,Indiana Pacers,88,-19
+945,147,Mon Nov 14 2016,Los Angeles Clippers,127,Brooklyn Nets,95,32
+147,147,Mon Nov 14 2016,Brooklyn Nets,95,Los Angeles Clippers,127,-32
+946,148,Mon Nov 14 2016,New Orleans Pelicans,106,Boston Celtics,105,1
+148,148,Mon Nov 14 2016,Boston Celtics,105,New Orleans Pelicans,106,-1
+947,149,Mon Nov 14 2016,New York Knicks,93,Dallas Mavericks,77,16
+149,149,Mon Nov 14 2016,Dallas Mavericks,77,New York Knicks,93,-16
+948,150,Mon Nov 14 2016,San Antonio Spurs,94,Miami Heat,90,4
+150,150,Mon Nov 14 2016,Miami Heat,90,San Antonio Spurs,94,-4
+949,151,Mon Nov 14 2016,Utah Jazz,96,Memphis Grizzlies,102,-6
+151,151,Mon Nov 14 2016,Memphis Grizzlies,102,Utah Jazz,96,6
+152,152,Tue Nov 15 2016,Toronto Raptors,117,Cleveland Cavaliers,121,-4
+950,152,Tue Nov 15 2016,Cleveland Cavaliers,121,Toronto Raptors,117,4
+951,153,Tue Nov 15 2016,Los Angeles Lakers,125,Brooklyn Nets,118,7
+153,153,Tue Nov 15 2016,Brooklyn Nets,118,Los Angeles Lakers,125,-7
+952,154,Tue Nov 15 2016,Miami Heat,90,Atlanta Hawks,93,-3
+154,154,Tue Nov 15 2016,Atlanta Hawks,93,Miami Heat,90,3
+953,155,Tue Nov 15 2016,Minnesota Timberwolves,108,Charlotte Hornets,115,-7
+155,155,Tue Nov 15 2016,Charlotte Hornets,115,Minnesota Timberwolves,108,7
+954,156,Tue Nov 15 2016,Portland Trail Blazers,88,Chicago Bulls,113,-25
+156,156,Tue Nov 15 2016,Chicago Bulls,113,Portland Trail Blazers,88,25
+955,157,Wed Nov 16 2016,Atlanta Hawks,107,Milwaukee Bucks,100,7
+157,157,Wed Nov 16 2016,Milwaukee Bucks,100,Atlanta Hawks,107,-7
+158,158,Wed Nov 16 2016,Dallas Mavericks,83,Boston Celtics,90,-7
+956,158,Wed Nov 16 2016,Boston Celtics,90,Dallas Mavericks,83,7
+159,159,Wed Nov 16 2016,Phoenix Suns,104,Denver Nuggets,120,-16
+957,159,Wed Nov 16 2016,Denver Nuggets,120,Phoenix Suns,104,16
+958,160,Wed Nov 16 2016,Indiana Pacers,103,Cleveland Cavaliers,93,10
+160,160,Wed Nov 16 2016,Cleveland Cavaliers,93,Indiana Pacers,103,-10
+959,161,Wed Nov 16 2016,Los Angeles Clippers,107,Memphis Grizzlies,111,-4
+161,161,Wed Nov 16 2016,Memphis Grizzlies,111,Los Angeles Clippers,107,4
+960,162,Wed Nov 16 2016,New York Knicks,105,Detroit Pistons,102,3
+162,162,Wed Nov 16 2016,Detroit Pistons,102,New York Knicks,105,-3
+961,163,Wed Nov 16 2016,Oklahoma City Thunder,105,Houston Rockets,103,2
+163,163,Wed Nov 16 2016,Houston Rockets,103,Oklahoma City Thunder,105,-2
+962,164,Wed Nov 16 2016,Orlando Magic,89,New Orleans Pelicans,82,7
+164,164,Wed Nov 16 2016,New Orleans Pelicans,82,Orlando Magic,89,-7
+963,165,Wed Nov 16 2016,Philadelphia 76ers,109,Washington Wizards,102,7
+165,165,Wed Nov 16 2016,Washington Wizards,102,Philadelphia 76ers,109,-7
+964,166,Wed Nov 16 2016,Sacramento Kings,105,San Antonio Spurs,110,-5
+166,166,Wed Nov 16 2016,San Antonio Spurs,110,Sacramento Kings,105,5
+965,167,Wed Nov 16 2016,Toronto Raptors,121,Golden State Warriors,127,-6
+167,167,Wed Nov 16 2016,Golden State Warriors,127,Toronto Raptors,121,6
+966,168,Thu Nov 17 2016,Houston Rockets,126,Portland Trail Blazers,109,17
+168,168,Thu Nov 17 2016,Portland Trail Blazers,109,Houston Rockets,126,-17
+169,169,Thu Nov 17 2016,Milwaukee Bucks,73,Miami Heat,96,-23
+967,169,Thu Nov 17 2016,Miami Heat,96,Milwaukee Bucks,73,23
+968,170,Thu Nov 17 2016,Minnesota Timberwolves,110,Philadelphia 76ers,86,24
+170,170,Thu Nov 17 2016,Philadelphia 76ers,86,Minnesota Timberwolves,110,-24
+171,171,Thu Nov 17 2016,Chicago Bulls,85,Utah Jazz,77,8
+969,171,Thu Nov 17 2016,Utah Jazz,77,Chicago Bulls,85,-8
+172,172,Thu Nov 17 2016,New York Knicks,112,Washington Wizards,119,-7
+970,172,Thu Nov 17 2016,Washington Wizards,119,New York Knicks,112,7
+971,173,Fri Nov 18 2016,Boston Celtics,88,Golden State Warriors,104,-16
+173,173,Fri Nov 18 2016,Golden State Warriors,104,Boston Celtics,88,16
+972,174,Fri Nov 18 2016,Charlotte Hornets,100,Atlanta Hawks,96,4
+174,174,Fri Nov 18 2016,Atlanta Hawks,96,Charlotte Hornets,100,-4
+973,175,Fri Nov 18 2016,Cleveland Cavaliers,104,Detroit Pistons,81,23
+175,175,Fri Nov 18 2016,Detroit Pistons,81,Cleveland Cavaliers,104,-23
+974,176,Fri Nov 18 2016,Dallas Mavericks,64,Memphis Grizzlies,80,-16
+176,176,Fri Nov 18 2016,Memphis Grizzlies,80,Dallas Mavericks,64,16
+177,177,Fri Nov 18 2016,Toronto Raptors,113,Denver Nuggets,111,2
+975,177,Fri Nov 18 2016,Denver Nuggets,111,Toronto Raptors,113,-2
+178,178,Fri Nov 18 2016,Phoenix Suns,116,Indiana Pacers,96,20
+976,178,Fri Nov 18 2016,Indiana Pacers,96,Phoenix Suns,116,-20
+977,179,Fri Nov 18 2016,Los Angeles Lakers,107,San Antonio Spurs,116,-9
+179,179,Fri Nov 18 2016,San Antonio Spurs,116,Los Angeles Lakers,107,9
+180,180,Fri Nov 18 2016,Portland Trail Blazers,101,New Orleans Pelicans,113,-12
+978,180,Fri Nov 18 2016,New Orleans Pelicans,113,Portland Trail Blazers,101,12
+979,181,Fri Nov 18 2016,Oklahoma City Thunder,124,Brooklyn Nets,105,19
+181,181,Fri Nov 18 2016,Brooklyn Nets,105,Oklahoma City Thunder,124,-19
+182,182,Fri Nov 18 2016,Los Angeles Clippers,121,Sacramento Kings,115,6
+980,182,Fri Nov 18 2016,Sacramento Kings,115,Los Angeles Clippers,121,-6
+183,183,Sat Nov 19 2016,Boston Celtics,94,Detroit Pistons,92,2
+981,183,Sat Nov 19 2016,Detroit Pistons,92,Boston Celtics,94,-2
+982,184,Sat Nov 19 2016,Houston Rockets,111,Utah Jazz,102,9
+184,184,Sat Nov 19 2016,Utah Jazz,102,Houston Rockets,111,-9
+185,185,Sat Nov 19 2016,Chicago Bulls,95,Los Angeles Clippers,102,-7
+983,185,Sat Nov 19 2016,Los Angeles Clippers,102,Chicago Bulls,95,7
+186,186,Sat Nov 19 2016,Minnesota Timberwolves,71,Memphis Grizzlies,93,-22
+984,186,Sat Nov 19 2016,Memphis Grizzlies,93,Minnesota Timberwolves,71,22
+187,187,Sat Nov 19 2016,Golden State Warriors,124,Milwaukee Bucks,121,3
+985,187,Sat Nov 19 2016,Milwaukee Bucks,121,Golden State Warriors,124,-3
+986,188,Sat Nov 19 2016,New Orleans Pelicans,121,Charlotte Hornets,116,5
+188,188,Sat Nov 19 2016,Charlotte Hornets,116,New Orleans Pelicans,121,-5
+189,189,Sat Nov 19 2016,Dallas Mavericks,87,Orlando Magic,95,-8
+987,189,Sat Nov 19 2016,Orlando Magic,95,Dallas Mavericks,87,8
+190,190,Sat Nov 19 2016,Phoenix Suns,105,Philadelphia 76ers,120,-15
+988,190,Sat Nov 19 2016,Philadelphia 76ers,120,Phoenix Suns,105,15
+191,191,Sat Nov 19 2016,Miami Heat,114,Washington Wizards,111,3
+989,191,Sat Nov 19 2016,Washington Wizards,111,Miami Heat,114,-3
+990,192,Sun Nov 20 2016,Brooklyn Nets,109,Portland Trail Blazers,129,-20
+192,192,Sun Nov 20 2016,Portland Trail Blazers,129,Brooklyn Nets,109,20
+991,193,Sun Nov 20 2016,Denver Nuggets,105,Utah Jazz,91,14
+193,193,Sun Nov 20 2016,Utah Jazz,91,Denver Nuggets,105,-14
+992,194,Sun Nov 20 2016,Los Angeles Lakers,110,Chicago Bulls,118,-8
+194,194,Sun Nov 20 2016,Chicago Bulls,118,Los Angeles Lakers,110,8
+195,195,Sun Nov 20 2016,Atlanta Hawks,94,New York Knicks,104,-10
+993,195,Sun Nov 20 2016,New York Knicks,104,Atlanta Hawks,94,10
+994,196,Sun Nov 20 2016,Oklahoma City Thunder,111,Indiana Pacers,115,-4
+196,196,Sun Nov 20 2016,Indiana Pacers,115,Oklahoma City Thunder,111,4
+197,197,Sun Nov 20 2016,Toronto Raptors,99,Sacramento Kings,102,-3
+995,197,Sun Nov 20 2016,Sacramento Kings,102,Toronto Raptors,99,3
+996,198,Mon Nov 21 2016,Charlotte Hornets,90,Memphis Grizzlies,105,-15
+198,198,Mon Nov 21 2016,Memphis Grizzlies,105,Charlotte Hornets,90,15
+199,199,Mon Nov 21 2016,Houston Rockets,99,Detroit Pistons,96,3
+997,199,Mon Nov 21 2016,Detroit Pistons,96,Houston Rockets,99,-3
+200,200,Mon Nov 21 2016,Golden State Warriors,120,Indiana Pacers,83,37
+998,200,Mon Nov 21 2016,Indiana Pacers,83,Golden State Warriors,120,-37
+201,201,Mon Nov 21 2016,Toronto Raptors,115,Los Angeles Clippers,123,-8
+999,201,Mon Nov 21 2016,Los Angeles Clippers,123,Toronto Raptors,115,8
+1000,202,Mon Nov 21 2016,Milwaukee Bucks,93,Orlando Magic,89,4
+202,202,Mon Nov 21 2016,Orlando Magic,89,Milwaukee Bucks,93,-4
+1001,203,Mon Nov 21 2016,Minnesota Timberwolves,93,Boston Celtics,99,-6
+203,203,Mon Nov 21 2016,Boston Celtics,99,Minnesota Timberwolves,93,6
+204,204,Mon Nov 21 2016,Miami Heat,94,Philadelphia 76ers,101,-7
+1002,204,Mon Nov 21 2016,Philadelphia 76ers,101,Miami Heat,94,7
+1003,205,Mon Nov 21 2016,San Antonio Spurs,96,Dallas Mavericks,91,5
+205,205,Mon Nov 21 2016,Dallas Mavericks,91,San Antonio Spurs,96,-5
+206,206,Mon Nov 21 2016,Phoenix Suns,101,Washington Wizards,106,-5
+1004,206,Mon Nov 21 2016,Washington Wizards,106,Phoenix Suns,101,5
+207,207,Tue Nov 22 2016,New Orleans Pelicans,112,Atlanta Hawks,94,18
+1005,207,Tue Nov 22 2016,Atlanta Hawks,94,New Orleans Pelicans,112,-18
+208,208,Tue Nov 22 2016,Chicago Bulls,107,Denver Nuggets,110,-3
+1006,208,Tue Nov 22 2016,Denver Nuggets,110,Chicago Bulls,107,3
+1007,209,Tue Nov 22 2016,Los Angeles Lakers,111,Oklahoma City Thunder,109,2
+209,209,Tue Nov 22 2016,Oklahoma City Thunder,109,Los Angeles Lakers,111,-2
+1008,210,Tue Nov 22 2016,New York Knicks,107,Portland Trail Blazers,103,4
+210,210,Tue Nov 22 2016,Portland Trail Blazers,103,New York Knicks,107,-4
+211,211,Wed Nov 23 2016,Boston Celtics,111,Brooklyn Nets,92,19
+1009,211,Wed Nov 23 2016,Brooklyn Nets,92,Boston Celtics,111,-19
+1010,212,Wed Nov 23 2016,Charlotte Hornets,114,San Antonio Spurs,119,-5
+212,212,Wed Nov 23 2016,San Antonio Spurs,119,Charlotte Hornets,114,5
+213,213,Wed Nov 23 2016,Portland Trail Blazers,125,Cleveland Cavaliers,137,-12
+1011,213,Wed Nov 23 2016,Cleveland Cavaliers,137,Portland Trail Blazers,125,12
+214,214,Wed Nov 23 2016,Los Angeles Clippers,124,Dallas Mavericks,104,20
+1012,214,Wed Nov 23 2016,Dallas Mavericks,104,Los Angeles Clippers,124,-20
+1013,215,Wed Nov 23 2016,Detroit Pistons,107,Miami Heat,84,23
+215,215,Wed Nov 23 2016,Miami Heat,84,Detroit Pistons,107,-23
+216,216,Wed Nov 23 2016,Los Angeles Lakers,106,Golden State Warriors,149,-43
+1014,216,Wed Nov 23 2016,Golden State Warriors,149,Los Angeles Lakers,106,43
+1015,217,Wed Nov 23 2016,Houston Rockets,102,Toronto Raptors,115,-13
+217,217,Wed Nov 23 2016,Toronto Raptors,115,Houston Rockets,102,13
+218,218,Wed Nov 23 2016,Atlanta Hawks,96,Indiana Pacers,85,11
+1016,218,Wed Nov 23 2016,Indiana Pacers,85,Atlanta Hawks,96,-11
+1017,219,Wed Nov 23 2016,New Orleans Pelicans,117,Minnesota Timberwolves,96,21
+219,219,Wed Nov 23 2016,Minnesota Timberwolves,96,New Orleans Pelicans,117,-21
+220,220,Wed Nov 23 2016,Phoenix Suns,92,Orlando Magic,87,5
+1018,220,Wed Nov 23 2016,Orlando Magic,87,Phoenix Suns,92,-5
+1019,221,Wed Nov 23 2016,Philadelphia 76ers,99,Memphis Grizzlies,104,-5
+221,221,Wed Nov 23 2016,Memphis Grizzlies,104,Philadelphia 76ers,99,5
+222,222,Wed Nov 23 2016,Oklahoma City Thunder,101,Sacramento Kings,116,-15
+1020,222,Wed Nov 23 2016,Sacramento Kings,116,Oklahoma City Thunder,101,15
+1021,223,Wed Nov 23 2016,Utah Jazz,108,Denver Nuggets,83,25
+223,223,Wed Nov 23 2016,Denver Nuggets,83,Utah Jazz,108,-25
+224,224,Fri Nov 25 2016,San Antonio Spurs,109,Boston Celtics,103,6
+1022,224,Fri Nov 25 2016,Boston Celtics,103,San Antonio Spurs,109,-6
+225,225,Fri Nov 25 2016,Dallas Mavericks,90,Cleveland Cavaliers,128,-38
+1023,225,Fri Nov 25 2016,Cleveland Cavaliers,128,Dallas Mavericks,90,38
+226,226,Fri Nov 25 2016,Oklahoma City Thunder,132,Denver Nuggets,129,3
+1024,226,Fri Nov 25 2016,Denver Nuggets,129,Oklahoma City Thunder,132,-3
+1025,227,Fri Nov 25 2016,Detroit Pistons,108,Los Angeles Clippers,97,11
+227,227,Fri Nov 25 2016,Los Angeles Clippers,97,Detroit Pistons,108,-11
+228,228,Fri Nov 25 2016,Brooklyn Nets,97,Indiana Pacers,118,-21
+1026,228,Fri Nov 25 2016,Indiana Pacers,118,Brooklyn Nets,97,21
+1027,229,Fri Nov 25 2016,Los Angeles Lakers,85,Golden State Warriors,109,-24
+229,229,Fri Nov 25 2016,Golden State Warriors,109,Los Angeles Lakers,85,24
+230,230,Fri Nov 25 2016,Miami Heat,90,Memphis Grizzlies,81,9
+1028,230,Fri Nov 25 2016,Memphis Grizzlies,81,Miami Heat,90,-9
+1029,231,Fri Nov 25 2016,Milwaukee Bucks,99,Toronto Raptors,105,-6
+231,231,Fri Nov 25 2016,Toronto Raptors,105,Milwaukee Bucks,99,6
+1030,232,Fri Nov 25 2016,New York Knicks,113,Charlotte Hornets,111,2
+232,232,Fri Nov 25 2016,Charlotte Hornets,111,New York Knicks,113,-2
+233,233,Fri Nov 25 2016,Washington Wizards,94,Orlando Magic,91,3
+1031,233,Fri Nov 25 2016,Orlando Magic,91,Washington Wizards,94,-3
+1032,234,Fri Nov 25 2016,Philadelphia 76ers,89,Chicago Bulls,105,-16
+234,234,Fri Nov 25 2016,Chicago Bulls,105,Philadelphia 76ers,89,16
+1033,235,Fri Nov 25 2016,Phoenix Suns,85,Minnesota Timberwolves,98,-13
+235,235,Fri Nov 25 2016,Minnesota Timberwolves,98,Phoenix Suns,85,13
+1034,236,Fri Nov 25 2016,Portland Trail Blazers,119,New Orleans Pelicans,104,15
+236,236,Fri Nov 25 2016,New Orleans Pelicans,104,Portland Trail Blazers,119,-15
+237,237,Fri Nov 25 2016,Houston Rockets,117,Sacramento Kings,104,13
+1035,237,Fri Nov 25 2016,Sacramento Kings,104,Houston Rockets,117,-13
+1036,238,Fri Nov 25 2016,Utah Jazz,95,Atlanta Hawks,68,27
+238,238,Fri Nov 25 2016,Atlanta Hawks,68,Utah Jazz,95,-27
+1037,239,Sat Nov 26 2016,Charlotte Hornets,107,New York Knicks,102,5
+239,239,Sat Nov 26 2016,New York Knicks,102,Charlotte Hornets,107,-5
+240,240,Sat Nov 26 2016,Minnesota Timberwolves,102,Golden State Warriors,115,-13
+1038,240,Sat Nov 26 2016,Golden State Warriors,115,Minnesota Timberwolves,102,13
+1039,241,Sat Nov 26 2016,Miami Heat,107,Memphis Grizzlies,110,-3
+241,241,Sat Nov 26 2016,Memphis Grizzlies,110,Miami Heat,107,3
+242,242,Sat Nov 26 2016,Detroit Pistons,88,Oklahoma City Thunder,106,-18
+1040,242,Sat Nov 26 2016,Oklahoma City Thunder,106,Detroit Pistons,88,18
+1041,243,Sat Nov 26 2016,Washington Wizards,100,San Antonio Spurs,112,-12
+243,243,Sat Nov 26 2016,San Antonio Spurs,112,Washington Wizards,100,12
+244,244,Sun Nov 27 2016,Sacramento Kings,122,Brooklyn Nets,105,17
+1042,244,Sun Nov 27 2016,Brooklyn Nets,105,Sacramento Kings,122,-17
+1043,245,Sun Nov 27 2016,Dallas Mavericks,91,New Orleans Pelicans,81,10
+245,245,Sun Nov 27 2016,New Orleans Pelicans,81,Dallas Mavericks,91,-10
+246,246,Sun Nov 27 2016,Los Angeles Clippers,70,Indiana Pacers,91,-21
+1044,246,Sun Nov 27 2016,Indiana Pacers,91,Los Angeles Clippers,70,21
+1045,247,Sun Nov 27 2016,Los Angeles Lakers,109,Atlanta Hawks,94,15
+247,247,Sun Nov 27 2016,Atlanta Hawks,94,Los Angeles Lakers,109,-15
+1046,248,Sun Nov 27 2016,Orlando Magic,96,Milwaukee Bucks,104,-8
+248,248,Sun Nov 27 2016,Milwaukee Bucks,104,Orlando Magic,96,8
+1047,249,Sun Nov 27 2016,Philadelphia 76ers,108,Cleveland Cavaliers,112,-4
+249,249,Sun Nov 27 2016,Cleveland Cavaliers,112,Philadelphia 76ers,108,4
+250,250,Sun Nov 27 2016,Denver Nuggets,120,Phoenix Suns,114,6
+1048,250,Sun Nov 27 2016,Phoenix Suns,114,Denver Nuggets,120,-6
+251,251,Sun Nov 27 2016,Houston Rockets,130,Portland Trail Blazers,114,16
+1049,251,Sun Nov 27 2016,Portland Trail Blazers,114,Houston Rockets,130,-16
+252,252,Mon Nov 28 2016,Atlanta Hawks,100,Golden State Warriors,105,-5
+1050,252,Mon Nov 28 2016,Golden State Warriors,105,Atlanta Hawks,100,5
+1051,253,Mon Nov 28 2016,Memphis Grizzlies,85,Charlotte Hornets,104,-19
+253,253,Mon Nov 28 2016,Charlotte Hornets,104,Memphis Grizzlies,85,19
+254,254,Mon Nov 28 2016,Boston Celtics,112,Miami Heat,104,8
+1052,254,Mon Nov 28 2016,Miami Heat,104,Boston Celtics,112,-8
+255,255,Mon Nov 28 2016,Utah Jazz,112,Minnesota Timberwolves,103,9
+1053,255,Mon Nov 28 2016,Minnesota Timberwolves,103,Utah Jazz,112,-9
+256,256,Mon Nov 28 2016,Oklahoma City Thunder,112,New York Knicks,103,9
+1054,256,Mon Nov 28 2016,New York Knicks,103,Oklahoma City Thunder,112,-9
+1055,257,Mon Nov 28 2016,Toronto Raptors,122,Philadelphia 76ers,95,27
+257,257,Mon Nov 28 2016,Philadelphia 76ers,95,Toronto Raptors,122,-27
+1056,258,Mon Nov 28 2016,Washington Wizards,101,Sacramento Kings,95,6
+258,258,Mon Nov 28 2016,Sacramento Kings,95,Washington Wizards,101,-6
+259,259,Tue Nov 29 2016,Los Angeles Clippers,122,Brooklyn Nets,127,-5
+1057,259,Tue Nov 29 2016,Brooklyn Nets,127,Los Angeles Clippers,122,5
+1058,260,Tue Nov 29 2016,Charlotte Hornets,89,Detroit Pistons,112,-23
+260,260,Tue Nov 29 2016,Detroit Pistons,112,Charlotte Hornets,89,23
+261,261,Tue Nov 29 2016,Cleveland Cavaliers,101,Milwaukee Bucks,118,-17
+1059,261,Tue Nov 29 2016,Milwaukee Bucks,118,Cleveland Cavaliers,101,17
+262,262,Tue Nov 29 2016,Los Angeles Lakers,88,New Orleans Pelicans,105,-17
+1060,262,Tue Nov 29 2016,New Orleans Pelicans,105,Los Angeles Lakers,88,17
+263,263,Tue Nov 29 2016,Orlando Magic,95,San Antonio Spurs,83,12
+1061,263,Tue Nov 29 2016,San Antonio Spurs,83,Orlando Magic,95,-12
+264,264,Tue Nov 29 2016,Houston Rockets,101,Utah Jazz,120,-19
+1062,264,Tue Nov 29 2016,Utah Jazz,120,Houston Rockets,101,19
+1063,265,Wed Nov 30 2016,Boston Celtics,114,Detroit Pistons,121,-7
+265,265,Wed Nov 30 2016,Detroit Pistons,121,Boston Celtics,114,7
+266,266,Wed Nov 30 2016,Los Angeles Lakers,96,Chicago Bulls,90,6
+1064,266,Wed Nov 30 2016,Chicago Bulls,90,Los Angeles Lakers,96,-6
+267,267,Wed Nov 30 2016,San Antonio Spurs,94,Dallas Mavericks,87,7
+1065,267,Wed Nov 30 2016,Dallas Mavericks,87,San Antonio Spurs,94,-7
+268,268,Wed Nov 30 2016,Miami Heat,106,Denver Nuggets,98,8
+1066,268,Wed Nov 30 2016,Denver Nuggets,98,Miami Heat,106,-8
+269,269,Wed Nov 30 2016,New York Knicks,106,Minnesota Timberwolves,104,2
+1067,269,Wed Nov 30 2016,Minnesota Timberwolves,104,New York Knicks,106,-2
+270,270,Wed Nov 30 2016,Washington Wizards,115,Oklahoma City Thunder,126,-11
+1068,270,Wed Nov 30 2016,Oklahoma City Thunder,126,Washington Wizards,115,11
+1069,271,Wed Nov 30 2016,Phoenix Suns,109,Atlanta Hawks,107,2
+271,271,Wed Nov 30 2016,Atlanta Hawks,107,Phoenix Suns,109,-2
+1070,272,Wed Nov 30 2016,Portland Trail Blazers,131,Indiana Pacers,109,22
+272,272,Wed Nov 30 2016,Indiana Pacers,109,Portland Trail Blazers,131,-22
+1071,273,Wed Nov 30 2016,Toronto Raptors,120,Memphis Grizzlies,105,15
+273,273,Wed Nov 30 2016,Memphis Grizzlies,105,Toronto Raptors,120,-15
+274,274,Thu Dec 1 2016,Milwaukee Bucks,111,Brooklyn Nets,93,18
+1072,274,Thu Dec 1 2016,Brooklyn Nets,93,Milwaukee Bucks,111,-18
+275,275,Thu Dec 1 2016,Dallas Mavericks,87,Charlotte Hornets,97,-10
+1073,275,Thu Dec 1 2016,Charlotte Hornets,97,Dallas Mavericks,87,10
+276,276,Thu Dec 1 2016,Los Angeles Clippers,113,Cleveland Cavaliers,94,19
+1074,276,Thu Dec 1 2016,Cleveland Cavaliers,94,Los Angeles Clippers,113,-19
+1075,277,Thu Dec 1 2016,Golden State Warriors,127,Houston Rockets,132,-5
+277,277,Thu Dec 1 2016,Houston Rockets,132,Golden State Warriors,127,5
+278,278,Thu Dec 1 2016,Orlando Magic,94,Memphis Grizzlies,95,-1
+1076,278,Thu Dec 1 2016,Memphis Grizzlies,95,Orlando Magic,94,1
+1077,279,Thu Dec 1 2016,Utah Jazz,110,Miami Heat,111,-1
+279,279,Thu Dec 1 2016,Miami Heat,111,Utah Jazz,110,1
+1078,280,Fri Dec 2 2016,Atlanta Hawks,85,Detroit Pistons,121,-36
+280,280,Fri Dec 2 2016,Detroit Pistons,121,Atlanta Hawks,85,36
+1079,281,Fri Dec 2 2016,Boston Celtics,97,Sacramento Kings,92,5
+281,281,Fri Dec 2 2016,Sacramento Kings,92,Boston Celtics,97,-5
+1080,282,Fri Dec 2 2016,Chicago Bulls,111,Cleveland Cavaliers,105,6
+282,282,Fri Dec 2 2016,Cleveland Cavaliers,105,Chicago Bulls,111,-6
+283,283,Fri Dec 2 2016,Houston Rockets,128,Denver Nuggets,110,18
+1081,283,Fri Dec 2 2016,Denver Nuggets,110,Houston Rockets,128,-18
+1082,284,Fri Dec 2 2016,New Orleans Pelicans,96,Los Angeles Clippers,114,-18
+284,284,Fri Dec 2 2016,Los Angeles Clippers,114,New Orleans Pelicans,96,18
+1083,285,Fri Dec 2 2016,New York Knicks,118,Minnesota Timberwolves,114,4
+285,285,Fri Dec 2 2016,Minnesota Timberwolves,114,New York Knicks,118,-4
+1084,286,Fri Dec 2 2016,Philadelphia 76ers,88,Orlando Magic,105,-17
+286,286,Fri Dec 2 2016,Orlando Magic,105,Philadelphia 76ers,88,17
+1085,287,Fri Dec 2 2016,San Antonio Spurs,107,Washington Wizards,105,2
+287,287,Fri Dec 2 2016,Washington Wizards,105,San Antonio Spurs,107,-2
+288,288,Fri Dec 2 2016,Los Angeles Lakers,80,Toronto Raptors,113,-33
+1086,288,Fri Dec 2 2016,Toronto Raptors,113,Los Angeles Lakers,80,33
+289,289,Sat Dec 3 2016,Minnesota Timberwolves,125,Charlotte Hornets,120,5
+1087,289,Sat Dec 3 2016,Charlotte Hornets,120,Minnesota Timberwolves,125,-5
+290,290,Sat Dec 3 2016,Chicago Bulls,82,Dallas Mavericks,107,-25
+1088,290,Sat Dec 3 2016,Dallas Mavericks,107,Chicago Bulls,82,25
+1089,291,Sat Dec 3 2016,Golden State Warriors,138,Phoenix Suns,109,29
+291,291,Sat Dec 3 2016,Phoenix Suns,109,Golden State Warriors,138,-29
+1090,292,Sat Dec 3 2016,Memphis Grizzlies,103,Los Angeles Lakers,100,3
+292,292,Sat Dec 3 2016,Los Angeles Lakers,100,Memphis Grizzlies,103,-3
+1091,293,Sat Dec 3 2016,Milwaukee Bucks,112,Brooklyn Nets,103,9
+293,293,Sat Dec 3 2016,Brooklyn Nets,103,Milwaukee Bucks,112,-9
+1092,294,Sat Dec 3 2016,Philadelphia 76ers,106,Boston Celtics,107,-1
+294,294,Sat Dec 3 2016,Boston Celtics,107,Philadelphia 76ers,106,1
+1093,295,Sat Dec 3 2016,Portland Trail Blazers,99,Miami Heat,92,7
+295,295,Sat Dec 3 2016,Miami Heat,92,Portland Trail Blazers,99,-7
+1094,296,Sat Dec 3 2016,Toronto Raptors,128,Atlanta Hawks,84,44
+296,296,Sat Dec 3 2016,Atlanta Hawks,84,Toronto Raptors,128,-44
+1095,297,Sat Dec 3 2016,Utah Jazz,105,Denver Nuggets,98,7
+297,297,Sat Dec 3 2016,Denver Nuggets,98,Utah Jazz,105,-7
+1096,298,Sun Dec 4 2016,Detroit Pistons,92,Orlando Magic,98,-6
+298,298,Sun Dec 4 2016,Orlando Magic,98,Detroit Pistons,92,6
+1097,299,Sun Dec 4 2016,Los Angeles Clippers,102,Indiana Pacers,111,-9
+299,299,Sun Dec 4 2016,Indiana Pacers,111,Los Angeles Clippers,102,9
+300,300,Sun Dec 4 2016,Sacramento Kings,98,New York Knicks,106,-8
+1098,300,Sun Dec 4 2016,New York Knicks,106,Sacramento Kings,98,8
+301,301,Sun Dec 4 2016,New Orleans Pelicans,92,Oklahoma City Thunder,101,-9
+1099,301,Sun Dec 4 2016,Oklahoma City Thunder,101,New Orleans Pelicans,92,9
+302,302,Mon Dec 5 2016,Oklahoma City Thunder,102,Atlanta Hawks,99,3
+1100,302,Mon Dec 5 2016,Atlanta Hawks,99,Oklahoma City Thunder,102,-3
+1101,303,Mon Dec 5 2016,Brooklyn Nets,113,Washington Wizards,118,-5
+303,303,Mon Dec 5 2016,Washington Wizards,118,Brooklyn Nets,113,5
+1102,304,Mon Dec 5 2016,Chicago Bulls,110,Portland Trail Blazers,112,-2
+304,304,Mon Dec 5 2016,Portland Trail Blazers,112,Chicago Bulls,110,2
+1103,305,Mon Dec 5 2016,Dallas Mavericks,101,Charlotte Hornets,109,-8
+305,305,Mon Dec 5 2016,Charlotte Hornets,109,Dallas Mavericks,101,8
+1104,306,Mon Dec 5 2016,Golden State Warriors,142,Indiana Pacers,106,36
+306,306,Mon Dec 5 2016,Indiana Pacers,106,Golden State Warriors,142,-36
+1105,307,Mon Dec 5 2016,Houston Rockets,107,Boston Celtics,106,1
+307,307,Mon Dec 5 2016,Boston Celtics,106,Houston Rockets,107,-1
+308,308,Mon Dec 5 2016,Utah Jazz,107,Los Angeles Lakers,101,6
+1106,308,Mon Dec 5 2016,Los Angeles Lakers,101,Utah Jazz,107,-6
+1107,309,Mon Dec 5 2016,Milwaukee Bucks,96,San Antonio Spurs,97,-1
+309,309,Mon Dec 5 2016,San Antonio Spurs,97,Milwaukee Bucks,96,1
+1108,310,Mon Dec 5 2016,New Orleans Pelicans,108,Memphis Grizzlies,110,-2
+310,310,Mon Dec 5 2016,Memphis Grizzlies,110,New Orleans Pelicans,108,2
+1109,311,Mon Dec 5 2016,Philadelphia 76ers,98,Denver Nuggets,106,-8
+311,311,Mon Dec 5 2016,Denver Nuggets,106,Philadelphia 76ers,98,8
+1110,312,Mon Dec 5 2016,Toronto Raptors,112,Cleveland Cavaliers,116,-4
+312,312,Mon Dec 5 2016,Cleveland Cavaliers,116,Toronto Raptors,112,4
+313,313,Tue Dec 6 2016,Chicago Bulls,91,Detroit Pistons,102,-11
+1111,313,Tue Dec 6 2016,Detroit Pistons,102,Chicago Bulls,91,11
+1112,314,Tue Dec 6 2016,Memphis Grizzlies,96,Philadelphia 76ers,91,5
+314,314,Tue Dec 6 2016,Philadelphia 76ers,91,Memphis Grizzlies,96,-5
+1113,315,Tue Dec 6 2016,Miami Heat,103,New York Knicks,114,-11
+315,315,Tue Dec 6 2016,New York Knicks,114,Miami Heat,103,11
+1114,316,Tue Dec 6 2016,Minnesota Timberwolves,91,San Antonio Spurs,105,-14
+316,316,Tue Dec 6 2016,San Antonio Spurs,105,Minnesota Timberwolves,91,14
+1115,317,Tue Dec 6 2016,Utah Jazz,112,Phoenix Suns,105,7
+317,317,Tue Dec 6 2016,Phoenix Suns,105,Utah Jazz,112,-7
+1116,318,Tue Dec 6 2016,Washington Wizards,116,Orlando Magic,124,-8
+318,318,Tue Dec 6 2016,Orlando Magic,124,Washington Wizards,116,8
+319,319,Wed Dec 7 2016,Miami Heat,95,Atlanta Hawks,103,-8
+1117,319,Wed Dec 7 2016,Atlanta Hawks,103,Miami Heat,95,8
+320,320,Wed Dec 7 2016,Denver Nuggets,111,Brooklyn Nets,116,-5
+1118,320,Wed Dec 7 2016,Brooklyn Nets,116,Denver Nuggets,111,5
+1119,321,Wed Dec 7 2016,Charlotte Hornets,87,Detroit Pistons,77,10
+321,321,Wed Dec 7 2016,Detroit Pistons,77,Charlotte Hornets,87,-10
+322,322,Wed Dec 7 2016,Sacramento Kings,120,Dallas Mavericks,89,31
+1120,322,Wed Dec 7 2016,Dallas Mavericks,89,Sacramento Kings,120,-31
+323,323,Wed Dec 7 2016,Los Angeles Lakers,95,Houston Rockets,134,-39
+1121,323,Wed Dec 7 2016,Houston Rockets,134,Los Angeles Lakers,95,39
+1122,324,Wed Dec 7 2016,Los Angeles Clippers,98,Golden State Warriors,115,-17
+324,324,Wed Dec 7 2016,Golden State Warriors,115,Los Angeles Clippers,98,17
+325,325,Wed Dec 7 2016,Portland Trail Blazers,107,Milwaukee Bucks,115,-8
+1123,325,Wed Dec 7 2016,Milwaukee Bucks,115,Portland Trail Blazers,107,8
+1124,326,Wed Dec 7 2016,New York Knicks,94,Cleveland Cavaliers,126,-32
+326,326,Wed Dec 7 2016,Cleveland Cavaliers,126,New York Knicks,94,32
+327,327,Wed Dec 7 2016,Boston Celtics,117,Orlando Magic,87,30
+1125,327,Wed Dec 7 2016,Orlando Magic,87,Boston Celtics,117,-30
+1126,328,Wed Dec 7 2016,Phoenix Suns,94,Indiana Pacers,109,-15
+328,328,Wed Dec 7 2016,Indiana Pacers,109,Phoenix Suns,94,15
+329,329,Thu Dec 8 2016,San Antonio Spurs,91,Chicago Bulls,95,-4
+1127,329,Thu Dec 8 2016,Chicago Bulls,95,San Antonio Spurs,91,4
+330,330,Thu Dec 8 2016,Portland Trail Blazers,86,Memphis Grizzlies,88,-2
+1128,330,Thu Dec 8 2016,Memphis Grizzlies,88,Portland Trail Blazers,86,2
+1129,331,Thu Dec 8 2016,New Orleans Pelicans,88,Philadelphia 76ers,99,-11
+331,331,Thu Dec 8 2016,Philadelphia 76ers,99,New Orleans Pelicans,88,11
+332,332,Thu Dec 8 2016,Minnesota Timberwolves,110,Toronto Raptors,124,-14
+1130,332,Thu Dec 8 2016,Toronto Raptors,124,Minnesota Timberwolves,110,14
+333,333,Thu Dec 8 2016,Golden State Warriors,106,Utah Jazz,99,7
+1131,333,Thu Dec 8 2016,Utah Jazz,99,Golden State Warriors,106,-7
+1132,334,Thu Dec 8 2016,Washington Wizards,92,Denver Nuggets,85,7
+334,334,Thu Dec 8 2016,Denver Nuggets,85,Washington Wizards,92,-7
+335,335,Fri Dec 9 2016,Toronto Raptors,101,Boston Celtics,94,7
+1133,335,Fri Dec 9 2016,Boston Celtics,94,Toronto Raptors,101,-7
+336,336,Fri Dec 9 2016,Orlando Magic,88,Charlotte Hornets,109,-21
+1134,336,Fri Dec 9 2016,Charlotte Hornets,109,Orlando Magic,88,21
+337,337,Fri Dec 9 2016,Miami Heat,84,Cleveland Cavaliers,114,-30
+1135,337,Fri Dec 9 2016,Cleveland Cavaliers,114,Miami Heat,84,30
+338,338,Fri Dec 9 2016,Indiana Pacers,103,Dallas Mavericks,111,-8
+1136,338,Fri Dec 9 2016,Dallas Mavericks,111,Indiana Pacers,103,8
+1137,339,Fri Dec 9 2016,Los Angeles Lakers,115,Phoenix Suns,119,-4
+339,339,Fri Dec 9 2016,Phoenix Suns,119,Los Angeles Lakers,115,4
+340,340,Fri Dec 9 2016,Atlanta Hawks,114,Milwaukee Bucks,110,4
+1138,340,Fri Dec 9 2016,Milwaukee Bucks,110,Atlanta Hawks,114,-4
+341,341,Fri Dec 9 2016,Detroit Pistons,117,Minnesota Timberwolves,90,27
+1139,341,Fri Dec 9 2016,Minnesota Timberwolves,90,Detroit Pistons,117,-27
+1140,342,Fri Dec 9 2016,Oklahoma City Thunder,99,Houston Rockets,102,-3
+342,342,Fri Dec 9 2016,Houston Rockets,102,Oklahoma City Thunder,99,3
+1141,343,Fri Dec 9 2016,Sacramento Kings,100,New York Knicks,103,-3
+343,343,Fri Dec 9 2016,New York Knicks,103,Sacramento Kings,100,3
+344,344,Sat Dec 10 2016,Miami Heat,100,Chicago Bulls,105,-5
+1142,344,Sat Dec 10 2016,Chicago Bulls,105,Miami Heat,100,5
+1143,345,Sat Dec 10 2016,Cleveland Cavaliers,116,Charlotte Hornets,105,11
+345,345,Sat Dec 10 2016,Charlotte Hornets,105,Cleveland Cavaliers,116,-11
+1144,346,Sat Dec 10 2016,Houston Rockets,109,Dallas Mavericks,87,22
+346,346,Sat Dec 10 2016,Dallas Mavericks,87,Houston Rockets,109,-22
+347,347,Sat Dec 10 2016,Portland Trail Blazers,111,Indiana Pacers,118,-7
+1145,347,Sat Dec 10 2016,Indiana Pacers,118,Portland Trail Blazers,111,7
+348,348,Sat Dec 10 2016,New Orleans Pelicans,105,Los Angeles Clippers,133,-28
+1146,348,Sat Dec 10 2016,Los Angeles Clippers,133,New Orleans Pelicans,105,28
+349,349,Sat Dec 10 2016,Golden State Warriors,89,Memphis Grizzlies,110,-21
+1147,349,Sat Dec 10 2016,Memphis Grizzlies,110,Golden State Warriors,89,21
+350,350,Sat Dec 10 2016,Denver Nuggets,121,Orlando Magic,113,8
+1148,350,Sat Dec 10 2016,Orlando Magic,113,Denver Nuggets,121,-8
+351,351,Sat Dec 10 2016,Brooklyn Nets,101,San Antonio Spurs,130,-29
+1149,351,Sat Dec 10 2016,San Antonio Spurs,130,Brooklyn Nets,101,29
+352,352,Sat Dec 10 2016,Sacramento Kings,84,Utah Jazz,104,-20
+1150,352,Sat Dec 10 2016,Utah Jazz,104,Sacramento Kings,84,20
+1151,353,Sat Dec 10 2016,Washington Wizards,110,Milwaukee Bucks,105,5
+353,353,Sat Dec 10 2016,Milwaukee Bucks,105,Washington Wizards,110,-5
+1152,354,Sun Dec 11 2016,Detroit Pistons,79,Philadelphia 76ers,97,-18
+354,354,Sun Dec 11 2016,Philadelphia 76ers,97,Detroit Pistons,79,18
+1153,355,Sun Dec 11 2016,Los Angeles Lakers,112,New York Knicks,118,-6
+355,355,Sun Dec 11 2016,New York Knicks,118,Los Angeles Lakers,112,6
+356,356,Sun Dec 11 2016,Golden State Warriors,116,Minnesota Timberwolves,108,8
+1154,356,Sun Dec 11 2016,Minnesota Timberwolves,108,Golden State Warriors,116,-8
+1155,357,Sun Dec 11 2016,Oklahoma City Thunder,99,Boston Celtics,96,3
+357,357,Sun Dec 11 2016,Boston Celtics,96,Oklahoma City Thunder,99,-3
+358,358,Sun Dec 11 2016,New Orleans Pelicans,120,Phoenix Suns,119,1
+1156,358,Sun Dec 11 2016,Phoenix Suns,119,New Orleans Pelicans,120,-1
+359,359,Mon Dec 12 2016,Denver Nuggets,92,Dallas Mavericks,112,-20
+1157,359,Mon Dec 12 2016,Dallas Mavericks,112,Denver Nuggets,92,20
+1158,360,Mon Dec 12 2016,Houston Rockets,122,Brooklyn Nets,118,4
+360,360,Mon Dec 12 2016,Brooklyn Nets,118,Houston Rockets,122,-4
+1159,361,Mon Dec 12 2016,Indiana Pacers,110,Charlotte Hornets,94,16
+361,361,Mon Dec 12 2016,Charlotte Hornets,94,Indiana Pacers,110,-16
+1160,362,Mon Dec 12 2016,Los Angeles Clippers,121,Portland Trail Blazers,120,1
+362,362,Mon Dec 12 2016,Portland Trail Blazers,120,Los Angeles Clippers,121,-1
+1161,363,Mon Dec 12 2016,Miami Heat,112,Washington Wizards,101,11
+363,363,Mon Dec 12 2016,Washington Wizards,101,Miami Heat,112,-11
+1162,364,Mon Dec 12 2016,Sacramento Kings,116,Los Angeles Lakers,92,24
+364,364,Mon Dec 12 2016,Los Angeles Lakers,92,Sacramento Kings,116,-24
+1163,365,Mon Dec 12 2016,Toronto Raptors,122,Milwaukee Bucks,100,22
+365,365,Mon Dec 12 2016,Milwaukee Bucks,100,Toronto Raptors,122,-22
+366,366,Tue Dec 13 2016,Orlando Magic,131,Atlanta Hawks,120,11
+1164,366,Tue Dec 13 2016,Atlanta Hawks,120,Orlando Magic,131,-11
+1165,367,Tue Dec 13 2016,Chicago Bulls,94,Minnesota Timberwolves,99,-5
+367,367,Tue Dec 13 2016,Minnesota Timberwolves,99,Chicago Bulls,94,5
+1166,368,Tue Dec 13 2016,Cleveland Cavaliers,103,Memphis Grizzlies,86,17
+368,368,Tue Dec 13 2016,Memphis Grizzlies,86,Cleveland Cavaliers,103,-17
+369,369,Tue Dec 13 2016,Golden State Warriors,113,New Orleans Pelicans,109,4
+1167,369,Tue Dec 13 2016,New Orleans Pelicans,109,Golden State Warriors,113,-4
+370,370,Tue Dec 13 2016,New York Knicks,111,Phoenix Suns,113,-2
+1168,370,Tue Dec 13 2016,Phoenix Suns,113,New York Knicks,111,2
+371,371,Tue Dec 13 2016,Oklahoma City Thunder,95,Portland Trail Blazers,114,-19
+1169,371,Tue Dec 13 2016,Portland Trail Blazers,114,Oklahoma City Thunder,95,19
+1170,372,Wed Dec 14 2016,Brooklyn Nets,107,Los Angeles Lakers,97,10
+372,372,Wed Dec 14 2016,Los Angeles Lakers,97,Brooklyn Nets,107,-10
+1171,373,Wed Dec 14 2016,Dallas Mavericks,85,Detroit Pistons,95,-10
+373,373,Wed Dec 14 2016,Detroit Pistons,95,Dallas Mavericks,85,10
+1172,374,Wed Dec 14 2016,Houston Rockets,132,Sacramento Kings,98,34
+374,374,Wed Dec 14 2016,Sacramento Kings,98,Houston Rockets,132,-34
+375,375,Wed Dec 14 2016,Cleveland Cavaliers,85,Memphis Grizzlies,93,-8
+1173,375,Wed Dec 14 2016,Memphis Grizzlies,93,Cleveland Cavaliers,85,8
+376,376,Wed Dec 14 2016,Indiana Pacers,89,Miami Heat,95,-6
+1174,376,Wed Dec 14 2016,Miami Heat,95,Indiana Pacers,89,6
+377,377,Wed Dec 14 2016,Los Angeles Clippers,113,Orlando Magic,108,5
+1175,377,Wed Dec 14 2016,Orlando Magic,108,Los Angeles Clippers,113,-5
+378,378,Wed Dec 14 2016,Toronto Raptors,123,Philadelphia 76ers,114,9
+1176,378,Wed Dec 14 2016,Philadelphia 76ers,114,Toronto Raptors,123,-9
+1177,379,Wed Dec 14 2016,San Antonio Spurs,108,Boston Celtics,101,7
+379,379,Wed Dec 14 2016,Boston Celtics,101,San Antonio Spurs,108,-7
+1178,380,Wed Dec 14 2016,Utah Jazz,109,Oklahoma City Thunder,89,20
+380,380,Wed Dec 14 2016,Oklahoma City Thunder,89,Utah Jazz,109,-20
+1179,381,Wed Dec 14 2016,Washington Wizards,109,Charlotte Hornets,106,3
+381,381,Wed Dec 14 2016,Charlotte Hornets,106,Washington Wizards,109,-3
+1180,382,Thu Dec 15 2016,Denver Nuggets,132,Portland Trail Blazers,120,12
+382,382,Thu Dec 15 2016,Portland Trail Blazers,120,Denver Nuggets,132,-12
+1181,383,Thu Dec 15 2016,Golden State Warriors,103,New York Knicks,90,13
+383,383,Thu Dec 15 2016,New York Knicks,90,Golden State Warriors,103,-13
+384,384,Thu Dec 15 2016,Chicago Bulls,97,Milwaukee Bucks,108,-11
+1182,384,Thu Dec 15 2016,Milwaukee Bucks,108,Chicago Bulls,97,11
+385,385,Thu Dec 15 2016,Indiana Pacers,95,New Orleans Pelicans,102,-7
+1183,385,Thu Dec 15 2016,New Orleans Pelicans,102,Indiana Pacers,95,7
+1184,386,Thu Dec 15 2016,Phoenix Suns,92,San Antonio Spurs,107,-15
+386,386,Thu Dec 15 2016,San Antonio Spurs,107,Phoenix Suns,92,15
+387,387,Fri Dec 16 2016,Charlotte Hornets,88,Boston Celtics,96,-8
+1185,387,Fri Dec 16 2016,Boston Celtics,96,Charlotte Hornets,88,8
+1186,388,Fri Dec 16 2016,Chicago Bulls,69,Milwaukee Bucks,95,-26
+388,388,Fri Dec 16 2016,Milwaukee Bucks,95,Chicago Bulls,69,26
+1187,389,Fri Dec 16 2016,Houston Rockets,122,New Orleans Pelicans,100,22
+389,389,Fri Dec 16 2016,New Orleans Pelicans,100,Houston Rockets,122,-22
+390,390,Fri Dec 16 2016,Sacramento Kings,96,Memphis Grizzlies,92,4
+1188,390,Fri Dec 16 2016,Memphis Grizzlies,92,Sacramento Kings,96,-4
+391,391,Fri Dec 16 2016,Los Angeles Clippers,102,Miami Heat,98,4
+1189,391,Fri Dec 16 2016,Miami Heat,98,Los Angeles Clippers,102,-4
+1190,392,Fri Dec 16 2016,Orlando Magic,118,Brooklyn Nets,111,7
+392,392,Fri Dec 16 2016,Brooklyn Nets,111,Orlando Magic,118,-7
+393,393,Fri Dec 16 2016,Los Angeles Lakers,100,Philadelphia 76ers,89,11
+1191,393,Fri Dec 16 2016,Philadelphia 76ers,89,Los Angeles Lakers,100,-11
+1192,394,Fri Dec 16 2016,Toronto Raptors,121,Atlanta Hawks,125,-4
+394,394,Fri Dec 16 2016,Atlanta Hawks,125,Toronto Raptors,121,4
+1193,395,Fri Dec 16 2016,Utah Jazz,103,Dallas Mavericks,100,3
+395,395,Fri Dec 16 2016,Dallas Mavericks,100,Utah Jazz,103,-3
+396,396,Fri Dec 16 2016,Detroit Pistons,108,Washington Wizards,122,-14
+1194,396,Fri Dec 16 2016,Washington Wizards,122,Detroit Pistons,108,14
+397,397,Sat Dec 17 2016,Charlotte Hornets,107,Atlanta Hawks,99,8
+1195,397,Sat Dec 17 2016,Atlanta Hawks,99,Charlotte Hornets,107,-8
+1196,398,Sat Dec 17 2016,Cleveland Cavaliers,119,Los Angeles Lakers,108,11
+398,398,Sat Dec 17 2016,Los Angeles Lakers,108,Cleveland Cavaliers,119,-11
+399,399,Sat Dec 17 2016,New York Knicks,114,Denver Nuggets,127,-13
+1197,399,Sat Dec 17 2016,Denver Nuggets,127,New York Knicks,114,13
+400,400,Sat Dec 17 2016,Indiana Pacers,105,Detroit Pistons,90,15
+1198,400,Sat Dec 17 2016,Detroit Pistons,90,Indiana Pacers,105,-15
+1199,401,Sat Dec 17 2016,Golden State Warriors,135,Portland Trail Blazers,90,45
+401,401,Sat Dec 17 2016,Portland Trail Blazers,90,Golden State Warriors,135,-45
+402,402,Sat Dec 17 2016,Houston Rockets,111,Minnesota Timberwolves,109,2
+1200,402,Sat Dec 17 2016,Minnesota Timberwolves,109,Houston Rockets,111,-2
+1201,403,Sat Dec 17 2016,Oklahoma City Thunder,114,Phoenix Suns,101,13
+403,403,Sat Dec 17 2016,Phoenix Suns,101,Oklahoma City Thunder,114,-13
+404,404,Sun Dec 18 2016,Sacramento Kings,79,Dallas Mavericks,99,-20
+1202,404,Sun Dec 18 2016,Dallas Mavericks,99,Sacramento Kings,79,20
+1203,405,Sun Dec 18 2016,Memphis Grizzlies,73,Utah Jazz,82,-9
+405,405,Sun Dec 18 2016,Utah Jazz,82,Memphis Grizzlies,73,9
+406,406,Sun Dec 18 2016,Boston Celtics,105,Miami Heat,95,10
+1204,406,Sun Dec 18 2016,Miami Heat,95,Boston Celtics,105,-10
+1205,407,Sun Dec 18 2016,Orlando Magic,79,Toronto Raptors,109,-30
+407,407,Sun Dec 18 2016,Toronto Raptors,109,Orlando Magic,79,30
+1206,408,Sun Dec 18 2016,Philadelphia 76ers,108,Brooklyn Nets,107,1
+408,408,Sun Dec 18 2016,Brooklyn Nets,107,Philadelphia 76ers,108,-1
+409,409,Sun Dec 18 2016,New Orleans Pelicans,100,San Antonio Spurs,113,-13
+1207,409,Sun Dec 18 2016,San Antonio Spurs,113,New Orleans Pelicans,100,13
+410,410,Sun Dec 18 2016,Los Angeles Clippers,110,Washington Wizards,117,-7
+1208,410,Sun Dec 18 2016,Washington Wizards,117,Los Angeles Clippers,110,7
+411,411,Mon Dec 19 2016,Detroit Pistons,82,Chicago Bulls,113,-31
+1209,411,Mon Dec 19 2016,Chicago Bulls,113,Detroit Pistons,82,31
+1210,412,Mon Dec 19 2016,Denver Nuggets,117,Dallas Mavericks,107,10
+412,412,Mon Dec 19 2016,Dallas Mavericks,107,Denver Nuggets,117,-10
+413,413,Mon Dec 19 2016,Washington Wizards,105,Indiana Pacers,107,-2
+1211,413,Mon Dec 19 2016,Indiana Pacers,107,Washington Wizards,105,2
+1212,414,Mon Dec 19 2016,Minnesota Timberwolves,115,Phoenix Suns,108,7
+414,414,Mon Dec 19 2016,Phoenix Suns,108,Minnesota Timberwolves,115,-7
+1213,415,Mon Dec 19 2016,Oklahoma City Thunder,108,Atlanta Hawks,110,-2
+415,415,Mon Dec 19 2016,Atlanta Hawks,110,Oklahoma City Thunder,108,2
+416,416,Tue Dec 20 2016,Los Angeles Lakers,113,Charlotte Hornets,117,-4
+1214,416,Tue Dec 20 2016,Charlotte Hornets,117,Los Angeles Lakers,113,4
+417,417,Tue Dec 20 2016,Utah Jazz,74,Golden State Warriors,104,-30
+1215,417,Tue Dec 20 2016,Golden State Warriors,104,Utah Jazz,74,30
+1216,418,Tue Dec 20 2016,Houston Rockets,100,San Antonio Spurs,102,-2
+418,418,Tue Dec 20 2016,San Antonio Spurs,102,Houston Rockets,100,2
+419,419,Tue Dec 20 2016,Denver Nuggets,102,Los Angeles Clippers,119,-17
+1217,419,Tue Dec 20 2016,Los Angeles Clippers,119,Denver Nuggets,102,17
+420,420,Tue Dec 20 2016,Boston Celtics,112,Memphis Grizzlies,109,3
+1218,420,Tue Dec 20 2016,Memphis Grizzlies,109,Boston Celtics,112,-3
+1219,421,Tue Dec 20 2016,Miami Heat,130,Orlando Magic,136,-6
+421,421,Tue Dec 20 2016,Orlando Magic,136,Miami Heat,130,6
+422,422,Tue Dec 20 2016,Cleveland Cavaliers,114,Milwaukee Bucks,108,6
+1220,422,Tue Dec 20 2016,Milwaukee Bucks,108,Cleveland Cavaliers,114,-6
+423,423,Tue Dec 20 2016,Indiana Pacers,111,New York Knicks,118,-7
+1221,423,Tue Dec 20 2016,New York Knicks,118,Indiana Pacers,111,7
+1222,424,Tue Dec 20 2016,Philadelphia 76ers,93,New Orleans Pelicans,108,-15
+424,424,Tue Dec 20 2016,New Orleans Pelicans,108,Philadelphia 76ers,93,15
+425,425,Tue Dec 20 2016,Portland Trail Blazers,121,Sacramento Kings,126,-5
+1223,425,Tue Dec 20 2016,Sacramento Kings,126,Portland Trail Blazers,121,5
+426,426,Tue Dec 20 2016,Brooklyn Nets,104,Toronto Raptors,116,-12
+1224,426,Tue Dec 20 2016,Toronto Raptors,116,Brooklyn Nets,104,12
+1225,427,Wed Dec 21 2016,Atlanta Hawks,84,Minnesota Timberwolves,92,-8
+427,427,Wed Dec 21 2016,Minnesota Timberwolves,92,Atlanta Hawks,84,8
+1226,428,Wed Dec 21 2016,Chicago Bulls,97,Washington Wizards,107,-10
+428,428,Wed Dec 21 2016,Washington Wizards,107,Chicago Bulls,97,10
+1227,429,Wed Dec 21 2016,Cleveland Cavaliers,113,Milwaukee Bucks,102,11
+429,429,Wed Dec 21 2016,Milwaukee Bucks,102,Cleveland Cavaliers,113,-11
+1228,430,Wed Dec 21 2016,Detroit Pistons,86,Memphis Grizzlies,98,-12
+430,430,Wed Dec 21 2016,Memphis Grizzlies,98,Detroit Pistons,86,12
+1229,431,Wed Dec 21 2016,New Orleans Pelicans,110,Oklahoma City Thunder,121,-11
+431,431,Wed Dec 21 2016,Oklahoma City Thunder,121,New Orleans Pelicans,110,11
+432,432,Wed Dec 21 2016,Houston Rockets,125,Phoenix Suns,111,14
+1230,432,Wed Dec 21 2016,Phoenix Suns,111,Houston Rockets,125,-14
+433,433,Wed Dec 21 2016,Dallas Mavericks,96,Portland Trail Blazers,95,1
+1231,433,Wed Dec 21 2016,Portland Trail Blazers,95,Dallas Mavericks,96,-1
+434,434,Wed Dec 21 2016,Sacramento Kings,94,Utah Jazz,93,1
+1232,434,Wed Dec 21 2016,Utah Jazz,93,Sacramento Kings,94,-1
+435,435,Thu Dec 22 2016,Golden State Warriors,117,Brooklyn Nets,101,16
+1233,435,Thu Dec 22 2016,Brooklyn Nets,101,Golden State Warriors,117,-16
+436,436,Thu Dec 22 2016,Boston Celtics,109,Indiana Pacers,102,7
+1234,436,Thu Dec 22 2016,Indiana Pacers,102,Boston Celtics,109,-7
+437,437,Thu Dec 22 2016,San Antonio Spurs,101,Los Angeles Clippers,106,-5
+1235,437,Thu Dec 22 2016,Los Angeles Clippers,106,San Antonio Spurs,101,5
+438,438,Thu Dec 22 2016,Los Angeles Lakers,107,Miami Heat,115,-8
+1236,438,Thu Dec 22 2016,Miami Heat,115,Los Angeles Lakers,107,8
+439,439,Thu Dec 22 2016,Orlando Magic,95,New York Knicks,106,-11
+1237,439,Thu Dec 22 2016,New York Knicks,106,Orlando Magic,95,11
+440,440,Fri Dec 23 2016,Oklahoma City Thunder,117,Boston Celtics,112,5
+1238,440,Fri Dec 23 2016,Boston Celtics,112,Oklahoma City Thunder,117,-5
+1239,441,Fri Dec 23 2016,Charlotte Hornets,103,Chicago Bulls,91,12
+441,441,Fri Dec 23 2016,Chicago Bulls,91,Charlotte Hornets,103,-12
+442,442,Fri Dec 23 2016,Brooklyn Nets,99,Cleveland Cavaliers,119,-20
+1240,442,Fri Dec 23 2016,Cleveland Cavaliers,119,Brooklyn Nets,99,20
+1241,443,Fri Dec 23 2016,Denver Nuggets,108,Atlanta Hawks,109,-1
+443,443,Fri Dec 23 2016,Atlanta Hawks,109,Denver Nuggets,108,1
+1242,444,Fri Dec 23 2016,Detroit Pistons,113,Golden State Warriors,119,-6
+444,444,Fri Dec 23 2016,Golden State Warriors,119,Detroit Pistons,113,6
+1243,445,Fri Dec 23 2016,Los Angeles Clippers,88,Dallas Mavericks,90,-2
+445,445,Fri Dec 23 2016,Dallas Mavericks,90,Los Angeles Clippers,88,2
+446,446,Fri Dec 23 2016,Houston Rockets,109,Memphis Grizzlies,115,-6
+1244,446,Fri Dec 23 2016,Memphis Grizzlies,115,Houston Rockets,109,6
+447,447,Fri Dec 23 2016,Washington Wizards,96,Milwaukee Bucks,123,-27
+1245,447,Fri Dec 23 2016,Milwaukee Bucks,123,Washington Wizards,96,27
+1246,448,Fri Dec 23 2016,Minnesota Timberwolves,105,Sacramento Kings,109,-4
+448,448,Fri Dec 23 2016,Sacramento Kings,109,Minnesota Timberwolves,105,4
+1247,449,Fri Dec 23 2016,New Orleans Pelicans,91,Miami Heat,87,4
+449,449,Fri Dec 23 2016,Miami Heat,87,New Orleans Pelicans,91,-4
+450,450,Fri Dec 23 2016,Los Angeles Lakers,90,Orlando Magic,109,-19
+1248,450,Fri Dec 23 2016,Orlando Magic,109,Los Angeles Lakers,90,19
+451,451,Fri Dec 23 2016,Philadelphia 76ers,116,Phoenix Suns,123,-7
+1249,451,Fri Dec 23 2016,Phoenix Suns,123,Philadelphia 76ers,116,7
+1250,452,Fri Dec 23 2016,Portland Trail Blazers,90,San Antonio Spurs,110,-20
+452,452,Fri Dec 23 2016,San Antonio Spurs,110,Portland Trail Blazers,90,20
+1251,453,Fri Dec 23 2016,Utah Jazz,98,Toronto Raptors,104,-6
+453,453,Fri Dec 23 2016,Toronto Raptors,104,Utah Jazz,98,6
+454,454,Sun Dec 25 2016,Golden State Warriors,108,Cleveland Cavaliers,109,-1
+1252,454,Sun Dec 25 2016,Cleveland Cavaliers,109,Golden State Warriors,108,1
+1253,455,Sun Dec 25 2016,Los Angeles Lakers,111,Los Angeles Clippers,102,9
+455,455,Sun Dec 25 2016,Los Angeles Clippers,102,Los Angeles Lakers,111,-9
+456,456,Sun Dec 25 2016,Boston Celtics,119,New York Knicks,114,5
+1254,456,Sun Dec 25 2016,New York Knicks,114,Boston Celtics,119,-5
+457,457,Sun Dec 25 2016,Minnesota Timberwolves,100,Oklahoma City Thunder,112,-12
+1255,457,Sun Dec 25 2016,Oklahoma City Thunder,112,Minnesota Timberwolves,100,12
+458,458,Sun Dec 25 2016,Chicago Bulls,100,San Antonio Spurs,119,-19
+1256,458,Sun Dec 25 2016,San Antonio Spurs,119,Chicago Bulls,100,19
+1257,459,Mon Dec 26 2016,Brooklyn Nets,120,Charlotte Hornets,118,2
+459,459,Mon Dec 26 2016,Charlotte Hornets,118,Brooklyn Nets,120,-2
+460,460,Mon Dec 26 2016,Indiana Pacers,85,Chicago Bulls,90,-5
+1258,460,Mon Dec 26 2016,Chicago Bulls,90,Indiana Pacers,85,5
+1259,461,Mon Dec 26 2016,Detroit Pistons,106,Cleveland Cavaliers,90,16
+461,461,Mon Dec 26 2016,Cleveland Cavaliers,90,Detroit Pistons,106,-16
+1260,462,Mon Dec 26 2016,Houston Rockets,131,Phoenix Suns,115,16
+462,462,Mon Dec 26 2016,Phoenix Suns,115,Houston Rockets,131,-16
+463,463,Mon Dec 26 2016,Denver Nuggets,106,Los Angeles Clippers,102,4
+1261,463,Mon Dec 26 2016,Los Angeles Clippers,102,Denver Nuggets,106,-4
+1262,464,Mon Dec 26 2016,Minnesota Timberwolves,104,Atlanta Hawks,90,14
+464,464,Mon Dec 26 2016,Atlanta Hawks,90,Minnesota Timberwolves,104,-14
+1263,465,Mon Dec 26 2016,New Orleans Pelicans,111,Dallas Mavericks,104,7
+465,465,Mon Dec 26 2016,Dallas Mavericks,104,New Orleans Pelicans,111,-7
+1264,466,Mon Dec 26 2016,Orlando Magic,112,Memphis Grizzlies,102,10
+466,466,Mon Dec 26 2016,Memphis Grizzlies,102,Orlando Magic,112,-10
+467,467,Mon Dec 26 2016,Toronto Raptors,95,Portland Trail Blazers,91,4
+1265,467,Mon Dec 26 2016,Portland Trail Blazers,91,Toronto Raptors,95,-4
+1266,468,Mon Dec 26 2016,Sacramento Kings,102,Philadelphia 76ers,100,2
+468,468,Mon Dec 26 2016,Philadelphia 76ers,100,Sacramento Kings,102,-2
+1267,469,Mon Dec 26 2016,Washington Wizards,107,Milwaukee Bucks,102,5
+469,469,Mon Dec 26 2016,Milwaukee Bucks,102,Washington Wizards,107,-5
+1268,470,Tue Dec 27 2016,Boston Celtics,113,Memphis Grizzlies,103,10
+470,470,Tue Dec 27 2016,Memphis Grizzlies,103,Boston Celtics,113,-10
+1269,471,Tue Dec 27 2016,Dallas Mavericks,107,Houston Rockets,123,-16
+471,471,Tue Dec 27 2016,Houston Rockets,123,Dallas Mavericks,107,16
+472,472,Tue Dec 27 2016,Utah Jazz,102,Los Angeles Lakers,100,2
+1270,472,Tue Dec 27 2016,Los Angeles Lakers,100,Utah Jazz,102,-2
+473,473,Tue Dec 27 2016,Oklahoma City Thunder,106,Miami Heat,94,12
+1271,473,Tue Dec 27 2016,Miami Heat,94,Oklahoma City Thunder,106,-12
+1272,474,Wed Dec 28 2016,Atlanta Hawks,102,New York Knicks,98,4
+474,474,Wed Dec 28 2016,New York Knicks,98,Atlanta Hawks,102,-4
+475,475,Wed Dec 28 2016,Brooklyn Nets,99,Chicago Bulls,101,-2
+1273,475,Wed Dec 28 2016,Chicago Bulls,101,Brooklyn Nets,99,2
+1274,476,Wed Dec 28 2016,Denver Nuggets,105,Minnesota Timberwolves,103,2
+476,476,Wed Dec 28 2016,Minnesota Timberwolves,103,Denver Nuggets,105,-2
+1275,477,Wed Dec 28 2016,Detroit Pistons,94,Milwaukee Bucks,119,-25
+477,477,Wed Dec 28 2016,Milwaukee Bucks,119,Detroit Pistons,94,25
+1276,478,Wed Dec 28 2016,Golden State Warriors,121,Toronto Raptors,111,10
+478,478,Wed Dec 28 2016,Toronto Raptors,111,Golden State Warriors,121,-10
+1277,479,Wed Dec 28 2016,New Orleans Pelicans,102,Los Angeles Clippers,98,4
+479,479,Wed Dec 28 2016,Los Angeles Clippers,98,New Orleans Pelicans,102,-4
+1278,480,Wed Dec 28 2016,Orlando Magic,101,Charlotte Hornets,120,-19
+480,480,Wed Dec 28 2016,Charlotte Hornets,120,Orlando Magic,101,19
+1279,481,Wed Dec 28 2016,Portland Trail Blazers,102,Sacramento Kings,89,13
+481,481,Wed Dec 28 2016,Sacramento Kings,89,Portland Trail Blazers,102,-13
+482,482,Wed Dec 28 2016,Phoenix Suns,98,San Antonio Spurs,119,-21
+1280,482,Wed Dec 28 2016,San Antonio Spurs,119,Phoenix Suns,98,21
+483,483,Wed Dec 28 2016,Indiana Pacers,105,Washington Wizards,111,-6
+1281,483,Wed Dec 28 2016,Washington Wizards,111,Indiana Pacers,105,6
+484,484,Thu Dec 29 2016,Miami Heat,82,Charlotte Hornets,91,-9
+1282,484,Thu Dec 29 2016,Charlotte Hornets,91,Miami Heat,82,9
+485,485,Thu Dec 29 2016,Boston Celtics,118,Cleveland Cavaliers,124,-6
+1283,485,Thu Dec 29 2016,Cleveland Cavaliers,124,Boston Celtics,118,6
+1284,486,Thu Dec 29 2016,Los Angeles Lakers,89,Dallas Mavericks,101,-12
+486,486,Thu Dec 29 2016,Dallas Mavericks,101,Los Angeles Lakers,89,12
+487,487,Thu Dec 29 2016,Oklahoma City Thunder,80,Memphis Grizzlies,114,-34
+1285,487,Thu Dec 29 2016,Memphis Grizzlies,114,Oklahoma City Thunder,80,34
+488,488,Thu Dec 29 2016,Toronto Raptors,91,Phoenix Suns,99,-8
+1286,488,Thu Dec 29 2016,Phoenix Suns,99,Toronto Raptors,91,8
+1287,489,Thu Dec 29 2016,Utah Jazz,100,Philadelphia 76ers,83,17
+489,489,Thu Dec 29 2016,Philadelphia 76ers,83,Utah Jazz,100,-17
+1288,490,Fri Dec 30 2016,Atlanta Hawks,105,Detroit Pistons,98,7
+490,490,Fri Dec 30 2016,Detroit Pistons,98,Atlanta Hawks,105,-7
+1289,491,Fri Dec 30 2016,Boston Celtics,117,Miami Heat,114,3
+491,491,Fri Dec 30 2016,Miami Heat,114,Boston Celtics,117,-3
+492,492,Fri Dec 30 2016,Philadelphia 76ers,124,Denver Nuggets,122,2
+1290,492,Fri Dec 30 2016,Denver Nuggets,122,Philadelphia 76ers,124,-2
+1291,493,Fri Dec 30 2016,Golden State Warriors,108,Dallas Mavericks,99,9
+493,493,Fri Dec 30 2016,Dallas Mavericks,99,Golden State Warriors,108,-9
+1292,494,Fri Dec 30 2016,Houston Rockets,140,Los Angeles Clippers,116,24
+494,494,Fri Dec 30 2016,Los Angeles Clippers,116,Houston Rockets,140,-24
+1293,495,Fri Dec 30 2016,Indiana Pacers,111,Chicago Bulls,101,10
+495,495,Fri Dec 30 2016,Chicago Bulls,101,Indiana Pacers,111,-10
+496,496,Fri Dec 30 2016,Milwaukee Bucks,99,Minnesota Timberwolves,116,-17
+1294,496,Fri Dec 30 2016,Minnesota Timberwolves,116,Milwaukee Bucks,99,17
+1295,497,Fri Dec 30 2016,New Orleans Pelicans,104,New York Knicks,92,12
+497,497,Fri Dec 30 2016,New York Knicks,92,New Orleans Pelicans,104,-12
+498,498,Fri Dec 30 2016,Portland Trail Blazers,94,San Antonio Spurs,110,-16
+1296,498,Fri Dec 30 2016,San Antonio Spurs,110,Portland Trail Blazers,94,16
+499,499,Fri Dec 30 2016,Brooklyn Nets,95,Washington Wizards,118,-23
+1297,499,Fri Dec 30 2016,Washington Wizards,118,Brooklyn Nets,95,23
+1298,500,Sat Dec 31 2016,Chicago Bulls,96,Milwaukee Bucks,116,-20
+500,500,Sat Dec 31 2016,Milwaukee Bucks,116,Chicago Bulls,96,20
+501,501,Sat Dec 31 2016,Cleveland Cavaliers,121,Charlotte Hornets,109,12
+1299,501,Sat Dec 31 2016,Charlotte Hornets,109,Cleveland Cavaliers,121,-12
+502,502,Sat Dec 31 2016,New York Knicks,122,Houston Rockets,129,-7
+1300,502,Sat Dec 31 2016,Houston Rockets,129,New York Knicks,122,7
+503,503,Sat Dec 31 2016,Los Angeles Clippers,88,Oklahoma City Thunder,114,-26
+1301,503,Sat Dec 31 2016,Oklahoma City Thunder,114,Los Angeles Clippers,88,26
+504,504,Sat Dec 31 2016,Memphis Grizzlies,112,Sacramento Kings,98,14
+1302,504,Sat Dec 31 2016,Sacramento Kings,98,Memphis Grizzlies,112,-14
+505,505,Sat Dec 31 2016,Phoenix Suns,86,Utah Jazz,91,-5
+1303,505,Sat Dec 31 2016,Utah Jazz,91,Phoenix Suns,86,5
+506,506,Sun Jan 1 2017,San Antonio Spurs,112,Atlanta Hawks,114,-2
+1304,506,Sun Jan 1 2017,Atlanta Hawks,114,San Antonio Spurs,112,2
+507,507,Sun Jan 1 2017,Orlando Magic,104,Indiana Pacers,117,-13
+1305,507,Sun Jan 1 2017,Indiana Pacers,117,Orlando Magic,104,13
+1306,508,Sun Jan 1 2017,Los Angeles Lakers,114,Toronto Raptors,123,-9
+508,508,Sun Jan 1 2017,Toronto Raptors,123,Los Angeles Lakers,114,9
+1307,509,Sun Jan 1 2017,Miami Heat,98,Detroit Pistons,107,-9
+509,509,Sun Jan 1 2017,Detroit Pistons,107,Miami Heat,98,9
+510,510,Sun Jan 1 2017,Portland Trail Blazers,95,Minnesota Timberwolves,89,6
+1308,510,Sun Jan 1 2017,Minnesota Timberwolves,89,Portland Trail Blazers,95,-6
+511,511,Mon Jan 2 2017,Utah Jazz,101,Brooklyn Nets,89,12
+1309,511,Mon Jan 2 2017,Brooklyn Nets,89,Utah Jazz,101,-12
+512,512,Mon Jan 2 2017,Charlotte Hornets,111,Chicago Bulls,118,-7
+1310,512,Mon Jan 2 2017,Chicago Bulls,118,Charlotte Hornets,111,7
+513,513,Mon Jan 2 2017,New Orleans Pelicans,82,Cleveland Cavaliers,90,-8
+1311,513,Mon Jan 2 2017,Cleveland Cavaliers,90,New Orleans Pelicans,82,8
+1312,514,Mon Jan 2 2017,Golden State Warriors,127,Denver Nuggets,119,8
+514,514,Mon Jan 2 2017,Denver Nuggets,119,Golden State Warriors,127,-8
+1313,515,Mon Jan 2 2017,Houston Rockets,101,Washington Wizards,91,10
+515,515,Mon Jan 2 2017,Washington Wizards,91,Houston Rockets,101,-10
+1314,516,Mon Jan 2 2017,Los Angeles Clippers,109,Phoenix Suns,98,11
+516,516,Mon Jan 2 2017,Phoenix Suns,98,Los Angeles Clippers,109,-11
+1315,517,Mon Jan 2 2017,Milwaukee Bucks,98,Oklahoma City Thunder,94,4
+517,517,Mon Jan 2 2017,Oklahoma City Thunder,94,Milwaukee Bucks,98,-4
+1316,518,Mon Jan 2 2017,New York Knicks,103,Orlando Magic,115,-12
+518,518,Mon Jan 2 2017,Orlando Magic,115,New York Knicks,103,12
+1317,519,Tue Jan 3 2017,Boston Celtics,115,Utah Jazz,104,11
+519,519,Tue Jan 3 2017,Utah Jazz,104,Boston Celtics,115,-11
+520,520,Tue Jan 3 2017,Washington Wizards,105,Dallas Mavericks,113,-8
+1318,520,Tue Jan 3 2017,Dallas Mavericks,113,Washington Wizards,105,8
+521,521,Tue Jan 3 2017,Sacramento Kings,120,Denver Nuggets,113,7
+1319,521,Tue Jan 3 2017,Denver Nuggets,113,Sacramento Kings,120,-7
+522,522,Tue Jan 3 2017,Indiana Pacers,121,Detroit Pistons,116,5
+1320,522,Tue Jan 3 2017,Detroit Pistons,116,Indiana Pacers,121,-5
+523,523,Tue Jan 3 2017,Memphis Grizzlies,102,Los Angeles Lakers,116,-14
+1321,523,Tue Jan 3 2017,Los Angeles Lakers,116,Memphis Grizzlies,102,14
+1322,524,Tue Jan 3 2017,Philadelphia 76ers,93,Minnesota Timberwolves,91,2
+524,524,Tue Jan 3 2017,Minnesota Timberwolves,91,Philadelphia 76ers,93,-2
+525,525,Tue Jan 3 2017,Miami Heat,90,Phoenix Suns,99,-9
+1323,525,Tue Jan 3 2017,Phoenix Suns,99,Miami Heat,90,9
+526,526,Tue Jan 3 2017,Toronto Raptors,82,San Antonio Spurs,110,-28
+1324,526,Tue Jan 3 2017,San Antonio Spurs,110,Toronto Raptors,82,28
+527,527,Wed Jan 4 2017,Oklahoma City Thunder,112,Charlotte Hornets,123,-11
+1325,527,Wed Jan 4 2017,Charlotte Hornets,123,Oklahoma City Thunder,112,11
+1326,528,Wed Jan 4 2017,Cleveland Cavaliers,94,Chicago Bulls,106,-12
+528,528,Wed Jan 4 2017,Chicago Bulls,106,Cleveland Cavaliers,94,12
+529,529,Wed Jan 4 2017,Portland Trail Blazers,117,Golden State Warriors,125,-8
+1327,529,Wed Jan 4 2017,Golden State Warriors,125,Portland Trail Blazers,117,8
+530,530,Wed Jan 4 2017,Memphis Grizzlies,106,Los Angeles Clippers,115,-9
+1328,530,Wed Jan 4 2017,Los Angeles Clippers,115,Memphis Grizzlies,106,9
+531,531,Wed Jan 4 2017,Milwaukee Bucks,105,New York Knicks,104,1
+1329,531,Wed Jan 4 2017,New York Knicks,104,Milwaukee Bucks,105,-1
+532,532,Wed Jan 4 2017,Atlanta Hawks,111,Orlando Magic,92,19
+1330,532,Wed Jan 4 2017,Orlando Magic,92,Atlanta Hawks,111,-19
+533,533,Wed Jan 4 2017,Miami Heat,107,Sacramento Kings,102,5
+1331,533,Wed Jan 4 2017,Sacramento Kings,102,Miami Heat,107,-5
+1332,534,Thu Jan 5 2017,Dallas Mavericks,95,Phoenix Suns,102,-7
+534,534,Thu Jan 5 2017,Phoenix Suns,102,Dallas Mavericks,95,7
+535,535,Thu Jan 5 2017,San Antonio Spurs,127,Denver Nuggets,99,28
+1333,535,Thu Jan 5 2017,Denver Nuggets,99,San Antonio Spurs,127,-28
+1334,536,Thu Jan 5 2017,Detroit Pistons,115,Charlotte Hornets,114,1
+536,536,Thu Jan 5 2017,Charlotte Hornets,114,Detroit Pistons,115,-1
+1335,537,Thu Jan 5 2017,Houston Rockets,118,Oklahoma City Thunder,116,2
+537,537,Thu Jan 5 2017,Oklahoma City Thunder,116,Houston Rockets,118,-2
+538,538,Thu Jan 5 2017,Brooklyn Nets,109,Indiana Pacers,121,-12
+1336,538,Thu Jan 5 2017,Indiana Pacers,121,Brooklyn Nets,109,12
+1337,539,Thu Jan 5 2017,New Orleans Pelicans,94,Atlanta Hawks,99,-5
+539,539,Thu Jan 5 2017,Atlanta Hawks,99,New Orleans Pelicans,94,5
+540,540,Thu Jan 5 2017,Los Angeles Lakers,109,Portland Trail Blazers,118,-9
+1338,540,Thu Jan 5 2017,Portland Trail Blazers,118,Los Angeles Lakers,109,9
+1339,541,Thu Jan 5 2017,Toronto Raptors,101,Utah Jazz,93,8
+541,541,Thu Jan 5 2017,Utah Jazz,93,Toronto Raptors,101,-8
+1340,542,Fri Jan 6 2017,Boston Celtics,110,Philadelphia 76ers,106,4
+542,542,Fri Jan 6 2017,Philadelphia 76ers,106,Boston Celtics,110,-4
+1341,543,Fri Jan 6 2017,Brooklyn Nets,108,Cleveland Cavaliers,116,-8
+543,543,Fri Jan 6 2017,Cleveland Cavaliers,116,Brooklyn Nets,108,8
+544,544,Fri Jan 6 2017,Memphis Grizzlies,128,Golden State Warriors,119,9
+1342,544,Fri Jan 6 2017,Golden State Warriors,119,Memphis Grizzlies,128,-9
+545,545,Fri Jan 6 2017,Miami Heat,100,Los Angeles Lakers,127,-27
+1343,545,Fri Jan 6 2017,Los Angeles Lakers,127,Miami Heat,100,27
+546,546,Fri Jan 6 2017,New York Knicks,116,Milwaukee Bucks,111,5
+1344,546,Fri Jan 6 2017,Milwaukee Bucks,111,New York Knicks,116,-5
+1345,547,Fri Jan 6 2017,Orlando Magic,93,Houston Rockets,100,-7
+547,547,Fri Jan 6 2017,Houston Rockets,100,Orlando Magic,93,7
+548,548,Fri Jan 6 2017,Los Angeles Clippers,106,Sacramento Kings,98,8
+1346,548,Fri Jan 6 2017,Sacramento Kings,98,Los Angeles Clippers,106,-8
+549,549,Fri Jan 6 2017,Minnesota Timberwolves,105,Washington Wizards,112,-7
+1347,549,Fri Jan 6 2017,Washington Wizards,112,Minnesota Timberwolves,105,7
+1348,550,Sat Jan 7 2017,Boston Celtics,117,New Orleans Pelicans,108,9
+550,550,Sat Jan 7 2017,New Orleans Pelicans,108,Boston Celtics,117,-9
+551,551,Sat Jan 7 2017,Toronto Raptors,118,Chicago Bulls,123,-5
+1349,551,Sat Jan 7 2017,Chicago Bulls,123,Toronto Raptors,118,5
+552,552,Sat Jan 7 2017,Atlanta Hawks,97,Dallas Mavericks,82,15
+1350,552,Sat Jan 7 2017,Dallas Mavericks,82,Atlanta Hawks,97,-15
+553,553,Sat Jan 7 2017,New York Knicks,109,Indiana Pacers,123,-14
+1351,553,Sat Jan 7 2017,Indiana Pacers,123,New York Knicks,109,14
+554,554,Sat Jan 7 2017,Utah Jazz,94,Minnesota Timberwolves,92,2
+1352,554,Sat Jan 7 2017,Minnesota Timberwolves,92,Utah Jazz,94,-2
+1353,555,Sat Jan 7 2017,Oklahoma City Thunder,121,Denver Nuggets,106,15
+555,555,Sat Jan 7 2017,Denver Nuggets,106,Oklahoma City Thunder,121,-15
+1354,556,Sat Jan 7 2017,San Antonio Spurs,102,Charlotte Hornets,85,17
+556,556,Sat Jan 7 2017,Charlotte Hornets,85,San Antonio Spurs,102,-17
+1355,557,Sun Jan 8 2017,Brooklyn Nets,95,Philadelphia 76ers,105,-10
+557,557,Sun Jan 8 2017,Philadelphia 76ers,105,Brooklyn Nets,95,10
+558,558,Sun Jan 8 2017,Miami Heat,86,Los Angeles Clippers,98,-12
+1356,558,Sun Jan 8 2017,Los Angeles Clippers,98,Miami Heat,86,12
+559,559,Sun Jan 8 2017,Orlando Magic,95,Los Angeles Lakers,111,-16
+1357,559,Sun Jan 8 2017,Los Angeles Lakers,111,Orlando Magic,95,16
+560,560,Sun Jan 8 2017,Utah Jazz,79,Memphis Grizzlies,88,-9
+1358,560,Sun Jan 8 2017,Memphis Grizzlies,88,Utah Jazz,79,9
+561,561,Sun Jan 8 2017,Washington Wizards,107,Milwaukee Bucks,101,6
+1359,561,Sun Jan 8 2017,Milwaukee Bucks,101,Washington Wizards,107,-6
+1360,562,Sun Jan 8 2017,Phoenix Suns,116,Cleveland Cavaliers,120,-4
+562,562,Sun Jan 8 2017,Cleveland Cavaliers,120,Phoenix Suns,116,4
+1361,563,Sun Jan 8 2017,Portland Trail Blazers,124,Detroit Pistons,125,-1
+563,563,Sun Jan 8 2017,Detroit Pistons,125,Portland Trail Blazers,124,1
+564,564,Sun Jan 8 2017,Golden State Warriors,117,Sacramento Kings,106,11
+1362,564,Sun Jan 8 2017,Sacramento Kings,106,Golden State Warriors,117,-11
+565,565,Sun Jan 8 2017,Houston Rockets,129,Toronto Raptors,122,7
+1363,565,Sun Jan 8 2017,Toronto Raptors,122,Houston Rockets,129,-7
+566,566,Mon Jan 9 2017,Oklahoma City Thunder,109,Chicago Bulls,94,15
+1364,566,Mon Jan 9 2017,Chicago Bulls,94,Oklahoma City Thunder,109,-15
+567,567,Mon Jan 9 2017,Dallas Mavericks,92,Minnesota Timberwolves,101,-9
+1365,567,Mon Jan 9 2017,Minnesota Timberwolves,101,Dallas Mavericks,92,9
+1366,568,Mon Jan 9 2017,New York Knicks,96,New Orleans Pelicans,110,-14
+568,568,Mon Jan 9 2017,New Orleans Pelicans,110,New York Knicks,96,14
+569,569,Tue Jan 10 2017,Atlanta Hawks,117,Brooklyn Nets,97,20
+1367,569,Tue Jan 10 2017,Brooklyn Nets,97,Atlanta Hawks,117,-20
+570,570,Tue Jan 10 2017,Miami Heat,95,Golden State Warriors,107,-12
+1368,570,Tue Jan 10 2017,Golden State Warriors,107,Miami Heat,95,12
+571,571,Tue Jan 10 2017,Charlotte Hornets,114,Houston Rockets,121,-7
+1369,571,Tue Jan 10 2017,Houston Rockets,121,Charlotte Hornets,114,7
+1370,572,Tue Jan 10 2017,Los Angeles Lakers,87,Portland Trail Blazers,108,-21
+572,572,Tue Jan 10 2017,Portland Trail Blazers,108,Los Angeles Lakers,87,21
+1371,573,Tue Jan 10 2017,Sacramento Kings,100,Detroit Pistons,94,6
+573,573,Tue Jan 10 2017,Detroit Pistons,94,Sacramento Kings,100,-6
+1372,574,Tue Jan 10 2017,San Antonio Spurs,107,Milwaukee Bucks,109,-2
+574,574,Tue Jan 10 2017,Milwaukee Bucks,109,San Antonio Spurs,107,2
+575,575,Tue Jan 10 2017,Boston Celtics,106,Toronto Raptors,114,-8
+1373,575,Tue Jan 10 2017,Toronto Raptors,114,Boston Celtics,106,8
+1374,576,Tue Jan 10 2017,Utah Jazz,100,Cleveland Cavaliers,92,8
+576,576,Tue Jan 10 2017,Cleveland Cavaliers,92,Utah Jazz,100,-8
+577,577,Tue Jan 10 2017,Chicago Bulls,99,Washington Wizards,101,-2
+1375,577,Tue Jan 10 2017,Washington Wizards,101,Chicago Bulls,99,2
+1376,578,Wed Jan 11 2017,Boston Celtics,117,Washington Wizards,108,9
+578,578,Wed Jan 11 2017,Washington Wizards,108,Boston Celtics,117,-9
+1377,579,Wed Jan 11 2017,Los Angeles Clippers,105,Orlando Magic,96,9
+579,579,Wed Jan 11 2017,Orlando Magic,96,Los Angeles Clippers,105,-9
+580,580,Wed Jan 11 2017,Houston Rockets,105,Minnesota Timberwolves,119,-14
+1378,580,Wed Jan 11 2017,Minnesota Timberwolves,119,Houston Rockets,105,14
+1379,581,Wed Jan 11 2017,Oklahoma City Thunder,103,Memphis Grizzlies,95,8
+581,581,Wed Jan 11 2017,Memphis Grizzlies,95,Oklahoma City Thunder,103,-8
+1380,582,Wed Jan 11 2017,Philadelphia 76ers,98,New York Knicks,97,1
+582,582,Wed Jan 11 2017,New York Knicks,97,Philadelphia 76ers,98,-1
+1381,583,Wed Jan 11 2017,Portland Trail Blazers,102,Cleveland Cavaliers,86,16
+583,583,Wed Jan 11 2017,Cleveland Cavaliers,86,Portland Trail Blazers,102,-16
+1382,584,Thu Jan 12 2017,Brooklyn Nets,95,New Orleans Pelicans,104,-9
+584,584,Thu Jan 12 2017,New Orleans Pelicans,104,Brooklyn Nets,95,9
+1383,585,Thu Jan 12 2017,Denver Nuggets,140,Indiana Pacers,112,28
+585,585,Thu Jan 12 2017,Indiana Pacers,112,Denver Nuggets,140,-28
+586,586,Thu Jan 12 2017,Detroit Pistons,107,Golden State Warriors,127,-20
+1384,586,Thu Jan 12 2017,Golden State Warriors,127,Detroit Pistons,107,20
+587,587,Thu Jan 12 2017,Chicago Bulls,89,New York Knicks,104,-15
+1385,587,Thu Jan 12 2017,New York Knicks,104,Chicago Bulls,89,15
+1386,588,Thu Jan 12 2017,Phoenix Suns,108,Dallas Mavericks,113,-5
+588,588,Thu Jan 12 2017,Dallas Mavericks,113,Phoenix Suns,108,5
+589,589,Thu Jan 12 2017,Los Angeles Lakers,94,San Antonio Spurs,134,-40
+1387,589,Thu Jan 12 2017,San Antonio Spurs,134,Los Angeles Lakers,94,40
+590,590,Fri Jan 13 2017,Boston Celtics,103,Atlanta Hawks,101,2
+1388,590,Fri Jan 13 2017,Atlanta Hawks,101,Boston Celtics,103,-2
+591,591,Fri Jan 13 2017,Memphis Grizzlies,110,Houston Rockets,105,5
+1389,591,Fri Jan 13 2017,Houston Rockets,105,Memphis Grizzlies,110,-5
+592,592,Fri Jan 13 2017,Miami Heat,108,Milwaukee Bucks,116,-8
+1390,592,Fri Jan 13 2017,Milwaukee Bucks,116,Miami Heat,108,8
+1391,593,Fri Jan 13 2017,Minnesota Timberwolves,96,Oklahoma City Thunder,86,10
+593,593,Fri Jan 13 2017,Oklahoma City Thunder,86,Minnesota Timberwolves,96,-10
+1392,594,Fri Jan 13 2017,Philadelphia 76ers,102,Charlotte Hornets,93,9
+594,594,Fri Jan 13 2017,Charlotte Hornets,93,Philadelphia 76ers,102,-9
+1393,595,Fri Jan 13 2017,Portland Trail Blazers,109,Orlando Magic,115,-6
+595,595,Fri Jan 13 2017,Orlando Magic,115,Portland Trail Blazers,109,6
+1394,596,Fri Jan 13 2017,Sacramento Kings,108,Cleveland Cavaliers,120,-12
+596,596,Fri Jan 13 2017,Cleveland Cavaliers,120,Sacramento Kings,108,12
+597,597,Fri Jan 13 2017,Brooklyn Nets,113,Toronto Raptors,132,-19
+1395,597,Fri Jan 13 2017,Toronto Raptors,132,Brooklyn Nets,113,19
+598,598,Fri Jan 13 2017,Detroit Pistons,77,Utah Jazz,110,-33
+1396,598,Fri Jan 13 2017,Utah Jazz,110,Detroit Pistons,77,33
+1397,599,Sat Jan 14 2017,Chicago Bulls,107,New Orleans Pelicans,99,8
+599,599,Sat Jan 14 2017,New Orleans Pelicans,99,Chicago Bulls,107,-8
+1398,600,Sat Jan 14 2017,Los Angeles Clippers,113,Los Angeles Lakers,97,16
+600,600,Sat Jan 14 2017,Los Angeles Lakers,97,Los Angeles Clippers,113,-16
+1399,601,Sat Jan 14 2017,Phoenix Suns,108,San Antonio Spurs,105,3
+601,601,Sat Jan 14 2017,San Antonio Spurs,105,Phoenix Suns,108,-3
+1400,602,Sat Jan 14 2017,Utah Jazz,114,Orlando Magic,107,7
+602,602,Sat Jan 14 2017,Orlando Magic,107,Utah Jazz,114,-7
+1401,603,Sat Jan 14 2017,Washington Wizards,109,Philadelphia 76ers,93,16
+603,603,Sat Jan 14 2017,Philadelphia 76ers,93,Washington Wizards,109,-16
+604,604,Sun Jan 15 2017,Milwaukee Bucks,98,Atlanta Hawks,111,-13
+1402,604,Sun Jan 15 2017,Atlanta Hawks,111,Milwaukee Bucks,98,13
+605,605,Sun Jan 15 2017,Houston Rockets,137,Brooklyn Nets,112,25
+1403,605,Sun Jan 15 2017,Brooklyn Nets,112,Houston Rockets,137,-25
+606,606,Sun Jan 15 2017,Minnesota Timberwolves,87,Dallas Mavericks,98,-11
+1404,606,Sun Jan 15 2017,Dallas Mavericks,98,Minnesota Timberwolves,87,11
+1405,607,Sun Jan 15 2017,Los Angeles Lakers,97,Detroit Pistons,102,-5
+607,607,Sun Jan 15 2017,Detroit Pistons,102,Los Angeles Lakers,97,5
+1406,608,Sun Jan 15 2017,Memphis Grizzlies,104,Chicago Bulls,108,-4
+608,608,Sun Jan 15 2017,Chicago Bulls,108,Memphis Grizzlies,104,4
+1407,609,Sun Jan 15 2017,Sacramento Kings,118,Oklahoma City Thunder,122,-4
+609,609,Sun Jan 15 2017,Oklahoma City Thunder,122,Sacramento Kings,118,4
+610,610,Sun Jan 15 2017,New York Knicks,101,Toronto Raptors,116,-15
+1408,610,Sun Jan 15 2017,Toronto Raptors,116,New York Knicks,101,15
+611,611,Mon Jan 16 2017,Charlotte Hornets,98,Boston Celtics,108,-10
+1409,611,Mon Jan 16 2017,Boston Celtics,108,Charlotte Hornets,98,10
+1410,612,Mon Jan 16 2017,Denver Nuggets,125,Orlando Magic,112,13
+612,612,Mon Jan 16 2017,Orlando Magic,112,Denver Nuggets,125,-13
+613,613,Mon Jan 16 2017,Cleveland Cavaliers,91,Golden State Warriors,126,-35
+1411,613,Mon Jan 16 2017,Golden State Warriors,126,Cleveland Cavaliers,91,35
+1412,614,Mon Jan 16 2017,Indiana Pacers,98,New Orleans Pelicans,95,3
+614,614,Mon Jan 16 2017,New Orleans Pelicans,95,Indiana Pacers,98,-3
+1413,615,Mon Jan 16 2017,Los Angeles Clippers,120,Oklahoma City Thunder,98,22
+615,615,Mon Jan 16 2017,Oklahoma City Thunder,98,Los Angeles Clippers,120,-22
+1414,616,Mon Jan 16 2017,Milwaukee Bucks,104,Philadelphia 76ers,113,-9
+616,616,Mon Jan 16 2017,Philadelphia 76ers,113,Milwaukee Bucks,104,9
+617,617,Mon Jan 16 2017,Atlanta Hawks,108,New York Knicks,107,1
+1415,617,Mon Jan 16 2017,New York Knicks,107,Atlanta Hawks,108,-1
+618,618,Mon Jan 16 2017,Utah Jazz,106,Phoenix Suns,101,5
+1416,618,Mon Jan 16 2017,Phoenix Suns,101,Utah Jazz,106,-5
+619,619,Mon Jan 16 2017,Portland Trail Blazers,101,Washington Wizards,120,-19
+1417,619,Mon Jan 16 2017,Washington Wizards,120,Portland Trail Blazers,101,19
+1418,620,Tue Jan 17 2017,Brooklyn Nets,109,Toronto Raptors,119,-10
+620,620,Tue Jan 17 2017,Toronto Raptors,119,Brooklyn Nets,109,10
+621,621,Tue Jan 17 2017,Dallas Mavericks,99,Chicago Bulls,98,1
+1419,621,Tue Jan 17 2017,Chicago Bulls,98,Dallas Mavericks,99,-1
+622,622,Tue Jan 17 2017,Denver Nuggets,127,Los Angeles Lakers,121,6
+1420,622,Tue Jan 17 2017,Los Angeles Lakers,121,Denver Nuggets,127,-6
+1421,623,Tue Jan 17 2017,Miami Heat,109,Houston Rockets,103,6
+623,623,Tue Jan 17 2017,Houston Rockets,103,Miami Heat,109,-6
+1422,624,Tue Jan 17 2017,San Antonio Spurs,122,Minnesota Timberwolves,114,8
+624,624,Tue Jan 17 2017,Minnesota Timberwolves,114,San Antonio Spurs,122,-8
+625,625,Wed Jan 18 2017,New York Knicks,117,Boston Celtics,106,11
+1423,625,Wed Jan 18 2017,Boston Celtics,106,New York Knicks,117,-11
+1424,626,Wed Jan 18 2017,Charlotte Hornets,107,Portland Trail Blazers,85,22
+626,626,Wed Jan 18 2017,Portland Trail Blazers,85,Charlotte Hornets,107,-22
+1425,627,Wed Jan 18 2017,Detroit Pistons,118,Atlanta Hawks,95,23
+627,627,Wed Jan 18 2017,Atlanta Hawks,95,Detroit Pistons,118,-23
+1426,628,Wed Jan 18 2017,Golden State Warriors,121,Oklahoma City Thunder,100,21
+628,628,Wed Jan 18 2017,Oklahoma City Thunder,100,Golden State Warriors,121,-21
+629,629,Wed Jan 18 2017,Milwaukee Bucks,92,Houston Rockets,111,-19
+1427,629,Wed Jan 18 2017,Houston Rockets,111,Milwaukee Bucks,92,19
+630,630,Wed Jan 18 2017,Orlando Magic,98,New Orleans Pelicans,118,-20
+1428,630,Wed Jan 18 2017,New Orleans Pelicans,118,Orlando Magic,98,20
+1429,631,Wed Jan 18 2017,Philadelphia 76ers,94,Toronto Raptors,89,5
+631,631,Wed Jan 18 2017,Toronto Raptors,89,Philadelphia 76ers,94,-5
+632,632,Wed Jan 18 2017,Indiana Pacers,106,Sacramento Kings,100,6
+1430,632,Wed Jan 18 2017,Sacramento Kings,100,Indiana Pacers,106,-6
+633,633,Wed Jan 18 2017,Memphis Grizzlies,101,Washington Wizards,104,-3
+1431,633,Wed Jan 18 2017,Washington Wizards,104,Memphis Grizzlies,101,3
+634,634,Thu Jan 19 2017,Phoenix Suns,103,Cleveland Cavaliers,118,-15
+1432,634,Thu Jan 19 2017,Cleveland Cavaliers,118,Phoenix Suns,103,15
+1433,635,Thu Jan 19 2017,Los Angeles Clippers,101,Minnesota Timberwolves,104,-3
+635,635,Thu Jan 19 2017,Minnesota Timberwolves,104,Los Angeles Clippers,101,3
+636,636,Thu Jan 19 2017,Dallas Mavericks,95,Miami Heat,99,-4
+1434,636,Thu Jan 19 2017,Miami Heat,99,Dallas Mavericks,95,4
+1435,637,Thu Jan 19 2017,New York Knicks,110,Washington Wizards,113,-3
+637,637,Thu Jan 19 2017,Washington Wizards,113,New York Knicks,110,3
+1436,638,Thu Jan 19 2017,San Antonio Spurs,118,Denver Nuggets,104,14
+638,638,Thu Jan 19 2017,Denver Nuggets,104,San Antonio Spurs,118,-14
+1437,639,Fri Jan 20 2017,Atlanta Hawks,102,Chicago Bulls,93,9
+639,639,Fri Jan 20 2017,Chicago Bulls,93,Atlanta Hawks,102,-9
+640,640,Fri Jan 20 2017,Toronto Raptors,78,Charlotte Hornets,113,-35
+1438,640,Fri Jan 20 2017,Charlotte Hornets,113,Toronto Raptors,78,35
+641,641,Fri Jan 20 2017,Utah Jazz,112,Dallas Mavericks,107,5
+1439,641,Fri Jan 20 2017,Dallas Mavericks,107,Utah Jazz,112,-5
+1440,642,Fri Jan 20 2017,Houston Rockets,108,Golden State Warriors,125,-17
+642,642,Fri Jan 20 2017,Golden State Warriors,125,Houston Rockets,108,17
+643,643,Fri Jan 20 2017,Indiana Pacers,95,Los Angeles Lakers,108,-13
+1441,643,Fri Jan 20 2017,Los Angeles Lakers,108,Indiana Pacers,95,13
+1442,644,Fri Jan 20 2017,Memphis Grizzlies,107,Sacramento Kings,91,16
+644,644,Fri Jan 20 2017,Sacramento Kings,91,Memphis Grizzlies,107,-16
+1443,645,Fri Jan 20 2017,New Orleans Pelicans,114,Brooklyn Nets,143,-29
+645,645,Fri Jan 20 2017,Brooklyn Nets,143,New Orleans Pelicans,114,29
+1444,646,Fri Jan 20 2017,Orlando Magic,112,Milwaukee Bucks,96,16
+646,646,Fri Jan 20 2017,Milwaukee Bucks,96,Orlando Magic,112,-16
+1445,647,Fri Jan 20 2017,Philadelphia 76ers,93,Portland Trail Blazers,92,1
+647,647,Fri Jan 20 2017,Portland Trail Blazers,92,Philadelphia 76ers,93,-1
+648,648,Sat Jan 21 2017,Philadelphia 76ers,93,Atlanta Hawks,110,-17
+1446,648,Sat Jan 21 2017,Atlanta Hawks,110,Philadelphia 76ers,93,17
+1447,649,Sat Jan 21 2017,Boston Celtics,123,Portland Trail Blazers,127,-4
+649,649,Sat Jan 21 2017,Portland Trail Blazers,127,Boston Celtics,123,4
+1448,650,Sat Jan 21 2017,Chicago Bulls,102,Sacramento Kings,99,3
+650,650,Sat Jan 21 2017,Sacramento Kings,99,Chicago Bulls,102,-3
+1449,651,Sat Jan 21 2017,Charlotte Hornets,112,Brooklyn Nets,105,7
+651,651,Sat Jan 21 2017,Brooklyn Nets,105,Charlotte Hornets,112,-7
+1450,652,Sat Jan 21 2017,Cleveland Cavaliers,115,San Antonio Spurs,118,-3
+652,652,Sat Jan 21 2017,San Antonio Spurs,118,Cleveland Cavaliers,115,3
+1451,653,Sat Jan 21 2017,Denver Nuggets,123,Los Angeles Clippers,98,25
+653,653,Sat Jan 21 2017,Los Angeles Clippers,98,Denver Nuggets,123,-25
+654,654,Sat Jan 21 2017,Washington Wizards,112,Detroit Pistons,113,-1
+1452,654,Sat Jan 21 2017,Detroit Pistons,113,Washington Wizards,112,1
+655,655,Sat Jan 21 2017,Houston Rockets,119,Memphis Grizzlies,95,24
+1453,655,Sat Jan 21 2017,Memphis Grizzlies,95,Houston Rockets,119,-24
+656,656,Sat Jan 21 2017,Milwaukee Bucks,97,Miami Heat,109,-12
+1454,656,Sat Jan 21 2017,Miami Heat,109,Milwaukee Bucks,97,12
+1455,657,Sat Jan 21 2017,New York Knicks,105,Phoenix Suns,107,-2
+657,657,Sat Jan 21 2017,Phoenix Suns,107,New York Knicks,105,2
+658,658,Sat Jan 21 2017,Indiana Pacers,100,Utah Jazz,109,-9
+1456,658,Sat Jan 21 2017,Utah Jazz,109,Indiana Pacers,100,9
+1457,659,Sun Jan 22 2017,Dallas Mavericks,122,Los Angeles Lakers,73,49
+659,659,Sun Jan 22 2017,Los Angeles Lakers,73,Dallas Mavericks,122,-49
+660,660,Sun Jan 22 2017,Denver Nuggets,108,Minnesota Timberwolves,111,-3
+1458,660,Sun Jan 22 2017,Minnesota Timberwolves,111,Denver Nuggets,108,3
+1459,661,Sun Jan 22 2017,Orlando Magic,98,Golden State Warriors,118,-20
+661,661,Sun Jan 22 2017,Golden State Warriors,118,Orlando Magic,98,20
+662,662,Sun Jan 22 2017,Phoenix Suns,115,Toronto Raptors,103,12
+1460,662,Sun Jan 22 2017,Toronto Raptors,103,Phoenix Suns,115,-12
+663,663,Mon Jan 23 2017,Los Angeles Clippers,115,Atlanta Hawks,105,10
+1461,663,Mon Jan 23 2017,Atlanta Hawks,105,Los Angeles Clippers,115,-10
+664,664,Mon Jan 23 2017,San Antonio Spurs,112,Brooklyn Nets,86,26
+1462,664,Mon Jan 23 2017,Brooklyn Nets,86,San Antonio Spurs,112,-26
+665,665,Mon Jan 23 2017,Washington Wizards,109,Charlotte Hornets,99,10
+1463,665,Mon Jan 23 2017,Charlotte Hornets,99,Washington Wizards,109,-10
+666,666,Mon Jan 23 2017,Sacramento Kings,109,Detroit Pistons,104,5
+1464,666,Mon Jan 23 2017,Detroit Pistons,104,Sacramento Kings,109,-5
+1465,667,Mon Jan 23 2017,Indiana Pacers,103,New York Knicks,109,-6
+667,667,Mon Jan 23 2017,New York Knicks,109,Indiana Pacers,103,6
+668,668,Mon Jan 23 2017,Golden State Warriors,102,Miami Heat,105,-3
+1466,668,Mon Jan 23 2017,Miami Heat,105,Golden State Warriors,102,3
+1467,669,Mon Jan 23 2017,Milwaukee Bucks,127,Houston Rockets,114,13
+669,669,Mon Jan 23 2017,Houston Rockets,114,Milwaukee Bucks,127,-13
+1468,670,Mon Jan 23 2017,New Orleans Pelicans,124,Cleveland Cavaliers,122,2
+670,670,Mon Jan 23 2017,Cleveland Cavaliers,122,New Orleans Pelicans,124,-2
+1469,671,Mon Jan 23 2017,Utah Jazz,95,Oklahoma City Thunder,97,-2
+671,671,Mon Jan 23 2017,Oklahoma City Thunder,97,Utah Jazz,95,2
+672,672,Tue Jan 24 2017,Utah Jazz,93,Denver Nuggets,103,-10
+1470,672,Tue Jan 24 2017,Denver Nuggets,103,Utah Jazz,93,10
+673,673,Tue Jan 24 2017,Chicago Bulls,100,Orlando Magic,92,8
+1471,673,Tue Jan 24 2017,Orlando Magic,92,Chicago Bulls,100,-8
+674,674,Tue Jan 24 2017,Los Angeles Clippers,110,Philadelphia 76ers,121,-11
+1472,674,Tue Jan 24 2017,Philadelphia 76ers,121,Los Angeles Clippers,110,11
+1473,675,Tue Jan 24 2017,Phoenix Suns,111,Minnesota Timberwolves,112,-1
+675,675,Tue Jan 24 2017,Minnesota Timberwolves,112,Phoenix Suns,111,1
+676,676,Tue Jan 24 2017,San Antonio Spurs,108,Toronto Raptors,106,2
+1474,676,Tue Jan 24 2017,Toronto Raptors,106,San Antonio Spurs,108,-2
+677,677,Tue Jan 24 2017,Boston Celtics,108,Washington Wizards,123,-15
+1475,677,Tue Jan 24 2017,Washington Wizards,123,Boston Celtics,108,15
+1476,678,Wed Jan 25 2017,Boston Celtics,120,Houston Rockets,109,11
+678,678,Wed Jan 25 2017,Houston Rockets,109,Boston Celtics,120,-11
+679,679,Wed Jan 25 2017,Miami Heat,109,Brooklyn Nets,106,3
+1477,679,Wed Jan 25 2017,Brooklyn Nets,106,Miami Heat,109,-3
+680,680,Wed Jan 25 2017,Atlanta Hawks,119,Chicago Bulls,114,5
+1478,680,Wed Jan 25 2017,Chicago Bulls,114,Atlanta Hawks,119,-5
+681,681,Wed Jan 25 2017,Golden State Warriors,113,Charlotte Hornets,103,10
+1479,681,Wed Jan 25 2017,Charlotte Hornets,103,Golden State Warriors,113,-10
+682,682,Wed Jan 25 2017,Sacramento Kings,116,Cleveland Cavaliers,112,4
+1480,682,Wed Jan 25 2017,Cleveland Cavaliers,112,Sacramento Kings,116,-4
+1481,683,Wed Jan 25 2017,Dallas Mavericks,103,New York Knicks,95,8
+683,683,Wed Jan 25 2017,New York Knicks,95,Dallas Mavericks,103,-8
+1482,684,Wed Jan 25 2017,Memphis Grizzlies,101,Toronto Raptors,99,2
+684,684,Wed Jan 25 2017,Toronto Raptors,99,Memphis Grizzlies,101,-2
+1483,685,Wed Jan 25 2017,Milwaukee Bucks,109,Philadelphia 76ers,114,-5
+685,685,Wed Jan 25 2017,Philadelphia 76ers,114,Milwaukee Bucks,109,5
+686,686,Wed Jan 25 2017,Oklahoma City Thunder,114,New Orleans Pelicans,105,9
+1484,686,Wed Jan 25 2017,New Orleans Pelicans,105,Oklahoma City Thunder,114,-9
+687,687,Wed Jan 25 2017,Los Angeles Lakers,98,Portland Trail Blazers,105,-7
+1485,687,Wed Jan 25 2017,Portland Trail Blazers,105,Los Angeles Lakers,98,7
+688,688,Thu Jan 26 2017,Phoenix Suns,120,Denver Nuggets,127,-7
+1486,688,Thu Jan 26 2017,Denver Nuggets,127,Phoenix Suns,120,7
+689,689,Thu Jan 26 2017,Indiana Pacers,109,Minnesota Timberwolves,103,6
+1487,689,Thu Jan 26 2017,Minnesota Timberwolves,103,Indiana Pacers,109,-6
+1488,690,Thu Jan 26 2017,Oklahoma City Thunder,109,Dallas Mavericks,98,11
+690,690,Thu Jan 26 2017,Dallas Mavericks,98,Oklahoma City Thunder,109,-11
+1489,691,Thu Jan 26 2017,Utah Jazz,96,Los Angeles Lakers,88,8
+691,691,Thu Jan 26 2017,Los Angeles Lakers,88,Utah Jazz,96,-8
+1490,692,Fri Jan 27 2017,Atlanta Hawks,86,Washington Wizards,112,-26
+692,692,Fri Jan 27 2017,Washington Wizards,112,Atlanta Hawks,86,26
+693,693,Fri Jan 27 2017,Orlando Magic,98,Boston Celtics,128,-30
+1491,693,Fri Jan 27 2017,Boston Celtics,128,Orlando Magic,98,30
+694,694,Fri Jan 27 2017,Miami Heat,100,Chicago Bulls,88,12
+1492,694,Fri Jan 27 2017,Chicago Bulls,88,Miami Heat,100,-12
+695,695,Fri Jan 27 2017,Brooklyn Nets,116,Cleveland Cavaliers,124,-8
+1493,695,Fri Jan 27 2017,Cleveland Cavaliers,124,Brooklyn Nets,116,8
+1494,696,Fri Jan 27 2017,Indiana Pacers,115,Sacramento Kings,111,4
+696,696,Fri Jan 27 2017,Sacramento Kings,111,Indiana Pacers,115,-4
+1495,697,Fri Jan 27 2017,New Orleans Pelicans,119,San Antonio Spurs,103,16
+697,697,Fri Jan 27 2017,San Antonio Spurs,103,New Orleans Pelicans,119,-16
+1496,698,Fri Jan 27 2017,New York Knicks,110,Charlotte Hornets,107,3
+698,698,Fri Jan 27 2017,Charlotte Hornets,107,New York Knicks,110,-3
+1497,699,Fri Jan 27 2017,Philadelphia 76ers,118,Houston Rockets,123,-5
+699,699,Fri Jan 27 2017,Houston Rockets,123,Philadelphia 76ers,118,5
+1498,700,Fri Jan 27 2017,Portland Trail Blazers,112,Memphis Grizzlies,109,3
+700,700,Fri Jan 27 2017,Memphis Grizzlies,109,Portland Trail Blazers,112,-3
+701,701,Fri Jan 27 2017,Milwaukee Bucks,86,Toronto Raptors,102,-16
+1499,701,Fri Jan 27 2017,Toronto Raptors,102,Milwaukee Bucks,86,16
+702,702,Sat Jan 28 2017,Sacramento Kings,109,Charlotte Hornets,106,3
+1500,702,Sat Jan 28 2017,Charlotte Hornets,106,Sacramento Kings,109,-3
+1501,703,Sat Jan 28 2017,Golden State Warriors,144,Los Angeles Clippers,98,46
+703,703,Sat Jan 28 2017,Los Angeles Clippers,98,Golden State Warriors,144,-46
+704,704,Sat Jan 28 2017,Detroit Pistons,103,Miami Heat,116,-13
+1502,704,Sat Jan 28 2017,Miami Heat,116,Detroit Pistons,103,13
+1503,705,Sat Jan 28 2017,Milwaukee Bucks,108,Boston Celtics,112,-4
+705,705,Sat Jan 28 2017,Boston Celtics,112,Milwaukee Bucks,108,4
+1504,706,Sat Jan 28 2017,Minnesota Timberwolves,129,Brooklyn Nets,109,20
+706,706,Sat Jan 28 2017,Brooklyn Nets,109,Minnesota Timberwolves,129,-20
+1505,707,Sat Jan 28 2017,Phoenix Suns,112,Denver Nuggets,123,-11
+707,707,Sat Jan 28 2017,Denver Nuggets,123,Phoenix Suns,112,11
+708,708,Sat Jan 28 2017,Memphis Grizzlies,102,Utah Jazz,95,7
+1506,708,Sat Jan 28 2017,Utah Jazz,95,Memphis Grizzlies,102,-7
+1507,709,Sun Jan 29 2017,Atlanta Hawks,142,New York Knicks,139,3
+709,709,Sun Jan 29 2017,New York Knicks,139,Atlanta Hawks,142,-3
+710,710,Sun Jan 29 2017,Philadelphia 76ers,108,Chicago Bulls,121,-13
+1508,710,Sun Jan 29 2017,Chicago Bulls,121,Philadelphia 76ers,108,13
+711,711,Sun Jan 29 2017,Oklahoma City Thunder,91,Cleveland Cavaliers,107,-16
+1509,711,Sun Jan 29 2017,Cleveland Cavaliers,107,Oklahoma City Thunder,91,16
+1510,712,Sun Jan 29 2017,Indiana Pacers,120,Houston Rockets,101,19
+712,712,Sun Jan 29 2017,Houston Rockets,101,Indiana Pacers,120,-19
+1511,713,Sun Jan 29 2017,New Orleans Pelicans,94,Washington Wizards,107,-13
+713,713,Sun Jan 29 2017,Washington Wizards,107,New Orleans Pelicans,94,13
+714,714,Sun Jan 29 2017,Golden State Warriors,113,Portland Trail Blazers,111,2
+1512,714,Sun Jan 29 2017,Portland Trail Blazers,111,Golden State Warriors,113,-2
+1513,715,Sun Jan 29 2017,San Antonio Spurs,101,Dallas Mavericks,105,-4
+715,715,Sun Jan 29 2017,Dallas Mavericks,105,San Antonio Spurs,101,4
+716,716,Sun Jan 29 2017,Orlando Magic,114,Toronto Raptors,113,1
+1514,716,Sun Jan 29 2017,Toronto Raptors,113,Orlando Magic,114,-1
+717,717,Mon Jan 30 2017,Detroit Pistons,109,Boston Celtics,113,-4
+1515,717,Mon Jan 30 2017,Boston Celtics,113,Detroit Pistons,109,4
+718,718,Mon Jan 30 2017,Cleveland Cavaliers,97,Dallas Mavericks,104,-7
+1516,718,Mon Jan 30 2017,Dallas Mavericks,104,Cleveland Cavaliers,97,7
+719,719,Mon Jan 30 2017,Brooklyn Nets,96,Miami Heat,104,-8
+1517,719,Mon Jan 30 2017,Miami Heat,104,Brooklyn Nets,96,8
+720,720,Mon Jan 30 2017,Orlando Magic,105,Minnesota Timberwolves,111,-6
+1518,720,Mon Jan 30 2017,Minnesota Timberwolves,111,Orlando Magic,105,6
+721,721,Mon Jan 30 2017,Sacramento Kings,119,Philadelphia 76ers,122,-3
+1519,721,Mon Jan 30 2017,Philadelphia 76ers,122,Sacramento Kings,119,3
+1520,722,Mon Jan 30 2017,Phoenix Suns,96,Memphis Grizzlies,115,-19
+722,722,Mon Jan 30 2017,Memphis Grizzlies,115,Phoenix Suns,96,19
+1521,723,Tue Jan 31 2017,Houston Rockets,105,Sacramento Kings,83,22
+723,723,Tue Jan 31 2017,Sacramento Kings,83,Houston Rockets,105,-22
+724,724,Tue Jan 31 2017,Denver Nuggets,116,Los Angeles Lakers,120,-4
+1522,724,Tue Jan 31 2017,Los Angeles Lakers,120,Denver Nuggets,116,4
+1523,725,Tue Jan 31 2017,Portland Trail Blazers,115,Charlotte Hornets,98,17
+725,725,Tue Jan 31 2017,Charlotte Hornets,98,Portland Trail Blazers,115,-17
+726,726,Tue Jan 31 2017,Oklahoma City Thunder,94,San Antonio Spurs,108,-14
+1524,726,Tue Jan 31 2017,San Antonio Spurs,108,Oklahoma City Thunder,94,14
+727,727,Tue Jan 31 2017,New Orleans Pelicans,106,Toronto Raptors,108,-2
+1525,727,Tue Jan 31 2017,Toronto Raptors,108,New Orleans Pelicans,106,2
+728,728,Tue Jan 31 2017,New York Knicks,101,Washington Wizards,117,-16
+1526,728,Tue Jan 31 2017,Washington Wizards,117,New York Knicks,101,16
+729,729,Wed Feb 1 2017,Toronto Raptors,104,Boston Celtics,109,-5
+1527,729,Wed Feb 1 2017,Boston Celtics,109,Toronto Raptors,104,5
+730,730,Wed Feb 1 2017,New York Knicks,95,Brooklyn Nets,90,5
+1528,730,Wed Feb 1 2017,Brooklyn Nets,90,New York Knicks,95,-5
+1529,731,Wed Feb 1 2017,Cleveland Cavaliers,125,Minnesota Timberwolves,97,28
+731,731,Wed Feb 1 2017,Minnesota Timberwolves,97,Cleveland Cavaliers,125,-28
+732,732,Wed Feb 1 2017,Philadelphia 76ers,95,Dallas Mavericks,113,-18
+1530,732,Wed Feb 1 2017,Dallas Mavericks,113,Philadelphia 76ers,95,18
+1531,733,Wed Feb 1 2017,Denver Nuggets,99,Memphis Grizzlies,119,-20
+733,733,Wed Feb 1 2017,Memphis Grizzlies,119,Denver Nuggets,99,20
+1532,734,Wed Feb 1 2017,Detroit Pistons,118,New Orleans Pelicans,98,20
+734,734,Wed Feb 1 2017,New Orleans Pelicans,98,Detroit Pistons,118,-20
+1533,735,Wed Feb 1 2017,Golden State Warriors,126,Charlotte Hornets,111,15
+735,735,Wed Feb 1 2017,Charlotte Hornets,111,Golden State Warriors,126,-15
+736,736,Wed Feb 1 2017,Atlanta Hawks,93,Miami Heat,116,-23
+1534,736,Wed Feb 1 2017,Miami Heat,116,Atlanta Hawks,93,23
+737,737,Wed Feb 1 2017,Chicago Bulls,128,Oklahoma City Thunder,100,28
+1535,737,Wed Feb 1 2017,Oklahoma City Thunder,100,Chicago Bulls,128,-28
+738,738,Wed Feb 1 2017,Indiana Pacers,98,Orlando Magic,88,10
+1536,738,Wed Feb 1 2017,Orlando Magic,88,Indiana Pacers,98,-10
+1537,739,Wed Feb 1 2017,Phoenix Suns,114,Los Angeles Clippers,124,-10
+739,739,Wed Feb 1 2017,Los Angeles Clippers,124,Phoenix Suns,114,10
+1538,740,Wed Feb 1 2017,Utah Jazz,104,Milwaukee Bucks,88,16
+740,740,Wed Feb 1 2017,Milwaukee Bucks,88,Utah Jazz,104,-16
+741,741,Thu Feb 2 2017,Atlanta Hawks,113,Houston Rockets,108,5
+1539,741,Thu Feb 2 2017,Houston Rockets,108,Atlanta Hawks,113,-5
+1540,742,Thu Feb 2 2017,Los Angeles Clippers,120,Golden State Warriors,133,-13
+742,742,Thu Feb 2 2017,Golden State Warriors,133,Los Angeles Clippers,120,13
+743,743,Thu Feb 2 2017,Philadelphia 76ers,86,San Antonio Spurs,102,-16
+1541,743,Thu Feb 2 2017,San Antonio Spurs,102,Philadelphia 76ers,86,16
+744,744,Thu Feb 2 2017,Los Angeles Lakers,108,Washington Wizards,116,-8
+1542,744,Thu Feb 2 2017,Washington Wizards,116,Los Angeles Lakers,108,8
+745,745,Fri Feb 3 2017,Los Angeles Lakers,107,Boston Celtics,113,-6
+1543,745,Fri Feb 3 2017,Boston Celtics,113,Los Angeles Lakers,107,6
+746,746,Fri Feb 3 2017,Indiana Pacers,106,Brooklyn Nets,97,9
+1544,746,Fri Feb 3 2017,Brooklyn Nets,97,Indiana Pacers,106,-9
+1545,747,Fri Feb 3 2017,Denver Nuggets,121,Milwaukee Bucks,117,4
+747,747,Fri Feb 3 2017,Milwaukee Bucks,117,Denver Nuggets,121,-4
+1546,748,Fri Feb 3 2017,Detroit Pistons,116,Minnesota Timberwolves,108,8
+748,748,Fri Feb 3 2017,Minnesota Timberwolves,108,Detroit Pistons,116,-8
+749,749,Fri Feb 3 2017,Chicago Bulls,117,Houston Rockets,121,-4
+1547,749,Fri Feb 3 2017,Houston Rockets,121,Chicago Bulls,117,4
+1548,750,Fri Feb 3 2017,Oklahoma City Thunder,114,Memphis Grizzlies,102,12
+750,750,Fri Feb 3 2017,Memphis Grizzlies,102,Oklahoma City Thunder,114,-12
+751,751,Fri Feb 3 2017,Toronto Raptors,94,Orlando Magic,102,-8
+1549,751,Fri Feb 3 2017,Orlando Magic,102,Toronto Raptors,94,8
+752,752,Fri Feb 3 2017,Dallas Mavericks,108,Portland Trail Blazers,104,4
+1550,752,Fri Feb 3 2017,Portland Trail Blazers,104,Dallas Mavericks,108,-4
+753,753,Fri Feb 3 2017,Phoenix Suns,105,Sacramento Kings,103,2
+1551,753,Fri Feb 3 2017,Sacramento Kings,103,Phoenix Suns,105,-2
+1552,754,Sat Feb 4 2017,Atlanta Hawks,113,Orlando Magic,86,27
+754,754,Sat Feb 4 2017,Orlando Magic,86,Atlanta Hawks,113,-27
+1553,755,Sat Feb 4 2017,Indiana Pacers,105,Detroit Pistons,84,21
+755,755,Sat Feb 4 2017,Detroit Pistons,84,Indiana Pacers,105,-21
+1554,756,Sat Feb 4 2017,Miami Heat,125,Philadelphia 76ers,102,23
+756,756,Sat Feb 4 2017,Philadelphia 76ers,102,Miami Heat,125,-23
+757,757,Sat Feb 4 2017,Memphis Grizzlies,107,Minnesota Timberwolves,99,8
+1555,757,Sat Feb 4 2017,Minnesota Timberwolves,99,Memphis Grizzlies,107,-8
+758,758,Sat Feb 4 2017,Cleveland Cavaliers,111,New York Knicks,104,7
+1556,758,Sat Feb 4 2017,New York Knicks,104,Cleveland Cavaliers,111,-7
+1557,759,Sat Feb 4 2017,Phoenix Suns,112,Milwaukee Bucks,137,-25
+759,759,Sat Feb 4 2017,Milwaukee Bucks,137,Phoenix Suns,112,25
+760,760,Sat Feb 4 2017,Golden State Warriors,106,Sacramento Kings,109,-3
+1558,760,Sat Feb 4 2017,Sacramento Kings,109,Golden State Warriors,106,3
+761,761,Sat Feb 4 2017,Denver Nuggets,97,San Antonio Spurs,121,-24
+1559,761,Sat Feb 4 2017,San Antonio Spurs,121,Denver Nuggets,97,24
+762,762,Sat Feb 4 2017,Charlotte Hornets,98,Utah Jazz,105,-7
+1560,762,Sat Feb 4 2017,Utah Jazz,105,Charlotte Hornets,98,7
+1561,763,Sat Feb 4 2017,Washington Wizards,105,New Orleans Pelicans,91,14
+763,763,Sat Feb 4 2017,New Orleans Pelicans,91,Washington Wizards,105,-14
+764,764,Sun Feb 5 2017,Los Angeles Clippers,102,Boston Celtics,107,-5
+1562,764,Sun Feb 5 2017,Boston Celtics,107,Los Angeles Clippers,102,5
+1563,765,Sun Feb 5 2017,Brooklyn Nets,95,Toronto Raptors,103,-8
+765,765,Sun Feb 5 2017,Toronto Raptors,103,Brooklyn Nets,95,8
+1564,766,Sun Feb 5 2017,Oklahoma City Thunder,105,Portland Trail Blazers,99,6
+766,766,Sun Feb 5 2017,Portland Trail Blazers,99,Oklahoma City Thunder,105,-6
+1565,767,Mon Feb 6 2017,Atlanta Hawks,95,Utah Jazz,120,-25
+767,767,Mon Feb 6 2017,Utah Jazz,120,Atlanta Hawks,95,25
+768,768,Mon Feb 6 2017,Dallas Mavericks,87,Denver Nuggets,110,-23
+1566,768,Mon Feb 6 2017,Denver Nuggets,110,Dallas Mavericks,87,23
+769,769,Mon Feb 6 2017,Philadelphia 76ers,96,Detroit Pistons,113,-17
+1567,769,Mon Feb 6 2017,Detroit Pistons,113,Philadelphia 76ers,96,17
+770,770,Mon Feb 6 2017,Oklahoma City Thunder,90,Indiana Pacers,93,-3
+1568,770,Mon Feb 6 2017,Indiana Pacers,93,Oklahoma City Thunder,90,3
+1569,771,Mon Feb 6 2017,Memphis Grizzlies,89,San Antonio Spurs,74,15
+771,771,Mon Feb 6 2017,San Antonio Spurs,74,Memphis Grizzlies,89,-15
+772,772,Mon Feb 6 2017,Miami Heat,115,Minnesota Timberwolves,113,2
+1570,772,Mon Feb 6 2017,Minnesota Timberwolves,113,Miami Heat,115,-2
+1571,773,Mon Feb 6 2017,New Orleans Pelicans,111,Phoenix Suns,106,5
+773,773,Mon Feb 6 2017,Phoenix Suns,106,New Orleans Pelicans,111,-5
+774,774,Mon Feb 6 2017,Los Angeles Lakers,121,New York Knicks,107,14
+1572,774,Mon Feb 6 2017,New York Knicks,107,Los Angeles Lakers,121,-14
+1573,775,Mon Feb 6 2017,Sacramento Kings,107,Chicago Bulls,112,-5
+775,775,Mon Feb 6 2017,Chicago Bulls,112,Sacramento Kings,107,5
+776,776,Mon Feb 6 2017,Los Angeles Clippers,109,Toronto Raptors,118,-9
+1574,776,Mon Feb 6 2017,Toronto Raptors,118,Los Angeles Clippers,109,9
+1575,777,Mon Feb 6 2017,Washington Wizards,135,Cleveland Cavaliers,140,-5
+777,777,Mon Feb 6 2017,Cleveland Cavaliers,140,Washington Wizards,135,5
+1576,778,Tue Feb 7 2017,Charlotte Hornets,111,Brooklyn Nets,107,4
+778,778,Tue Feb 7 2017,Brooklyn Nets,107,Charlotte Hornets,111,-4
+1577,779,Tue Feb 7 2017,Dallas Mavericks,113,Portland Trail Blazers,114,-1
+779,779,Tue Feb 7 2017,Portland Trail Blazers,114,Dallas Mavericks,113,1
+780,780,Tue Feb 7 2017,Orlando Magic,104,Houston Rockets,128,-24
+1578,780,Tue Feb 7 2017,Houston Rockets,128,Orlando Magic,104,24
+1579,781,Wed Feb 8 2017,Atlanta Hawks,117,Denver Nuggets,106,11
+781,781,Wed Feb 8 2017,Denver Nuggets,106,Atlanta Hawks,117,-11
+1580,782,Wed Feb 8 2017,Brooklyn Nets,110,Washington Wizards,114,-4
+782,782,Wed Feb 8 2017,Washington Wizards,114,Brooklyn Nets,110,4
+1581,783,Wed Feb 8 2017,Detroit Pistons,121,Los Angeles Lakers,102,19
+783,783,Wed Feb 8 2017,Los Angeles Lakers,102,Detroit Pistons,121,-19
+784,784,Wed Feb 8 2017,Chicago Bulls,92,Golden State Warriors,123,-31
+1582,784,Wed Feb 8 2017,Golden State Warriors,123,Chicago Bulls,92,31
+1583,785,Wed Feb 8 2017,Indiana Pacers,117,Cleveland Cavaliers,132,-15
+785,785,Wed Feb 8 2017,Cleveland Cavaliers,132,Indiana Pacers,117,15
+1584,786,Wed Feb 8 2017,Memphis Grizzlies,110,Phoenix Suns,91,19
+786,786,Wed Feb 8 2017,Phoenix Suns,91,Memphis Grizzlies,110,-19
+1585,787,Wed Feb 8 2017,Milwaukee Bucks,88,Miami Heat,106,-18
+787,787,Wed Feb 8 2017,Miami Heat,106,Milwaukee Bucks,88,18
+1586,788,Wed Feb 8 2017,Minnesota Timberwolves,112,Toronto Raptors,109,3
+788,788,Wed Feb 8 2017,Toronto Raptors,109,Minnesota Timberwolves,112,-3
+1587,789,Wed Feb 8 2017,New Orleans Pelicans,94,Utah Jazz,127,-33
+789,789,Wed Feb 8 2017,Utah Jazz,127,New Orleans Pelicans,94,33
+1588,790,Wed Feb 8 2017,New York Knicks,115,Los Angeles Clippers,119,-4
+790,790,Wed Feb 8 2017,Los Angeles Clippers,119,New York Knicks,115,4
+1589,791,Wed Feb 8 2017,Philadelphia 76ers,103,San Antonio Spurs,111,-8
+791,791,Wed Feb 8 2017,San Antonio Spurs,111,Philadelphia 76ers,103,8
+792,792,Wed Feb 8 2017,Boston Celtics,92,Sacramento Kings,108,-16
+1590,792,Wed Feb 8 2017,Sacramento Kings,108,Boston Celtics,92,16
+1591,793,Thu Feb 9 2017,Charlotte Hornets,95,Houston Rockets,107,-12
+793,793,Thu Feb 9 2017,Houston Rockets,107,Charlotte Hornets,95,12
+1592,794,Thu Feb 9 2017,Dallas Mavericks,112,Utah Jazz,105,7
+794,794,Thu Feb 9 2017,Utah Jazz,105,Dallas Mavericks,112,-7
+1593,795,Thu Feb 9 2017,Oklahoma City Thunder,118,Cleveland Cavaliers,109,9
+795,795,Thu Feb 9 2017,Cleveland Cavaliers,109,Oklahoma City Thunder,118,-9
+1594,796,Thu Feb 9 2017,Orlando Magic,111,Philadelphia 76ers,112,-1
+796,796,Thu Feb 9 2017,Philadelphia 76ers,112,Orlando Magic,111,1
+797,797,Thu Feb 9 2017,Boston Celtics,120,Portland Trail Blazers,111,9
+1595,797,Thu Feb 9 2017,Portland Trail Blazers,111,Boston Celtics,120,-9
