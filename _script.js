@@ -38,23 +38,56 @@ d3.csv("all_mov.csv", function(dataset) {
     var xScale = d3.scaleBand().range([0, width]).paddingInner(0.2)
     var yScale = d3.scaleLinear().domain([0, largest_mov]).range([0, height/2])
 
-	var gradient = svg.append("defs")
-	  .append("linearGradient")
-	    .attr("id", "gradient")
-	    .attr("x", "0%")
-	    .attr("y", "0%")
-	    .attr("spreadMethod", "pad");
+    // http://bl.ocks.org/pnavarrc/20950640812489f13246
+    // Create the svg:defs element and the main gradient definition.
+    var svgDefs = svg.append('defs');
 
-	gradient.append("stop")
-	    .attr("offset", "0%")
-	    .attr("stop-color", "#0c0")
-	    .attr("stop-opacity", 1);
+	mainGradient = svgDefs.append("linearGradient")
+      .attr("id", "mainGradient")
+      // .attr("gradientUnits", "userSpaceOnUse")
+      .attr("x1", "0%").attr("y1", "0%")
+      .attr("x2", "0%").attr("y2", "100%")
+    .selectAll("stop")
+      .data([
+        {offset: "0%", color: "blue"},
+        {offset: "100%", color: "red"}
+      ])
+    .enter().append("stop")
+      .attr("offset", function(d) { return d.offset; })
+      .attr("stop-color", function(d) { return d.color; });
+
+    // Create the stops of the main gradient. Each stop will be assigned
+    // a class to style the stop using CSS.
+    mainGradient.append('stop')
+        .attr('class', 'stop-left')
+        .attr('offset', '0');
+
+    mainGradient.append('stop')
+        .attr('class', 'stop-right')
+        .attr('offset', '1');
+
+	function mouseover(d) {
+	  	tooltip.style("display", "inline");
+	}
+
+	function mousemove(d) {
+		console.log(d.Team1)
+		tooltip
+	      .text(d.Team1 + " vs. " + d.Team2)
+	      .style("left", (d3.event.pageX - 34) + "px")
+	      .style("top", (d3.event.pageY - 12) + "px");
+	}
+
+	function mouseout(d) {
+	  	tooltip.style("display", "none");
+	}
 
 	svg.selectAll(".team")
 	    .data(function(d) { xScale.domain(_.pluck(d.data, "order")); return d.data; })
 	    .enter().append("rect") 
+	    .classed('filled', true)
 	    // .attr("fill", function(d) { return "goldenrod"; })
-	    .style("fill", "url(#gradient)")
+	    // .style("fill", "url(#gradient)")
 	    .attr("x", function(d) { return xScale(d.order); })
 	    .attr("y", function(d) { 
 	    	if (d.MOV > 0) {
@@ -65,9 +98,10 @@ d3.csv("all_mov.csv", function(dataset) {
 	    })
 	    .attr("width", function(d) { return xScale.bandwidth(); })
 	    .attr("height", function(d) { return yScale(Math.abs(d.MOV)); })
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+        .on("mouseover", function(d) { return mouseover(d); })
+		.on("mousemove", function(d) { return mousemove(d); })
+		.on("mouseout", function(d) { return mouseout(d); })
 
 	svg.selectAll(".teamname")
 	    .data(function(d) { return d.data; })
@@ -88,6 +122,7 @@ d3.csv("all_mov.csv", function(dataset) {
 	    .call(yAxis) 
 	    .attr("transform", "translate(" + (margin.left - 5) + "," + margin.top + ")");
 
-
+	var tooltip = d3.select("body").append("div")
+	    .attr("class", "bar-tooltip")
 
 })
