@@ -2,8 +2,12 @@
 	border: black 1px solid;
 }
 
-.filled {
-    fill: url(#mainGradient);
+.positive-gradient {
+    fill: url(#positiveGradient);
+}
+
+.negative-gradient {
+    fill: url(#negativeGradient);
 }
 
 .bar-tooltip {

@@ -42,29 +42,33 @@ d3.csv("all_mov.csv", function(dataset) {
     // Create the svg:defs element and the main gradient definition.
     var svgDefs = svg.append('defs');
 
-	mainGradient = svgDefs.append("linearGradient")
-      .attr("id", "mainGradient")
+	positiveGradient = svgDefs.append("linearGradient")
+      .attr("id", "positiveGradient")
       // .attr("gradientUnits", "userSpaceOnUse")
       .attr("x1", "0%").attr("y1", "0%")
       .attr("x2", "0%").attr("y2", "100%")
     .selectAll("stop")
       .data([
-        {offset: "0%", color: "blue"},
-        {offset: "100%", color: "red"}
+        {offset: "0%", color: "navy"},
+        {offset: "100%", color: "white"}
       ])
     .enter().append("stop")
       .attr("offset", function(d) { return d.offset; })
       .attr("stop-color", function(d) { return d.color; });
 
-    // Create the stops of the main gradient. Each stop will be assigned
-    // a class to style the stop using CSS.
-    mainGradient.append('stop')
-        .attr('class', 'stop-left')
-        .attr('offset', '0');
-
-    mainGradient.append('stop')
-        .attr('class', 'stop-right')
-        .attr('offset', '1');
+    negativeGradient = svgDefs.append("linearGradient")
+      .attr("id", "negativeGradient")
+      // .attr("gradientUnits", "userSpaceOnUse")
+      .attr("x1", "0%").attr("y1", "0%")
+      .attr("x2", "0%").attr("y2", "100%")
+    .selectAll("stop")
+      .data([
+        {offset: "0%", color: "white"},
+        {offset: "100%", color: "goldenrod"}
+      ])
+    .enter().append("stop")
+      .attr("offset", function(d) { return d.offset; })
+      .attr("stop-color", function(d) { return d.color; });
 
 	function mouseover(d) {
 	  	tooltip.style("display", "inline");
@@ -85,9 +89,13 @@ d3.csv("all_mov.csv", function(dataset) {
 	svg.selectAll(".team")
 	    .data(function(d) { xScale.domain(_.pluck(d.data, "order")); return d.data; })
 	    .enter().append("rect") 
-	    .classed('filled', true)
-	    // .attr("fill", function(d) { return "goldenrod"; })
-	    // .style("fill", "url(#gradient)")
+	    .attr("class", function(d) {
+	    	if (d.MOV > 0) {
+	    		return "positive-gradient";
+	    	} else {
+	    		return "negative-gradient"; 
+	    	}
+	    })
 	    .attr("x", function(d) { return xScale(d.order); })
 	    .attr("y", function(d) { 
 	    	if (d.MOV > 0) {
