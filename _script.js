@@ -64,7 +64,7 @@ d3.csv("all_mov.csv", function(dataset) {
     .selectAll("stop")
       .data([
         {offset: "0%", color: "white"},
-        {offset: "100%", color: "goldenrod"}
+        {offset: "100%", color: "#c0392b"}
       ])
     .enter().append("stop")
       .attr("offset", function(d) { return d.offset; })
