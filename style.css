@@ -10,11 +10,15 @@ h1 {
 	padding: 1em 0em 0em 0em;
 }
 
-h4 {
+h4, #footnotes {
 	text-align: center;
 	color: white;
 	font-family: "Inconsolata", monospace;
 	padding-bottom: 3em;
+}
+
+#footnotes {
+	padding-top: 3em;
 }
 
 a {
