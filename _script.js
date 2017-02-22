@@ -1,16 +1,25 @@
+// colors for teams
+
+d3.json("teamcolors.json", function(teamcolors) {
+
+console.log(teamcolors);
+
 // our input dataset, cleaned slightly
+
 d3.csv("all_mov.csv", function(dataset) {
 
-  var gsw = _.filter(dataset, function(obj) { return obj["Team1"] == "Golden State Warriors"})
-
-  console.log(gsw)
+  // var gsw = _.filter(dataset, function(obj) { return obj["Team1"] == "Golden State Warriors"})
 
   // // // 
 
+  // SVG attributes
   var totalWidth = d3.select("#chart").node().getBoundingClientRect().width;
   var height = 200;
   var margin = {left: 50, right: 50, top: 60, bottom: 20}; 
   var width = totalWidth - margin.left - margin.right;
+
+
+  // Build our nested dataset to be used to construct small multiples
 
   var grouped = [];
   var teams = _.uniq(_.pluck(dataset, 'Team1'));
@@ -24,6 +33,13 @@ d3.csv("all_mov.csv", function(dataset) {
     grouped.push({teamname: teams[i], data: nest});
   }
 
+  // Sort by winning percentage
+  grouped = _.sortBy(grouped, function(obj) { 
+  	return (_.filter(obj.data, function(game) { return game.MOV > 0; })).length / obj.data.length;
+  }).reverse()
+
+  // Create our main SVG
+
   var svg = d3.select("#chart").selectAll("svg")
         .data(grouped)
         .enter()
@@ -34,42 +50,16 @@ d3.csv("all_mov.csv", function(dataset) {
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
 
+    // Create scale
+
     var num_games = _.max(_.map(grouped, function(obj) { return obj.data.length; }));
     var largest_mov = _.max(_.map(dataset, function(obj) { return parseInt(obj["MOV"]); }));
+    // http://stackoverflow.com/questions/3746725/create-a-javascript-array-containing-1-n
     var xScale = d3.scaleBand().range([0, width]).paddingInner(0.2)
+    			   .domain(Array.apply(null, {length: num_games}).map(Number.call, Number))
     var yScale = d3.scaleLinear().domain([0, largest_mov]).range([0, height/2])
 
-    // http://bl.ocks.org/pnavarrc/20950640812489f13246
-    // Create the svg:defs element and the main gradient definition.
-    var svgDefs = svg.append('defs');
-
-	positiveGradient = svgDefs.append("linearGradient")
-      .attr("id", "positiveGradient")
-      // .attr("gradientUnits", "userSpaceOnUse")
-      .attr("x1", "0%").attr("y1", "100%")
-      .attr("x2", "0%").attr("y2", "0%")
-    .selectAll("stop")
-      .data([
-        {offset: "100%", color: "navy"},
-        {offset: "0%", color: "white"}
-      ])
-    .enter().append("stop")
-      .attr("offset", function(d) { return d.offset; })
-      .attr("stop-color", function(d) { return d.color; });
-
-    negativeGradient = svgDefs.append("linearGradient")
-      .attr("id", "negativeGradient")
-      // .attr("gradientUnits", "userSpaceOnUse")
-      .attr("x1", "0%").attr("y1", "0%")
-      .attr("x2", "0%").attr("y2", "100%")
-    .selectAll("stop")
-      .data([
-        {offset: "0%", color: "white"},
-        {offset: "100%", color: "#c0392b"}
-      ])
-    .enter().append("stop")
-      .attr("offset", function(d) { return d.offset; })
-      .attr("stop-color", function(d) { return d.color; });
+    // Functions for handling mouse events
 
 	function mouseover(d) {
 	  	tooltip.style("display", "inline");
@@ -87,11 +77,7 @@ d3.csv("all_mov.csv", function(dataset) {
 	  	tooltip.style("display", "none");
 	}
 
-    var yAxis = d3.axisLeft(yScale).ticks(3)
-    svg.append("g")
-	    .call(yAxis) 
-	    .attr("transform", "translate(" + (margin.left - 5) + "," + (height/2 + margin.top) + ")")
-	    .attr("class", "axis yaxis");
+	// Create and render axes
 
 	var yAxis = d3.axisLeft(yScale.range([height/2, 0])).ticks(3)
     svg.append("g")
@@ -99,8 +85,24 @@ d3.csv("all_mov.csv", function(dataset) {
 	    .attr("transform", "translate(" + (margin.left - 5) + "," + margin.top + ")")
 	    .attr("class", "axis yaxis");
 
+	var negativeFormat = function(d) { if(d != 0) { return "-" + d; } };
+    var yAxis = d3.axisLeft(yScale.range([0, height/2])).ticks(3).tickFormat(negativeFormat)
+    svg.append("g")
+	    .call(yAxis) 
+	    .attr("transform", "translate(" + (margin.left - 5) + "," + (height/2 + margin.top) + ")")
+	    .attr("class", "axis yaxis");
+
+
+
+	 // Reset Scale from Axis
+	yScale.range([0, height/2])
+
+	// Actually create SVGs for each team
+
 	svg.selectAll(".team")
-	    .data(function(d) { xScale.domain(_.pluck(d.data, "order")); return d.data; })
+	    .data(function(d) { 
+	    	return d.data; 
+	    })
 	    .enter().append("rect") 
 	    .attr("class", function(d) {
 	    	if (d.MOV > 0) {
@@ -132,6 +134,7 @@ d3.csv("all_mov.csv", function(dataset) {
 			return mouseout(d); 
 		})
 
+	// Label with the team name
 	svg.selectAll(".teamname")
 	    .data(function(d) { return d.data; })
 	    .enter().append("text") 
@@ -142,20 +145,19 @@ d3.csv("all_mov.csv", function(dataset) {
         .attr("text-anchor", "middle")
         .attr("class", "teamname");
 
-
-
+    // X-Axis, if needed
 	var xAxis = d3.axisBottom(xScale).tickFormat('').tickSize(0);
     // svg.append("g")
 	   //  .call(xAxis) 
 	   //  .attr("transform", "translate(" + (margin.left) + "," + (margin.top + height/2) + ")")
 	   //  .attr("class", "xaxis");
 
+	// Construct tooltip for mouse events
 	var tooltip = d3.select("body").append("div")
+		.style("display", "none")
 	    .attr("class", "bar-tooltip")
 
-// waypoints for transition
-
-yScale.range([0, height/2])
+// Waypoints for transition
 
 $.each(teams, function(i, team){ 
 	var team = team.replace(/ /g, "")
@@ -181,13 +183,33 @@ teams = teams.sort()
 $.each(teams, function(i, team){ 
 	$(".selectpicker").append("<option>" + team + "</option>")	
 })
+$('.selectpicker').selectpicker('val', grouped[0].teamname);
 $('.selectpicker').selectpicker('refresh');
 
 $('#nbateams').on('hidden.bs.select', function (e) {
   var team = $(".selectpicker").val().replace(/ /g, "");
   $('html, body').animate({
-	scrollTop: $("#"+team).offset().top
+	scrollTop: $("#"+team).offset().top - 100
   }, 2000);
+
+  d3.selectAll("#"+team).selectAll("svg")
+  	.append("rect")
+  	.attr("x", 0)
+  	.attr("y", 0)
+  	.attr("width", width + margin.left + margin.right)
+  	.attr("height", height + margin.top + margin.bottom)
+  	// .attr("rx", 5)
+  	// .attr("ry", 5)
+  	.attr("stroke", "white")
+  	.attr("stroke-width", "0")
+  	.attr("fill", "none")
+  	.transition().duration(1500)
+  	.attr("stroke-width", "7")
+  	.transition().duration(1500)
+  	.attr("stroke-width", "0");
+
 });
+
+})
 
 })
