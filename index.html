@@ -6,7 +6,7 @@
 - Change colors to reflect team colors
 - Link to ESPN
 - Don't re-assign range to yaxis, or at least explain
-- Change the interpolatin of transition for dafe in
+- only one teamname
 
 -->
 
@@ -22,7 +22,6 @@
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css"> -->
 <!-- <link href="js/bootstrap-toggle.min.css" rel="stylesheet"> -->
 
-<link rel="stylesheet" type="text/css" href="style.css">
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- <script src="js/bootstrap.js"></script> -->
@@ -35,6 +34,14 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:700|Racing+Sans+One|Roboto" rel="stylesheet">
+
+<!-- Bootstrap Select -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/i18n/defaults-*.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
@@ -42,9 +49,16 @@
 <div class="container">
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
-		<h1>Margin of Victory</h1>
+		<h1>NBA Margin of Victory</h1>
+		<h4><a href="https://www.twitter.com/jaymahabal" target="_blank"><span id="twitterhandle">@JayMahabal</span></a></h4>
 	</div>
 </div>
+<div class="row teamselector">
+	<div class="col-md-4 col-md-offset-4">
+	    <select id="nbateams" class="selectpicker" data-live-search="true"></select>
+	</div>
+</div>
+<br>
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
 		<div id="chart"></div>

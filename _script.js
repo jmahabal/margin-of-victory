@@ -9,7 +9,7 @@ d3.csv("all_mov.csv", function(dataset) {
 
   var totalWidth = d3.select("#chart").node().getBoundingClientRect().width;
   var height = 200;
-  var margin = {left: 50, right: 50, top: 40, bottom: 40}; 
+  var margin = {left: 50, right: 50, top: 60, bottom: 20}; 
   var width = totalWidth - margin.left - margin.right;
 
   var grouped = [];
@@ -76,22 +76,28 @@ d3.csv("all_mov.csv", function(dataset) {
 	}
 
 	function mousemove(d) {
-		console.log(d.Team1)
 		tooltip
-	      .text(function() {
-		      if (d.MOV > 0) {
-		      	return "Won " + d.PTS1 + "-" + d.PTS2 + " against the " + d.Team2;
-		      } else {
-		      	return "Lost " + d.PTS1 + "-" + d.PTS2 + " against the " + d.Team2;
-		      }
-		    })
-	    	.style("left", (d3.event.pageX - 34) + "px")
-	    	.style("top", (d3.event.pageY - 12) + "px");
+		.text(function() { return d.Team2.toUpperCase() + " // " + d.PTS1 + "-" + d.PTS2; })
+    	.style("left", (d3.event.pageX - 34) + "px")
+    	.style("top", (d3.event.pageY - 12) + "px");
+
 	}
 
 	function mouseout(d) {
 	  	tooltip.style("display", "none");
 	}
+
+    var yAxis = d3.axisLeft(yScale).ticks(3)
+    svg.append("g")
+	    .call(yAxis) 
+	    .attr("transform", "translate(" + (margin.left - 5) + "," + (height/2 + margin.top) + ")")
+	    .attr("class", "axis yaxis");
+
+	var yAxis = d3.axisLeft(yScale.range([height/2, 0])).ticks(3)
+    svg.append("g")
+	    .call(yAxis) 
+	    .attr("transform", "translate(" + (margin.left - 5) + "," + margin.top + ")")
+	    .attr("class", "axis yaxis");
 
 	svg.selectAll(".team")
 	    .data(function(d) { xScale.domain(_.pluck(d.data, "order")); return d.data; })
@@ -106,6 +112,8 @@ d3.csv("all_mov.csv", function(dataset) {
 	    .attr("x", function(d) { return xScale(d.order); })	    
 	    .attr("width", function(d) { return xScale.bandwidth(); })
 	    .attr("height", function(d) { return 0; })
+	    .attr("stroke", "white")
+	    .attr("stroke-width", 0)
         .attr("transform", function(d) {
         	if (d.MOV > 0) {
 	        	return "translate(" + margin.left + "," + (height + margin.top) + ") scale(1, -1)"
@@ -114,33 +122,33 @@ d3.csv("all_mov.csv", function(dataset) {
 	        }
         })
         .attr("y", height/2)
-        .on("mouseover", function(d) { return mouseover(d); })
+        .on("mouseover", function(d) { 
+        	d3.select(this).attr("stroke-width", "2");
+        	return mouseover(d); 
+        })
 		.on("mousemove", function(d) { return mousemove(d); })
-		.on("mouseout", function(d) { return mouseout(d); })
+		.on("mouseout", function(d) { 
+        	d3.select(this).attr("stroke-width", "0");
+			return mouseout(d); 
+		})
 
 	svg.selectAll(".teamname")
 	    .data(function(d) { return d.data; })
 	    .enter().append("text") 
 	    .attr("x", function(d) { return 0; })
 	    .attr("y", function(d) { return 0; })
-	    .text(function(d) { if (d.order == 1) { return d.Team1; } })
-        .attr("transform", "translate(" + (margin.left + width/2) + "," + margin.top + ")")
-        .attr("text-anchor", "middle");
+	    .text(function(d) { if (d.order == 1) { return d.Team1.toUpperCase(); } })
+        .attr("transform", "translate(" + (margin.left + width/2) + "," + (margin.top*0.75) + ")")
+        .attr("text-anchor", "middle")
+        .attr("class", "teamname");
 
-    var yAxis = d3.axisLeft(yScale).ticks(5)
-    svg.append("g")
-	    .call(yAxis) 
-	    .attr("transform", "translate(" + (margin.left - 5) + "," + (height/2 + margin.top) + ")");
 
-	var yAxis = d3.axisLeft(yScale.range([height/2, 0])).ticks(5)
-    svg.append("g")
-	    .call(yAxis) 
-	    .attr("transform", "translate(" + (margin.left - 5) + "," + margin.top + ")");
 
 	var xAxis = d3.axisBottom(xScale).tickFormat('').tickSize(0);
-    svg.append("g")
-	    .call(xAxis) 
-	    .attr("transform", "translate(" + (margin.left) + "," + (margin.top + height/2) + ")");
+    // svg.append("g")
+	   //  .call(xAxis) 
+	   //  .attr("transform", "translate(" + (margin.left) + "," + (margin.top + height/2) + ")")
+	   //  .attr("class", "xaxis");
 
 	var tooltip = d3.select("body").append("div")
 	    .attr("class", "bar-tooltip")
@@ -154,19 +162,32 @@ $.each(teams, function(i, team){
 	var waypoint = new Waypoint({
 		  element: document.getElementById(team),
 		  handler: function(direction) {
-		  	console.log(team)
 		    d3.selectAll("."+ team + "Game")
 		    	.transition()
 		    	.delay(function(d) { return d.order * 5; })
-		    	.duration(1000)
+		    	.duration(500)
+		    	.ease(d3.easeQuadInOut)
 		    	.attr("height", function(d) { 
 		    		return yScale(Math.abs(d.MOV)); 
 		    	});
 		  },
 		  offset: 'bottom-in-view'
-		})
+	})
 })
 
+// jump to a specific team
 
+teams = teams.sort()
+$.each(teams, function(i, team){ 
+	$(".selectpicker").append("<option>" + team + "</option>")	
+})
+$('.selectpicker').selectpicker('refresh');
+
+$('#nbateams').on('hidden.bs.select', function (e) {
+  var team = $(".selectpicker").val().replace(/ /g, "");
+  $('html, body').animate({
+	scrollTop: $("#"+team).offset().top
+  }, 2000);
+});
 
 })
