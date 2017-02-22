@@ -2,12 +2,18 @@
 	/*border: black 1px solid;*/
 }
 
+h1 {
+	text-align: center;
+}
+
 .positive-gradient {
     fill: url(#positiveGradient);
+    fill: navy;
 }
 
 .negative-gradient {
     fill: url(#negativeGradient);
+    fill: maroon;
 }
 
 .bar-tooltip {

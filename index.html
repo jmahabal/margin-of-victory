@@ -3,9 +3,10 @@
 <!-- 
 
 - Remove double 0 in y-axis via :first-element or something
-- On scroll transition bars from y=0 to y=mov
 - Change colors to reflect team colors
-- Add points scored to tooltips
+- Link to ESPN
+- Don't re-assign range to yaxis, or at least explain
+- Change the interpolatin of transition for dafe in
 
 -->
 
@@ -32,10 +33,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 <!-- <script src="js/underscore.min.js"></script> -->
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+
 </head>
 <body>
 
 <div class="container">
+<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+		<h1>Margin of Victory</h1>
+	</div>
+</div>
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
 		<div id="chart"></div>

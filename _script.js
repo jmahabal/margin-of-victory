@@ -29,6 +29,7 @@ d3.csv("all_mov.csv", function(dataset) {
         .enter()
         .append("div")
         .attr("class", function(d) { return "team" })
+       	.attr("id", function(d) { return d.teamname.replace(/ /g, ""); })
         .append("svg:svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
@@ -45,12 +46,12 @@ d3.csv("all_mov.csv", function(dataset) {
 	positiveGradient = svgDefs.append("linearGradient")
       .attr("id", "positiveGradient")
       // .attr("gradientUnits", "userSpaceOnUse")
-      .attr("x1", "0%").attr("y1", "0%")
-      .attr("x2", "0%").attr("y2", "100%")
+      .attr("x1", "0%").attr("y1", "100%")
+      .attr("x2", "0%").attr("y2", "0%")
     .selectAll("stop")
       .data([
-        {offset: "0%", color: "navy"},
-        {offset: "100%", color: "white"}
+        {offset: "100%", color: "navy"},
+        {offset: "0%", color: "white"}
       ])
     .enter().append("stop")
       .attr("offset", function(d) { return d.offset; })
@@ -77,9 +78,15 @@ d3.csv("all_mov.csv", function(dataset) {
 	function mousemove(d) {
 		console.log(d.Team1)
 		tooltip
-	      .text(d.Team1 + " vs. " + d.Team2)
-	      .style("left", (d3.event.pageX - 34) + "px")
-	      .style("top", (d3.event.pageY - 12) + "px");
+	      .text(function() {
+		      if (d.MOV > 0) {
+		      	return "Won " + d.PTS1 + "-" + d.PTS2 + " against the " + d.Team2;
+		      } else {
+		      	return "Lost " + d.PTS1 + "-" + d.PTS2 + " against the " + d.Team2;
+		      }
+		    })
+	    	.style("left", (d3.event.pageX - 34) + "px")
+	    	.style("top", (d3.event.pageY - 12) + "px");
 	}
 
 	function mouseout(d) {
@@ -91,22 +98,22 @@ d3.csv("all_mov.csv", function(dataset) {
 	    .enter().append("rect") 
 	    .attr("class", function(d) {
 	    	if (d.MOV > 0) {
-	    		return "positive-gradient";
+	    		return d.Team1.replace(/ /g, "") + "Game" + " positive-gradient";
 	    	} else {
-	    		return "negative-gradient"; 
+	    		return d.Team1.replace(/ /g, "") + "Game" + " negative-gradient"; 
 	    	}
 	    })
-	    .attr("x", function(d) { return xScale(d.order); })
-	    .attr("y", function(d) { 
-	    	if (d.MOV > 0) {
-	    		return yScale(largest_mov - Math.abs(d.MOV));
-	    	} else {
-	    		return height/2; 
-	    	}
-	    })
+	    .attr("x", function(d) { return xScale(d.order); })	    
 	    .attr("width", function(d) { return xScale.bandwidth(); })
-	    .attr("height", function(d) { return yScale(Math.abs(d.MOV)); })
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+	    .attr("height", function(d) { return 0; })
+        .attr("transform", function(d) {
+        	if (d.MOV > 0) {
+	        	return "translate(" + margin.left + "," + (height + margin.top) + ") scale(1, -1)"
+	        } else {
+	        	return "translate(" + margin.left + "," + margin.top + ")"
+	        }
+        })
+        .attr("y", height/2)
         .on("mouseover", function(d) { return mouseover(d); })
 		.on("mousemove", function(d) { return mousemove(d); })
 		.on("mouseout", function(d) { return mouseout(d); })
@@ -130,7 +137,36 @@ d3.csv("all_mov.csv", function(dataset) {
 	    .call(yAxis) 
 	    .attr("transform", "translate(" + (margin.left - 5) + "," + margin.top + ")");
 
+	var xAxis = d3.axisBottom(xScale).tickFormat('').tickSize(0);
+    svg.append("g")
+	    .call(xAxis) 
+	    .attr("transform", "translate(" + (margin.left) + "," + (margin.top + height/2) + ")");
+
 	var tooltip = d3.select("body").append("div")
 	    .attr("class", "bar-tooltip")
+
+// waypoints for transition
+
+yScale.range([0, height/2])
+
+$.each(teams, function(i, team){ 
+	var team = team.replace(/ /g, "")
+	var waypoint = new Waypoint({
+		  element: document.getElementById(team),
+		  handler: function(direction) {
+		  	console.log(team)
+		    d3.selectAll("."+ team + "Game")
+		    	.transition()
+		    	.delay(function(d) { return d.order * 5; })
+		    	.duration(1000)
+		    	.attr("height", function(d) { 
+		    		return yScale(Math.abs(d.MOV)); 
+		    	});
+		  },
+		  offset: 'bottom-in-view'
+		})
+})
+
+
 
 })
