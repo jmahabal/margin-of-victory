@@ -3,6 +3,8 @@
 d3.json("teamcolors.json", function(teamcolors) {
 
 console.log(teamcolors);
+teamcolors = _.filter(teamcolors, function(obj) { return obj.league == 'nba'})
+console.log(teamcolors);
 
 // our input dataset, cleaned slightly
 
@@ -13,9 +15,9 @@ d3.csv("all_mov.csv", function(dataset) {
   // // // 
 
   // SVG attributes
-  var totalWidth = d3.select("#chart").node().getBoundingClientRect().width;
-  var height = 200;
   var margin = {left: 50, right: 50, top: 60, bottom: 20}; 
+  var totalWidth = (d3.select("#chart").node().getBoundingClientRect().width);
+  var height = 200;
   var width = totalWidth - margin.left - margin.right;
 
 
@@ -92,10 +94,12 @@ d3.csv("all_mov.csv", function(dataset) {
 	    .attr("transform", "translate(" + (margin.left - 5) + "," + (height/2 + margin.top) + ")")
 	    .attr("class", "axis yaxis");
 
-
-
 	 // Reset Scale from Axis
 	yScale.range([0, height/2])
+
+	var toRGB = function(rgbstring) {
+		return "rgba("+rgbstring.replace(" ", ",").replace(" ", ",")+", 1)"
+	}
 
 	// Actually create SVGs for each team
 
@@ -106,15 +110,27 @@ d3.csv("all_mov.csv", function(dataset) {
 	    .enter().append("rect") 
 	    .attr("class", function(d) {
 	    	if (d.MOV > 0) {
-	    		return d.Team1.replace(/ /g, "") + "Game" + " positive-gradient";
+	    		return d.Team1.replace(/ /g, "") + "Game" + " 1positive-gradient";
 	    	} else {
-	    		return d.Team1.replace(/ /g, "") + "Game" + " negative-gradient"; 
+	    		return d.Team1.replace(/ /g, "") + "Game" + " 1negative-gradient"; 
 	    	}
 	    })
 	    .attr("x", function(d) { return xScale(d.order); })	    
 	    .attr("width", function(d) { return xScale.bandwidth(); })
 	    .attr("height", function(d) { return 0; })
 	    .attr("stroke", "white")
+	    .attr("fill", function(d) {
+	    	// console.log(d.Team1)
+	    	// console.log(_.find(teamcolors, function(obj) { return obj.name == d.Team1})["colors"])
+	    	// console.log(toRGB(_.find(teamcolors, function(obj) { return obj.name == d.Team1})["colors"]["rgb"][0]))
+	    	if (d.MOV > 0) {
+	    		console.log(teamcolors)
+	        	return toRGB(_.find(teamcolors, function(obj) { return obj.name == d.Team1})["colors"]["rgb"][0])
+	        } else {
+	        	return "black";
+	        	// return toRGB(_.find(teamcolors, function(obj) { return obj.name == d.Team1})["colors"]["rgb"][1])
+	        }
+	    })
 	    .attr("stroke-width", 0)
         .attr("transform", function(d) {
         	if (d.MOV > 0) {
