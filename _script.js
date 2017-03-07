@@ -17,7 +17,7 @@ d3.csv("all_mov.csv", function(dataset) {
   // SVG attributes
   var margin = {left: 50, right: 50, top: 60, bottom: 20}; 
   var totalWidth = (d3.select("#chart").node().getBoundingClientRect().width);
-  var height = 200;
+  var height = (d3.select("#chart").node().getBoundingClientRect().width)/3;
   var width = totalWidth - margin.left - margin.right;
 
 
@@ -124,7 +124,6 @@ d3.csv("all_mov.csv", function(dataset) {
 	    	// console.log(_.find(teamcolors, function(obj) { return obj.name == d.Team1})["colors"])
 	    	// console.log(toRGB(_.find(teamcolors, function(obj) { return obj.name == d.Team1})["colors"]["rgb"][0]))
 	    	if (d.MOV > 0) {
-	    		console.log(teamcolors)
 	        	return toRGB(_.find(teamcolors, function(obj) { return obj.name == d.Team1})["colors"]["rgb"][0])
 	        } else {
 	        	return "black";
