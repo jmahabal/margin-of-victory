@@ -37,6 +37,16 @@ body {
 
 /*==========  Other Styles  ==========*/
 
+/* Annotation Styles */
+
+/*.annotations, :root {
+	--annotation-color: "#FFDEAD";
+		/*"white"*/
+}
+*/
+/* Other Styles */
+
+
 .team {
   text-align: center;
   /*margin: 0;*/

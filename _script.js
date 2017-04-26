@@ -2,9 +2,9 @@
 
 d3.json("teamcolors.json", function(teamcolors) {
 
-console.log(teamcolors);
+// console.log(teamcolors);
 teamcolors = _.filter(teamcolors, function(obj) { return obj.league == 'nba'})
-console.log(teamcolors);
+// console.log(teamcolors);
 
 // our input dataset, cleaned slightly
 
@@ -172,6 +172,40 @@ d3.csv("all_mov.csv", function(dataset) {
 		.style("display", "none")
 	    .attr("class", "bar-tooltip")
 
+// Annotation
+
+// console.log(dataset);
+// console.log(xScale("80"))
+const annotations = [{
+  note: { label: "Toaster Era Begins"},
+  x: xScale("73"), y: height/2 + margin.top,
+  dy: height/4, dx: margin.left/2,
+  subject: { radius: 15, radiusPadding: 0 }
+}]
+
+const makeAnnotations = d3.annotation()
+  .editMode(false)
+  .type(type)
+  //accessors & accessorsInverse not needed
+  //if using x, y in annotations JSON
+  // .accessors({
+  //   x: d => x(parseTime(d.date)),
+  //   y: d => y(d.close)
+  // })
+  // .accessorsInverse({
+  //    date: d => timeFormat(x.invert(d.x)),
+  //    close: d => y.invert(d.y)
+  // })
+  .annotations(annotations)
+
+d3.select("svg")
+  .append("g")
+  .attr("class", "annotation-group")
+  .call(makeAnnotations)
+
+document.documentElement.style.setProperty('--annotation-color', '#ecf0f1');
+
+
 // Waypoints for transition
 
 $.each(teams, function(i, team){ 
@@ -225,6 +259,45 @@ $('#nbateams').on('hidden.bs.select', function (e) {
 
 });
 
-})
+});
 
-})
+});
+
+// Let's use d3.annotations
+
+const type = d3.annotationCalloutCircle
+
+const annotations = [{
+  note: {
+    label: "Toaster Era Begins",
+    // title: "Annotations :)"
+  },
+  //can use x, y directly instead of data
+  data: { order: 100, MOV: 20 },
+  dy: 50,
+  dx: 0,
+  subject: {
+    radius: 50,
+    radiusPadding: 5
+  }
+}]
+
+const makeAnnotations = d3.annotation()
+  .editMode(true)
+  .type(type)
+  //accessors & accessorsInverse not needed
+  //if using x, y in annotations JSON
+  // .accessors({
+  //   x: d => xScale(d.order),
+  //   y: d => yScale(d.MOV)
+  // })
+  // .accessorsInverse({
+  //    order: d => xScale.invert(d.x),
+  //    MOV: d => yScale.invert(d.y)
+  // })
+  .annotations(annotations)
+
+d3.selectAll("#GoldenStateWarriors").selectAll("svg")
+  .append("g")
+  .attr("class", "annotation-group")
+  .call(makeAnnotations)
