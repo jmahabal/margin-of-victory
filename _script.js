@@ -128,7 +128,7 @@ d3.csv("all_mov.csv", function(dataset) {
       .attr("y", function(d) { return 0; })
       .text(function(d) { if (d.order == 1) { return "playoffs"; } })
       .attr("display", function(d) { if (d.order != 1) { return "none"; } })
-      .attr("transform", "translate(" + (margin.left + xScale(82)) + "," + (margin.top + height - margin.bottom + 16) + ")")
+      .attr("transform", "translate(" + (margin.left + xScale(82)) + "," + (margin.top + height + 16) + ")")
       .attr("text-anchor", "left")
       .attr("class", d => "playoff-text playoff-text"+d.Team1.replace(/ /g, ""));
 
@@ -236,6 +236,7 @@ d3.select("svg")
   .call(makeAnnotations)
 
 document.documentElement.style.setProperty('--annotation-color', '#ecf0f1');
+
 
 d3.selectAll(".annotation-group")
   .transition().delay(1500)
