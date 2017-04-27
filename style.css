@@ -39,11 +39,18 @@ body {
 
 /* Annotation Styles */
 
-/*.annotations, :root {
-	--annotation-color: "#FFDEAD";
-		/*"white"*/
+.annotation-group {
+	visibility: hidden;
 }
-*/
+
+.playoff-text {
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+	font-size: 1.2rem;
+	font-style: italic;
+	visibility: hidden;
+}
+
 /* Other Styles */
 
 

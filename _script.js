@@ -103,6 +103,35 @@ d3.csv("all_mov.csv", function(dataset) {
 
 	// Actually create SVGs for each team
 
+  // PLayoffs
+  svg.selectAll(".playoffs")
+    .data(function(d) { return d.data; })
+    .enter().append("rect") 
+    .attr("x", function(d) { return xScale(82) + margin.left; })
+    .attr("y", function(d) { return height/2 + margin.top; })
+    .attr("width", function(d) { return xScale(num_games - 82); })
+    .attr("class", d => "playoffs"+d.Team1.replace(/ /g, ""))
+    .attr("height", function(d) { return 0; })
+    .attr("fill", "white")
+    .attr("display", function(d) { if (d.order != 1) { return "none"; } })
+    .attr("stroke-dasharray", 0 + " " + (xScale(num_games - 82) + height) + " " + xScale(num_games - 82) + " " + 0)
+    // .attr("stroke-dasharray", xScale(num_games - 82) + " " + (2*height + xScale(num_games - 82)))
+    .attr("stroke-width", 2)
+    .attr("stroke-opacity", 1)
+    .attr("stroke", "white")
+    .attr("fill-opacity", 0.2);
+
+  svg.selectAll(".playoff-text")
+      .data(function(d) { return d.data; })
+      .enter().append("text") 
+      .attr("x", function(d) { return 0; })
+      .attr("y", function(d) { return 0; })
+      .text(function(d) { if (d.order == 1) { return "playoffs"; } })
+      .attr("display", function(d) { if (d.order != 1) { return "none"; } })
+      .attr("transform", "translate(" + (margin.left + xScale(82)) + "," + (margin.top + height - margin.bottom + 16) + ")")
+      .attr("text-anchor", "left")
+      .attr("class", d => "playoff-text playoff-text"+d.Team1.replace(/ /g, ""));
+
 	svg.selectAll(".team")
 	    .data(function(d) { 
 	    	return d.data; 
@@ -156,9 +185,10 @@ d3.csv("all_mov.csv", function(dataset) {
 	    .attr("x", function(d) { return 0; })
 	    .attr("y", function(d) { return 0; })
 	    .text(function(d) { if (d.order == 1) { return d.Team1.toUpperCase(); } })
-        .attr("transform", "translate(" + (margin.left + width/2) + "," + (margin.top*0.75) + ")")
-        .attr("text-anchor", "middle")
-        .attr("class", "teamname");
+      .attr("display", function(d) { if (d.order != 1) { return "none"; } })
+      .attr("transform", "translate(" + (margin.left + width/2) + "," + (margin.top*0.75) + ")")
+      .attr("text-anchor", "middle")
+      .attr("class", "teamname");
 
     // X-Axis, if needed
 	var xAxis = d3.axisBottom(xScale).tickFormat('').tickSize(0);
@@ -174,13 +204,15 @@ d3.csv("all_mov.csv", function(dataset) {
 
 // Annotation
 
+const type = d3.annotationCalloutCircle
+
 // console.log(dataset);
 // console.log(xScale("80"))
 const annotations = [{
-  note: { label: "Toaster Era Begins"},
-  x: xScale("73"), y: height/2 + margin.top,
-  dy: height/4, dx: margin.left/2,
-  subject: { radius: 15, radiusPadding: 0 }
+  note: { label: "Start of the Toaster Era"},
+  x: xScale(73) - xScale.bandwidth()/2, y: height/2 + margin.top,
+  dy: height/3, dx: -margin.left/2,
+  subject: { radius: 2 * xScale.bandwidth(), radiusPadding: 0 }
 }]
 
 const makeAnnotations = d3.annotation()
@@ -205,6 +237,10 @@ d3.select("svg")
 
 document.documentElement.style.setProperty('--annotation-color', '#ecf0f1');
 
+d3.selectAll(".annotation-group")
+  .transition().delay(1500)
+  .style("visibility", function() { return "visible"; });
+
 
 // Waypoints for transition
 
@@ -221,7 +257,19 @@ $.each(teams, function(i, team){
 		    	.attr("height", function(d) { 
 		    		return yScale(Math.abs(d.MOV)); 
 		    	});
-		  },
+        d3.selectAll(".playoffs"+team)
+          .transition().duration(500).delay(82*5)
+          .ease(d3.easeQuadInOut)
+          .attr("height", function() { 
+            return height; 
+          })
+          .attr("y", function() { 
+            return margin.top; 
+          });
+        d3.selectAll(".playoff-text"+team)
+          .transition().delay(500 + 82*5).duration(500)
+          .style("visibility", function() { return "visible"; });
+          },
 		  offset: 'bottom-in-view'
 	})
 })
@@ -263,41 +311,41 @@ $('#nbateams').on('hidden.bs.select', function (e) {
 
 });
 
-// Let's use d3.annotations
+// // Let's use d3.annotations
 
-const type = d3.annotationCalloutCircle
+// const type = d3.annotationCalloutCircle
 
-const annotations = [{
-  note: {
-    label: "Toaster Era Begins",
-    // title: "Annotations :)"
-  },
-  //can use x, y directly instead of data
-  data: { order: 100, MOV: 20 },
-  dy: 50,
-  dx: 0,
-  subject: {
-    radius: 50,
-    radiusPadding: 5
-  }
-}]
+// const annotations = [{
+//   note: {
+//     label: "Toaster Era Begins",
+//     // title: "Annotations :)"
+//   },
+//   //can use x, y directly instead of data
+//   data: { order: 100, MOV: 20 },
+//   dy: 50,
+//   dx: 0,
+//   subject: {
+//     radius: 50,
+//     radiusPadding: 5
+//   }
+// }]
 
-const makeAnnotations = d3.annotation()
-  .editMode(true)
-  .type(type)
-  //accessors & accessorsInverse not needed
-  //if using x, y in annotations JSON
-  // .accessors({
-  //   x: d => xScale(d.order),
-  //   y: d => yScale(d.MOV)
-  // })
-  // .accessorsInverse({
-  //    order: d => xScale.invert(d.x),
-  //    MOV: d => yScale.invert(d.y)
-  // })
-  .annotations(annotations)
+// const makeAnnotations = d3.annotation()
+//   .editMode(true)
+//   .type(type)
+//   //accessors & accessorsInverse not needed
+//   //if using x, y in annotations JSON
+//   // .accessors({
+//   //   x: d => xScale(d.order),
+//   //   y: d => yScale(d.MOV)
+//   // })
+//   // .accessorsInverse({
+//   //    order: d => xScale.invert(d.x),
+//   //    MOV: d => yScale.invert(d.y)
+//   // })
+//   .annotations(annotations)
 
-d3.selectAll("#GoldenStateWarriors").selectAll("svg")
-  .append("g")
-  .attr("class", "annotation-group")
-  .call(makeAnnotations)
+// d3.selectAll("#GoldenStateWarriors").selectAll("svg")
+//   .append("g")
+//   .attr("class", "annotation-group")
+//   .call(makeAnnotations)
